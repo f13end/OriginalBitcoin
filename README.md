@@ -32,7 +32,7 @@ See bitcoin.org for screenshots.
 Download link:
 http://downloads.sourceforge.net/bitcoin/bitcoin-0.1.0.rar
 
-**Windows only for now.  Open source C++ code is included.
+**Windows only for now.  Open source C++ code is included.**
 
 - Unpack the files into a directory
 - Run BITCOIN.EXE
@@ -82,4 +82,4 @@ When that runs out, the system can support transaction fees if
 needed.  It's based on open market competition, and there will
 probably always be nodes willing to process transactions for free.
 
-**Satoshi Nakamoto
+**Satoshi Nakamoto**
