@@ -1,6 +1,5 @@
-# bitcoin original sources
-
-archive of original bitcoin material
+# Satoshi's Bitcoin 
+(bitcoin original sources)
 
 On Sat, 01 Nov 2008 16:16:33 -0700 Satoshi Nakamoto posted the whitepaper bitcoin.pdf. (md5sum d56d71ecadf2137be09d8b1d35c6c042).
 
