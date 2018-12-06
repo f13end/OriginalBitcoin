@@ -1,0 +1,118 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: kanzure@gmail.com
+Received: by 10.220.76.146 with SMTP id c18cs29137vck;
+        Fri, 13 Feb 2009 13:56:17 -0800 (PST)
+Received: by 10.210.42.20 with SMTP id p20mr1961023ebp.66.1234562175864;
+        Fri, 13 Feb 2009 13:56:15 -0800 (PST)
+Return-Path: <p2presearch-bounces@listcultures.org>
+Received: from p10.alfaservers.com (p10.alfaservers.com [83.149.97.28])
+        by mx.google.com with ESMTP id 10si3429507eyz.30.2009.02.13.13.56.14;
+        Fri, 13 Feb 2009 13:56:15 -0800 (PST)
+Received-SPF: neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) client-ip=83.149.97.28;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) smtp.mail=p2presearch-bounces@listcultures.org
+Received: from localhost ([127.0.0.1]:42618 helo=p10.alfaservers.com)
+    by p10.alfaservers.com with esmtp (Exim 4.69)
+    (envelope-from <p2presearch-bounces@listcultures.org>)
+    id 1LY32W-0007mW-DD; Fri, 13 Feb 2009 19:45:28 +0100
+Received: from [74.208.5.67] (port=34207 helo=mail.gmx.com)
+    by p10.alfaservers.com with smtp (Exim 4.69)
+    (envelope-from <satoshin@gmx.com>) id 1LY32V-0007mP-FS
+    for p2presearch@listcultures.org; Fri, 13 Feb 2009 19:45:27 +0100
+Received: (qmail invoked by alias); 13 Feb 2009 18:45:25 -0000
+Received: from tor.viol8r.org (EHLO [96.207.31.1]) [66.35.0.170]
+    by mail.gmx.com (mp-us002) with SMTP; 13 Feb 2009 13:45:25 -0500
+X-Authenticated: #49196414
+X-Provags-ID: V01U2FsdGVkX1/qOeFIKGrqya0isy9gG7eCewPA/kOsZDQujbqiRz
+    EHRGWEYxMokAVY
+Message-ID: <4995BFD5.5080007@gmx.com>
+Date: Fri, 13 Feb 2009 18:45:41 +0000
+From: Satoshi Nakamoto <satoshin@gmx.com>
+User-Agent: Microsoft Outlook Express Macintosh Edition - 5.0 (1513)
+MIME-Version: 1.0
+To: p2presearch@listcultures.org
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.63
+Subject: [p2p-research] Bitcoin P2P e-currency v0.1 released
+X-BeenThere: p2presearch@listcultures.org
+X-Mailman-Version: 2.1.11.cp2
+Precedence: list
+List-Id: p2p research network <p2presearch_listcultures.org.listcultures.org>
+List-Unsubscribe: <http://listcultures.org/mailman/options/p2presearch_listcultures.org>,
+    <mailto:p2presearch-request@listcultures.org?subject=unsubscribe>
+List-Archive: <http://listcultures.org/pipermail/p2presearch_listcultures.org>
+List-Post: <mailto:p2presearch@listcultures.org>
+List-Help: <mailto:p2presearch-request@listcultures.org?subject=help>
+List-Subscribe: <http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org>,
+    <mailto:p2presearch-request@listcultures.org?subject=subscribe>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="us-ascii"; Format="flowed"
+Sender: p2presearch-bounces@listcultures.org
+Errors-To: p2presearch-bounces@listcultures.org
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p10.alfaservers.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - listcultures.org
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Announcing the release of Bitcoin, a new open source peer-to-peer 
+electronic cash system that's completely decentralized, with no central 
+server or trusted parties.  Users hold the crypto keys to their own 
+money and transact directly with each other, with the help of the P2P 
+network to check for double-spending.
+
+Windows NT/2000/XP/Vista.  Open source C++ code is included.
+
+Download: http://www.bitcoin.org
+
+- Unpack the files into a directory
+- Run BITCOIN.EXE
+- It automatically connects to other nodes
+
+If you can keep a node running that accepts incoming connections, you'll 
+really be helping the network a lot.  Port 8333 on your firewall needs 
+to be open to receive incoming connections.
+
+You can get coins by getting someone to send you some, or turn on 
+Options->Generate Coins to run a node and generate blocks.  I made the 
+proof-of-work difficulty ridiculously easy to start with, so for a 
+little while in the beginning a typical PC will be able to generate 
+coins in just a few hours.  It'll get a lot harder when competition 
+makes the automatic adjustment drive up the difficulty.  Generated coins 
+must wait 120 blocks to mature before they can be spent.
+
+There are two ways to send money.  If the recipient is online, you can 
+enter their IP address and it will connect, get a new public key and 
+send the transaction with comments.  If the recipient is not online, it 
+is possible to send to their Bitcoin address, which is a hash of their 
+public key that they give you.  They'll receive the transaction the next 
+time they connect and get the block it's in.  This method has the 
+disadvantage that no comment information is sent, and a bit of privacy 
+may be lost if the address is used multiple times, but it is a useful 
+alternative if both users can't be online at the same time or the 
+recipient can't receive incoming connections.
+
+Total circulation will be 21,000,000 coins.  It'll be distributed to 
+network nodes when they make blocks, with the amount cut in half every 4 
+years.
+
+first 4 years: 10,500,000 coins
+next 4 years: 5,250,000 coins
+next 4 years: 2,625,000 coins
+next 4 years: 1,312,500 coins
+etc...
+
+When that runs out, the system can support transaction fees if needed. 
+It's based on open market competition, and there will probably always be 
+nodes willing to process transactions for free.
+
+Satoshi Nakamoto
+
+http://www.bitcoin.org
+
+_______________________________________________
+p2presearch mailing list
+p2presearch@listcultures.org
+http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org

@@ -1,0 +1,21 @@
+10:13 -!- notcraigwright [~iamnotcra@104.231.205.87] has joined #bitcoin-dev
+10:13 < notcraigwright> Sorry about all that, I didn’t think the message would actually go through.
+10:15 < notcraigwright> Had I realized there was no SPF check or anything, I would have at least tried a little harder.
+10:16 < notcraigwright> 297057d1024b8631e5d4961b7c9ebfa871b63c39f8d102adc88e955da4499311
+10:18 -!- notcraigwright [~iamnotcra@104.231.205.87] has left #bitcoin-dev []
+10:37 < kanzure> is that a valid signature for anything?
+
+ ~iamnotcra@cpe-104-231-205-87.wi.res.rr.com (freenode)
+10:46 -!- Irssi: Starting query in freenode with notcraigwright
+10:46 <notcraigwright> Not exactly, just something i can use to prove myself if necessary once i get off this IP.
+10:47 <kanzure> prove what?
+10:48 <notcraigwright> that i am the same person who had this IP at this time
+10:50 <notcraigwright> should have put it in the email, that would have made things much more exciting
+10:50 <kanzure> generally contributions are accepted regardless of identity, not sure why you care
+10:57 <notcraigwright> i’ll try to make future contributions more positive
+10:59 <kanzure> satoshi speculation emails should ideally be sent to the bitcoin-discuss mailing list instead (hosted on the server)
+11:01 <notcraigwright> I was exploring how trustworthy the Aug 15 Satoshi email could be considered. Not very.
+11:03 <kanzure> not quite true,
+11:03 <kanzure> https://www.reddit.com/r/btc/comments/3w5e7k/interesting_change_in_devs_detective_attitude/cxtob1h
+11:04 <kanzure> https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010329.html
+11:07 <notcraigwright> I have some reason to believe that it would not be impossible to have relayed through vistomail last night.

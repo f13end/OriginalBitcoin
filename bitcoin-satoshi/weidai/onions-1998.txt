@@ -1,0 +1,1355 @@
+From owner-onions  Tue Feb 17 13:52:45 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id NAA12442
+	for onions-outgoing; Tue, 17 Feb 1998 13:51:54 -0500 (EST)
+Received: from mail1.nai.net (mail1.nai.net [208.133.174.65])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id NAA12151;
+	Tue, 17 Feb 1998 13:46:29 -0500 (EST)
+From: nrdu@nrdu.com
+Received: from SERVER.POWERPHONE (NewHaven-Usr1-24.nai.net [208.133.166.33])
+	by mail1.nai.net (8.8.8/8.8.8) with ESMTP id MAA26920;
+	Tue, 17 Feb 1998 12:11:11 -0500 (EST)
+Message-Id: <199802171711.MAA26920@mail1.nai.net>
+Received: from NewHaven-Usr1-40.nai.net by SERVER.POWERPHONE with SMTP (Microsoft Exchange Internet Mail Service Version 5.0.1459.44)
+	id DXMVJSVQ; Tue, 17 Feb 1998 12:01:33 -0500
+Date: Tue, 17 Feb 98 11:58:51 -0500
+Subject: NRDU Hacking/Phreaking/Anarchy/Cracking WWW Page, with over 300megs HPAV files!
+X-Mailer: 0001
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+http://www.nrdu.dyn.ml.org/nrdu/index.html
+
+NRDU Hacking/Phreaking/Anarchy/Cracking WWW Page, with over 300megs files on-line, and we are allways putting up more.  NO PORNO or pirated software.  The following sections and subjects are just some of the things covered on our web site:
+
+Anarchists Book Shop
+Anarchy
+Communications
+Conspiracy
+Cracking Files
+Credit Cards
+Cryptography
+Drugs
+Electronics
+FAQ's
+Group 42 Hacker Archives
+The New Hacker's Dictionary
+Hacker's Toolkit
+Internet
+Lockpicking
+Miscellaneous 
+Phreaking
+Privacy
+Pyrotechnics and Explosives
+Revenge and Jokes
+Satellite and Cable-TV Hacking
+UFO and Aliens
+Underground Magazines
+Video Games and Consoles
+Virus
+Warez (not software, but how to brake copy protection)
+Weapons
+DOS Utilties
+Favourite Hacker's WWW + FTP sites
+Windows Utilities
+
+We also have an interactive messagebase for people to post and keep intouch with other users on the web site.  
+
+http://www.nrdu.dyn.ml.org/nrdu/index.html
+
+
+From owner-onions  Tue Feb 17 14:09:50 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id OAA13129
+	for onions-outgoing; Tue, 17 Feb 1998 14:09:47 -0500 (EST)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id OAA13102
+	for <onions@itd.nrl.navy.mil>; Tue, 17 Feb 1998 14:09:25 -0500 (EST)
+Date: Tue, 17 Feb 1998 14:09:25 -0500 (EST)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: NRDU Hacking/Phreaking/Anarchy/Cracking WWW Page, with over , 300megs HPAV files!
+Message-ID: <Pine.GSO.3.95.980217140645.1265E-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+All-
+	Please excuse this SPAM to the onions mailing list.  We are
+currently putting a block in place so that only list members will be
+able to send mail to the list.  Hopefully this will prevent this kind
+of SPAM from appearing in the future.
+
+-Michael
+
+
+|> From: nrdu@nrdu.com
+|> Date: Tue, 17 Feb 98 11:58:51 -0500
+|> Subject: NRDU Hacking/Phreaking/Anarchy/Cracking WWW Page, with over 300megs HPAV files!
+|> 
+|> http://www.nrdu.dyn.ml.org/nrdu/index.html
+|> 
+|> NRDU Hacking/Phreaking/Anarchy/Cracking WWW Page, with over 300megs files on-line, and we are allways putting up more.  NO PORNO or pirated software.  The following sections and subjects are just some of the things covered on our web site:
+|> 
+|> Anarchists Book Shop
+|> Anarchy
+|> Communications
+|> Conspiracy
+|> Cracking Files
+|> Credit Cards
+|> Cryptography
+|> Drugs
+|> Electronics
+|> FAQ's
+|> Group 42 Hacker Archives
+|> The New Hacker's Dictionary
+|> Hacker's Toolkit
+|> Internet
+|> Lockpicking
+|> Miscellaneous 
+|> Phreaking
+|> Privacy
+|> Pyrotechnics and Explosives
+|> Revenge and Jokes
+|> Satellite and Cable-TV Hacking
+|> UFO and Aliens
+|> Underground Magazines
+|> Video Games and Consoles
+|> Virus
+|> Warez (not software, but how to brake copy protection)
+|> Weapons
+|> DOS Utilties
+|> Favourite Hacker's WWW + FTP sites
+|> Windows Utilities
+|> 
+|> We also have an interactive messagebase for people to post and keep intouch with other users on the web site.  
+|> 
+|> http://www.nrdu.dyn.ml.org/nrdu/index.html
+
+
+From owner-onions  Fri Feb 20 16:26:59 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id QAA18703
+	for onions-outgoing; Fri, 20 Feb 1998 16:26:17 -0500 (EST)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id QAA18690
+	for <onions@itd.nrl.navy.mil>; Fri, 20 Feb 1998 16:26:07 -0500 (EST)
+Date: Fri, 20 Feb 1998 16:26:05 -0500 (EST)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Onion Routing Update!
+Message-ID: <Pine.GSO.3.95.980220162528.7299H-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+All-
+	We've been busy behind the scenes here working on the next
+generation of the Onion Routing code and wanted to let you all know
+what's been going on.  We've completed almost all of the formal
+specifications of the system and have begun coding (we now have two
+contractors working on coding the system as well as some other new
+faces in the research area of the project).  Details of the new
+system, along with *LOTS* of new information about Onion Routing is
+available on our new web-site:
+
+		http://www.onion-router.net/
+
+	As you can see we've registered the domain 'onion-router.net'
+and we will be adding CNAME references to all sites participating in
+the prototype network and the next generation of the Onion Routing
+project (for example, we've renamed our test network entry point here
+at NRL as 'nrl.onion-router.net').  Look for more details soon on the
+web-site.
+
+	We're hoping to spark some more discussions on the onions
+mailing list, so look for details about the new system in the weeks to
+come (and please, let us know what you think or if you have any
+suggestions!)  Thanks for helping make Onion Routing happen!
+
+-Michael
+
+
+
+From owner-onions  Fri Feb 20 17:51:33 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id RAA21141
+	for onions-outgoing; Fri, 20 Feb 1998 17:51:18 -0500 (EST)
+Received: from mx1.eskimo.com (mx1.eskimo.com [204.122.16.48])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id RAA21114;
+	Fri, 20 Feb 1998 17:50:18 -0500 (EST)
+Received: from eskimo.com (weidai@eskimo.com [204.122.16.13])
+	by mx1.eskimo.com (8.8.8/8.8.8) with ESMTP id OAA08991;
+	Fri, 20 Feb 1998 14:50:09 -0800
+Received: (from weidai@localhost)
+	by eskimo.com (8.8.8/8.8.8) id OAA14916;
+	Fri, 20 Feb 1998 14:50:09 -0800 (PST)
+Message-ID: <19980220145008.24179@eskimo.com>
+Date: Fri, 20 Feb 1998 14:50:08 -0800
+From: Wei Dai <weidai@eskimo.com>
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+References: <Pine.GSO.3.95.980220162528.7299H-100000@banana-jr.itd.nrl.navy.mil>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 0.85
+In-Reply-To: <Pine.GSO.3.95.980220162528.7299H-100000@banana-jr.itd.nrl.navy.mil>; from Michael G. Reed on Fri, Feb 20, 1998 at 04:26:05PM -0500
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+It may be too early to ask, but what are you planning for the third
+generation of Onion Routing? I would like to see more defenses against
+active attacks and timing signature analysis. Perhaps also a more formal
+threat model? It would also be nice to have a Windows version of Onion
+Router so users can run their personal Onion Routers.
+
+From owner-onions  Fri Feb 20 18:33:23 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id SAA22353
+	for onions-outgoing; Fri, 20 Feb 1998 18:33:17 -0500 (EST)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id SAA22348
+	for <onions@itd.nrl.navy.mil>; Fri, 20 Feb 1998 18:33:07 -0500 (EST)
+Date: Fri, 20 Feb 1998 18:33:07 -0500 (EST)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <19980220145008.24179@eskimo.com>
+Message-ID: <Pine.GSO.3.95.980220182703.7780E-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+On Fri, 20 Feb 1998, Wei Dai wrote:
+|>It may be too early to ask, but what are you planning for the third
+|>generation of Onion Routing? I would like to see more defenses against
+|>active attacks and timing signature analysis. Perhaps also a more formal
+|>threat model? It would also be nice to have a Windows version of Onion
+|>Router so users can run their personal Onion Routers.
+
+Ah, but we're hoping there won't need to be a third generation :-) The
+next generation (Second) will include defenses against passive
+external and internal attackers (including timing signature, volume
+signature, creation time, and a few others).  As for dealing with
+active attacks, we haven't build countermeasures into the system, but
+the new code should be extensible to allow for them.
+
+The threat analysis paper is in the works, but has not made much
+forward progress do to a lack of time on our part (we are working on
+it though!).
+
+On the Windows front, we do plan on having at least the proxies and
+input funnels available for Wintel platforms (the core network will
+probably only be supported on UNIX platforms and maybe NT, but that
+may change depending on demand and the willingness of other people to
+do ports).  This is along the lines of the "customer-ISP model" that
+we talk about in our papers...light-weight clients (proxies) that
+handle route creation and proxy functions, but rely on the network for
+delivery.  Of course, you still trust the first onion router, but not
+nearly as much as in the past (since he now does not know where you
+are going, and depending on the configuration, he may not even know
+who you are).
+
+-Michael
+
+
+From owner-onions  Fri Mar 13 07:57:12 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id HAA28294
+	for onions-outgoing; Fri, 13 Mar 1998 07:56:30 -0500 (EST)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id HAA28261;
+	Fri, 13 Mar 1998 07:55:30 -0500 (EST)
+Date: Fri, 13 Mar 1998 07:55:25 -0500 (EST)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: "David M. Martin" <dm@cs.bu.edu>
+cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: OR Question....
+In-Reply-To: <mspafawkktp.fsf@st-marys.bu.edu>
+Message-ID: <Pine.GSO.3.95.980313073922.28733C-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On 12 Mar 1998, David M. Martin wrote:
+|>Ok.  I'm still interested, if only to have a more detailed look at how some
+|>things are done.  Here's such a question that I'm sure you can answer
+|>immediately: how does the AP choose the route to encode in the onion?
+|>Viz., are both the route length and the route chosen randomly, or just the
+|>route with the length fixed as a parameter?  [I know I should probably be
+|>asking this in the mailing list, but I have your attention now :-]
+
+I'm going to answer this one to the mailing list (as well as you)
+since I think it will be of interest to others as well.
+
+Currently we have one route generation/selection algorithm (actually,
+we have several that we are experimenting with, but ultimately our
+code will probably only ship with one), although this need not be the
+case (each AP could have a completely different one).  In the new
+system we distribute the topology map of the current network
+dynamically via the DB's.  An AP has a small DB within it, so it has
+direct access to the topology map of the system (as well as the access
+control parameters for each node in the network).  The AP can then
+pick a route.  The routine Proxy_Build_Connection takes input of the
+form (soft_min, hard_min, soft_max, hard_max, hostname, port).  The
+routine will generate a random length, random path route that is
+between the hard limits (tries to be within the soft limits)
+connecting to the hostname/port requested (it may not find a route
+that meets these criteria in which case it will kick back a meaningful
+error and the AP can try again with different parameters or kick back
+a meaningful message to the user).  It has to take the ACL's into
+account in picking an appropriate exit node from the network (for
+example, NRL's new exit node may have the policy: Port: *, Host:
+*.mil, *.gov -- this would allow anyone to use NRL's exit node as long
+as they are connecting to a *.mil or *.gov site.  There are both
+white-lists and black-lists possible here).
+
+As I said, the actual algorithm for selection is still under
+development (and is a *VERY* interesting research problem all by
+itself :-) and will be undergoing testing shortly.  Since this is one
+of the most critical routines in the new system (after all, if you
+don't pick good routes, the system will fail miserably), once we have
+some preliminary numbers on it, we'll be putting those on-line and
+asking for comments.
+
+Keep those questions coming!
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNQkswU8Qx019l0ClAQFTtwQAoVvl3EVnFHCw5Ck8NIsF8qLlgrWu04DU
+DnCVwQF9fON/6AILuW9dOCkO7hTz39pfIsy2fGP02fk8eIfvxTzlyeVFnmo16N/1
+b7QuEAVMbe6AHAST2PhCl7bQMs0V5WxoWzjBh/zn7h6fk4V8FtYiyFkobbdM15Ce
+i0Rc3ltEQhQ=
+=68h6
+-----END PGP SIGNATURE-----
+
+
+From owner-onions  Fri Mar 20 19:00:44 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id TAA03832
+	for onions-outgoing; Fri, 20 Mar 1998 19:00:06 -0500 (EST)
+Received: from bretweir.total.net (bretweir.total.net [205.236.175.106])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id SAA03823
+	for <onions@itd.nrl.navy.mil>; Fri, 20 Mar 1998 18:59:21 -0500 (EST)
+Received: from [205.236.83.25] (ono8.ono-sendai.net [205.236.83.25])
+	by bretweir.total.net (8.8.7/8.8.5) with SMTP id SAA02893
+	for <onions@itd.nrl.navy.mil>; Fri, 20 Mar 1998 18:59:13 -0500 (EST)
+Message-Id: <199803202359.SAA02893@bretweir.total.net>
+Subject: Question...
+Date: Fri, 20 Mar 98 19:07:06 -0500
+x-sender: austin@pop.total.net
+x-mailer: Claris Emailer 2.0, March 15, 1997
+From: Austin Hill <austin@total.net>
+To: "Onion Routing" <onions@itd.nrl.navy.mil>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+Is the onion routing source going to be released under GNU liscense or do 
+you think it will be proprietary?
+
+-Austin
+
+
+
+_________________________________________________________________________
+Austin Hill                                   Zero-Knowledge Systems Inc.
+Chief Technical Officer                                  Montreal, Quebec
+Phone: 514.989.3102                                     Fax: 514.937.7557
+_________________________________________________________________________
+"We are frisking each other.  Picture yourself going to work tommorrow, 
+handing over blood and urine samples, taking a quick turn with the house 
+polygraph, turning out oyur pockets and walking through some new 
+fluoroscope.  You object? Whatsammetter, you got something to hide?"
+                                -William Safire, New York Times columnist
+
+
+From owner-onions  Sat Mar 21 09:11:36 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id JAA12466
+	for onions-outgoing; Sat, 21 Mar 1998 09:11:24 -0500 (EST)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id JAA12449;
+	Sat, 21 Mar 1998 09:11:06 -0500 (EST)
+Date: Sat, 21 Mar 1998 09:11:00 -0500 (EST)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Austin Hill <austin@total.net>
+cc: Onion Routing <onions@itd.nrl.navy.mil>
+Subject: Re: Question...
+In-Reply-To: <199803202359.SAA02893@bretweir.total.net>
+Message-ID: <Pine.GSO.3.95.980321090405.5484F-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On Fri, 20 Mar 1998, Austin Hill wrote:
+|>Is the onion routing source going to be released under GNU liscense or do 
+|>you think it will be proprietary?
+
+It's not a matter of a GNU vs. proprietary issue...the real reason we
+haven't opened up the code to wide distribution is the included crypto
+in the first generation prototype.  The next generation of the system
+will *NOT* include any crypto (we'll be relying on SSLeay), so we hope
+we can avoid the control/export issue all-together.  Ultimately, I am
+not positive what will happen to the system, but NRL is generally not
+in the "build and sell" business, and the upper management has
+expressed the desire to give the code away.  (It should be noted, that
+by nature of the system, anything short of giving it away would be
+*HIGHLY* counter-productive to the goals of the system :-) I will
+note, however, that NRL has submitted a patent on some of the
+technology in the system that is currently under review.  What will
+happen with that is anyone's guess.
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNRPKeE8Qx019l0ClAQHWPAQApxM1pWIvXGwKeuLMURINyhSTtG/+JN57
+N90wfnU6JmEcaHOU/IqmbLoQP4It4jpDFcfrK9cJDcarSNNJfVIN2ZZaOcOIevhU
+kNt7aVj1h6FZqAfkUl5IbsQVw6xVW/u2HSOb9Bp2hw+3eVZeJlnNQF1/T5129wfr
+R++mDvGJ/is=
+=Wo7X
+-----END PGP SIGNATURE-----
+
+
+From owner-onions  Sat Jun 20 20:19:51 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id UAA06926
+	for onions-outgoing; Sat, 20 Jun 1998 20:18:54 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id UAA06921;
+	Sat, 20 Jun 1998 20:18:44 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom14.netcom.com [192.100.81.126])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id RAA19151;
+	Sat, 20 Jun 1998 17:18:43 -0700 (PDT)
+Message-Id: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sat, 20 Jun 1998 17:16:33 -0700
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>,
+        Onion Routing List <onions@itd.nrl.navy.mil>
+From: Lucky Green <shamrock@netcom.com>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <Pine.GSO.3.95.980220182703.7780E-100000@banana-jr.itd.nrl.
+ navy.mil>
+References: <19980220145008.24179@eskimo.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+At 06:33 PM 2/20/98 -0500, Michael G. Reed wrote:
+>On Fri, 20 Feb 1998, Wei Dai wrote:
+>|>It may be too early to ask, but what are you planning for the third
+>|>generation of Onion Routing? I would like to see more defenses against
+>|>active attacks and timing signature analysis. Perhaps also a more formal
+>|>threat model? It would also be nice to have a Windows version of Onion
+>|>Router so users can run their personal Onion Routers.
+>
+>Ah, but we're hoping there won't need to be a third generation :-) The
+>next generation (Second) will include defenses against passive
+>external and internal attackers (including timing signature, volume
+>signature, creation time, and a few others).  As for dealing with
+>active attacks, we haven't build countermeasures into the system, but
+>the new code should be extensible to allow for them.
+
+I'd really like to see options in rev 3 to defend against active attacks. I
+know of several sites that are in the position and have indicated their
+willingness to run Pipe-net style core nodes. Add a DC-net core to this and
+tracing connections becomes a challenge, indeed.
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Sat Jun 20 22:09:11 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id WAA07913
+	for onions-outgoing; Sat, 20 Jun 1998 22:08:56 -0400 (EDT)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id WAA07906;
+	Sat, 20 Jun 1998 22:07:53 -0400 (EDT)
+Date: Sat, 20 Jun 1998 22:07:48 -0400 (EDT)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Lucky Green <shamrock@netcom.com>
+cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+Message-ID: <Pine.GSO.3.95.980620220001.1391A-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On Sat, 20 Jun 1998, Lucky Green wrote:
+|>I'd really like to see options in rev 3 to defend against active attacks. I
+|>know of several sites that are in the position and have indicated their
+|>willingness to run Pipe-net style core nodes. Add a DC-net core to this and
+|>tracing connections becomes a challenge, indeed.
+
+	Active external or active internal?  or both?  The new code
+should handle passive and active external attackers, so that only
+leaves internal attackers.  A single internal attacker (active or
+passive) has little information, certainly not enough to piece
+together the route by himself.  When you expand this to a set of
+internal attackers (passive or active), the probabilities rise.  You
+need not be active to do many attacks that will probably be good
+enough.  This is also a problem with Pipe-net unless you are talking
+about absolutely fixing the connections at the time the network comes
+up (ie, can never be expanded, can never be shrunk, can never host new
+connections, can never destroy connections, and can never vary the
+rate of a connection without varying the rate of all connections
+globally -- plus if one node goes down, the whole net must go down --
+pretty tough to do, and not really all that useful :-)
+
+	I can detail some of the countermeasures we've considered if
+people are interested.
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNYxq+E8Qx019l0ClAQH4JgP/YRWzFkge32lhSHIZTx+srd472cp4TuMf
+l21gOacVrT1Dqbw+JvrtFzktQUQjvktmrzC6GeWqM/BC22+SsiXDwVPAPanuOR5h
+XDgMd49RVKFjiJj+2FkLAgGsPgRo1zc/KspuPowCaotVcqvz9PFULK0vTEBf+qXs
+EHRnx9bgGKc=
+=F/j5
+-----END PGP SIGNATURE-----
+
+
+From owner-onions  Sat Jun 20 22:18:59 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id WAA07984
+	for onions-outgoing; Sat, 20 Jun 1998 22:18:55 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id WAA07977;
+	Sat, 20 Jun 1998 22:18:42 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom3.netcom.com [192.100.81.103])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id TAA28151;
+	Sat, 20 Jun 1998 19:18:41 -0700 (PDT)
+Message-Id: <3.0.2.32.19980620191622.0091bb70@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sat, 20 Jun 1998 19:16:22 -0700
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+From: Lucky Green <shamrock@netcom.com>
+Subject: Re: Onion Routing Update!
+Cc: Onion Routing List <onions@itd.nrl.navy.mil>
+In-Reply-To: <Pine.GSO.3.95.980620220001.1391A-100000@banana-jr.itd.nrl.
+ navy.mil>
+References: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+At 22:07 98/06/20 -0400, Michael G. Reed wrote:
+>	Active external or active internal?  or both?  The new code
+>should handle passive and active external attackers, so that only
+>leaves internal attackers.
+
+Active external attackers would be my major concern, since active external
+attacks aren't all that difficult to achieve. Just hack a router along the
+path. Glad to hear you have defenses in place.
+
+>  A single internal attacker (active or
+>passive) has little information, certainly not enough to piece
+>together the route by himself.  When you expand this to a set of
+>internal attackers (passive or active), the probabilities rise.  You
+>need not be active to do many attacks that will probably be good
+>enough.
+
+Agreed. Multiple internal attackers are a problem that is difficult, if not
+impossible, to defend against. I would be satisfied with widespread
+deployment of a system that does not attempt to tackle this problem.
+
+>	I can detail some of the countermeasures we've considered if
+>people are interested.
+
+Please do. In detail.
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Sun Jun 21 03:35:54 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id DAA11002
+	for onions-outgoing; Sun, 21 Jun 1998 03:35:02 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id DAA10995
+	for <onions@itd.nrl.navy.mil>; Sun, 21 Jun 1998 03:34:05 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom5.netcom.com [192.100.81.113])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id AAA20786
+	for <onions@itd.nrl.navy.mil>; Sun, 21 Jun 1998 00:34:04 -0700 (PDT)
+Message-Id: <3.0.2.32.19980621003030.0099cc20@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sun, 21 Jun 1998 00:30:30 -0700
+To: onions@itd.nrl.navy.mil
+From: Lucky Green <shamrock@netcom.com>
+Subject: OR without link padding insecure
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+Onioneers,
+
+http://www.onion-router.net/Vis.html is very impressive work. It makes a
+solid case for link padding. [I couldn't help but notice that NRL's
+solution suggested in the paper is to perform link padding according to a
+function that mirrors long term daily network usage patters, a proposal
+that, to the best of my knowlege, was first made by myself in response to
+the original Pipe-net post :-]
+
+Given the experimental result that "it should now be very obvious that the
+Onion Routing system as it exists without link padding is still very
+vulnerable to traffic analysis attacks", how are the ORtNG going to address
+this issue?
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Mon Jun 22 04:45:03 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id EAA24447
+	for onions-outgoing; Mon, 22 Jun 1998 04:44:33 -0400 (EDT)
+Received: from avalon.iks-jena.de (avalon.iks-jena.de [194.221.90.34])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id EAA24442
+	for <onions@itd.nrl.navy.mil>; Mon, 22 Jun 1998 04:44:27 -0400 (EDT)
+Received: from taranis.iks-jena.de (lutz@taranis.iks-jena.de [194.221.90.21])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id KAA23256
+	for <onions@itd.nrl.navy.mil>; Mon, 22 Jun 1998 10:44:29 +0200 (MET DST)
+Received: (from lutz@localhost)
+	by taranis.iks-jena.de (8.9.0/8.9.0) id KAA01169;
+	Mon, 22 Jun 1998 10:44:27 +0200
+Received: from itd.nrl.navy.mil (s2.itd.nrl.navy.mil [132.250.83.3])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id JAA26581
+	for <lutz@iks-jena.de>; Sun, 21 Jun 1998 09:43:06 +0200 (MET DST)
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id DAA11002
+	for onions-outgoing; Sun, 21 Jun 1998 03:35:02 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id DAA10995
+	for <onions@itd.nrl.navy.mil>; Sun, 21 Jun 1998 03:34:05 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom5.netcom.com [192.100.81.113])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id AAA20786
+	for <onions@itd.nrl.navy.mil>; Sun, 21 Jun 1998 00:34:04 -0700 (PDT)
+Message-Id: <3.0.2.32.19980621003030.0099cc20@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sun, 21 Jun 1998 00:30:30 -0700
+To: onions@itd.nrl.navy.mil
+From: Lucky Green <shamrock@netcom.com>
+Subject: OR without link padding insecure
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Status: O
+Lines: 21
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+Onioneers,
+
+http://www.onion-router.net/Vis.html is very impressive work. It makes a
+solid case for link padding. [I couldn't help but notice that NRL's
+solution suggested in the paper is to perform link padding according to a
+function that mirrors long term daily network usage patters, a proposal
+that, to the best of my knowlege, was first made by myself in response to
+the original Pipe-net post :-]
+
+Given the experimental result that "it should now be very obvious that the
+Onion Routing system as it exists without link padding is still very
+vulnerable to traffic analysis attacks", how are the ORtNG going to address
+this issue?
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Mon Jun 22 04:45:08 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id EAA24457
+	for onions-outgoing; Mon, 22 Jun 1998 04:45:05 -0400 (EDT)
+Received: from avalon.iks-jena.de (avalon.iks-jena.de [194.221.90.34])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id EAA24438
+	for <onions@itd.nrl.navy.mil>; Mon, 22 Jun 1998 04:44:16 -0400 (EDT)
+Received: from taranis.iks-jena.de (lutz@taranis.iks-jena.de [194.221.90.21])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id KAA28050;
+	Mon, 22 Jun 1998 10:44:18 +0200 (MET DST)
+Received: (from lutz@localhost)
+	by taranis.iks-jena.de (8.9.0/8.9.0) id KAA01161;
+	Mon, 22 Jun 1998 10:44:15 +0200
+Received: from itd.nrl.navy.mil (s2.itd.nrl.navy.mil [132.250.83.3])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id EAA17307
+	for <lutz@iks-jena.de>; Sun, 21 Jun 1998 04:13:49 +0200 (MET DST)
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id WAA07913
+	for onions-outgoing; Sat, 20 Jun 1998 22:08:56 -0400 (EDT)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id WAA07906;
+	Sat, 20 Jun 1998 22:07:53 -0400 (EDT)
+Date: Sat, 20 Jun 1998 22:07:48 -0400 (EDT)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Lucky Green <shamrock@netcom.com>
+cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+Message-ID: <Pine.GSO.3.95.980620220001.1391A-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Old-Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Type: application/pgp; format=text; x-action=sign
+Status: O
+Lines: 37
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On Sat, 20 Jun 1998, Lucky Green wrote:
+|>I'd really like to see options in rev 3 to defend against active attacks. I
+|>know of several sites that are in the position and have indicated their
+|>willingness to run Pipe-net style core nodes. Add a DC-net core to this and
+|>tracing connections becomes a challenge, indeed.
+
+	Active external or active internal?  or both?  The new code
+should handle passive and active external attackers, so that only
+leaves internal attackers.  A single internal attacker (active or
+passive) has little information, certainly not enough to piece
+together the route by himself.  When you expand this to a set of
+internal attackers (passive or active), the probabilities rise.  You
+need not be active to do many attacks that will probably be good
+enough.  This is also a problem with Pipe-net unless you are talking
+about absolutely fixing the connections at the time the network comes
+up (ie, can never be expanded, can never be shrunk, can never host new
+connections, can never destroy connections, and can never vary the
+rate of a connection without varying the rate of all connections
+globally -- plus if one node goes down, the whole net must go down --
+pretty tough to do, and not really all that useful :-)
+
+	I can detail some of the countermeasures we've considered if
+people are interested.
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNYxq+E8Qx019l0ClAQH4JgP/YRWzFkge32lhSHIZTx+srd472cp4TuMf
+l21gOacVrT1Dqbw+JvrtFzktQUQjvktmrzC6GeWqM/BC22+SsiXDwVPAPanuOR5h
+XDgMd49RVKFjiJj+2FkLAgGsPgRo1zc/KspuPowCaotVcqvz9PFULK0vTEBf+qXs
+EHRnx9bgGKc=
+=F/j5
+-----END PGP SIGNATURE-----
+
+From owner-onions  Mon Jun 22 04:45:18 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id EAA24468
+	for onions-outgoing; Mon, 22 Jun 1998 04:45:13 -0400 (EDT)
+Received: from avalon.iks-jena.de (avalon.iks-jena.de [194.221.90.34])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id EAA24440;
+	Mon, 22 Jun 1998 04:44:23 -0400 (EDT)
+Received: from taranis.iks-jena.de (lutz@taranis.iks-jena.de [194.221.90.21])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id KAA11426;
+	Mon, 22 Jun 1998 10:44:24 +0200 (MET DST)
+Received: (from lutz@localhost)
+	by taranis.iks-jena.de (8.9.0/8.9.0) id KAA01165;
+	Mon, 22 Jun 1998 10:44:22 +0200
+Received: from itd.nrl.navy.mil (s2.itd.nrl.navy.mil [132.250.83.3])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id EAA18926
+	for <lutz@iks-jena.de>; Sun, 21 Jun 1998 04:28:31 +0200 (MET DST)
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id WAA07984
+	for onions-outgoing; Sat, 20 Jun 1998 22:18:55 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id WAA07977;
+	Sat, 20 Jun 1998 22:18:42 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom3.netcom.com [192.100.81.103])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id TAA28151;
+	Sat, 20 Jun 1998 19:18:41 -0700 (PDT)
+Message-Id: <3.0.2.32.19980620191622.0091bb70@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sat, 20 Jun 1998 19:16:22 -0700
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+From: Lucky Green <shamrock@netcom.com>
+Subject: Re: Onion Routing Update!
+Cc: Onion Routing List <onions@itd.nrl.navy.mil>
+In-Reply-To: <Pine.GSO.3.95.980620220001.1391A-100000@banana-jr.itd.nrl.
+ navy.mil>
+References: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Status: O
+Lines: 32
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+At 22:07 98/06/20 -0400, Michael G. Reed wrote:
+>	Active external or active internal?  or both?  The new code
+>should handle passive and active external attackers, so that only
+>leaves internal attackers.
+
+Active external attackers would be my major concern, since active external
+attacks aren't all that difficult to achieve. Just hack a router along the
+path. Glad to hear you have defenses in place.
+
+>  A single internal attacker (active or
+>passive) has little information, certainly not enough to piece
+>together the route by himself.  When you expand this to a set of
+>internal attackers (passive or active), the probabilities rise.  You
+>need not be active to do many attacks that will probably be good
+>enough.
+
+Agreed. Multiple internal attackers are a problem that is difficult, if not
+impossible, to defend against. I would be satisfied with widespread
+deployment of a system that does not attempt to tackle this problem.
+
+>	I can detail some of the countermeasures we've considered if
+>people are interested.
+
+Please do. In detail.
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Mon Jun 22 04:45:26 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id EAA24484
+	for onions-outgoing; Mon, 22 Jun 1998 04:45:22 -0400 (EDT)
+Received: from avalon.iks-jena.de (avalon.iks-jena.de [194.221.90.34])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id EAA24436;
+	Mon, 22 Jun 1998 04:44:07 -0400 (EDT)
+Received: from taranis.iks-jena.de (lutz@taranis.iks-jena.de [194.221.90.21])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id KAA07591;
+	Mon, 22 Jun 1998 10:44:08 +0200 (MET DST)
+Received: (from lutz@localhost)
+	by taranis.iks-jena.de (8.9.0/8.9.0) id KAA01157;
+	Mon, 22 Jun 1998 10:44:06 +0200
+Received: from itd.nrl.navy.mil (s2.itd.nrl.navy.mil [132.250.83.3])
+	by avalon.iks-jena.de (8.9.0/8.9.0) with ESMTP id CAA18891
+	for <lutz@iks-jena.de>; Sun, 21 Jun 1998 02:25:05 +0200 (MET DST)
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id UAA06926
+	for onions-outgoing; Sat, 20 Jun 1998 20:18:54 -0400 (EDT)
+Received: from netcom4.netcom.com (netcom4.netcom.com [192.100.81.107])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id UAA06921;
+	Sat, 20 Jun 1998 20:18:44 -0400 (EDT)
+Received: from cypherpunks (shamrock@netcom14.netcom.com [192.100.81.126])
+	by netcom4.netcom.com (8.8.5-r-beta/8.8.5/(NETCOM v1.02)) with SMTP id RAA19151;
+	Sat, 20 Jun 1998 17:18:43 -0700 (PDT)
+Message-Id: <3.0.2.32.19980620171633.008f8df0@netcom4.netcom.com>
+X-Sender: shamrock@netcom4.netcom.com
+X-Mailer: QUALCOMM Windows Eudora Pro Version 3.0.2 b4 (32)
+Date: Sat, 20 Jun 1998 17:16:33 -0700
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>,
+        Onion Routing List <onions@itd.nrl.navy.mil>
+From: Lucky Green <shamrock@netcom.com>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <Pine.GSO.3.95.980220182703.7780E-100000@banana-jr.itd.nrl.
+ navy.mil>
+References: <19980220145008.24179@eskimo.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Status: RO
+Lines: 27
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+At 06:33 PM 2/20/98 -0500, Michael G. Reed wrote:
+>On Fri, 20 Feb 1998, Wei Dai wrote:
+>|>It may be too early to ask, but what are you planning for the third
+>|>generation of Onion Routing? I would like to see more defenses against
+>|>active attacks and timing signature analysis. Perhaps also a more formal
+>|>threat model? It would also be nice to have a Windows version of Onion
+>|>Router so users can run their personal Onion Routers.
+>
+>Ah, but we're hoping there won't need to be a third generation :-) The
+>next generation (Second) will include defenses against passive
+>external and internal attackers (including timing signature, volume
+>signature, creation time, and a few others).  As for dealing with
+>active attacks, we haven't build countermeasures into the system, but
+>the new code should be extensible to allow for them.
+
+I'd really like to see options in rev 3 to defend against active attacks. I
+know of several sites that are in the position and have indicated their
+willingness to run Pipe-net style core nodes. Add a DC-net core to this and
+tracing connections becomes a challenge, indeed.
+
+Thanks,
+
+
+-- Lucky Green <mailto:shamrock@netcom.com> PGP encrypted mail preferred
+
+   "I do believe that where there is a choice only between cowardice and
+    violence, I would advise violence." Mahatma Gandhi
+
+From owner-onions  Mon Jun 22 13:50:26 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id NAA08549
+	for onions-outgoing; Mon, 22 Jun 1998 13:50:00 -0400 (EDT)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id NAA08530;
+	Mon, 22 Jun 1998 13:49:18 -0400 (EDT)
+Date: Mon, 22 Jun 1998 13:49:15 -0400 (EDT)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Lucky Green <shamrock@netcom.com>
+cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+In-Reply-To: <3.0.2.32.19980620191622.0091bb70@netcom4.netcom.com>
+Message-ID: <Pine.GSO.3.95.980622133042.3628I-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On Sat, 20 Jun 1998, Lucky Green wrote:
+|>>	I can detail some of the countermeasures we've considered if
+|>>people are interested.
+|>
+|>Please do. In detail.
+
+Okay, let me preface this by saying these are ideas we are considering
+/ exploring and all the security ramifications have yet to be flushed
+out.  Also, these are rough notes that I've been keeping for my PhD
+dissertation, so plagiarism will be heavily frowned upon :-) :-) :-)
+
+Possible countermeasures to active/passive attacks from within the
+onion routing network:
+
+1) We have added a provision to allow in-band signalling to core onion
+routers along a route.  This gives us a method to foil simple passive
+volume attacks because we can instruct intermediate onion routers to
+add and remove traffic at will (it is understood that the traffic
+injected/removed is simple padding and not real data in the stream,
+although this is indeterminable to every other onion router along the
+route).  This method has it's ups and downs.  First problem is that
+the in-band signal either expands the data size (in which case we have
+to do some fancy bit shifting to avoid data growth/shrinkage) or we
+have to run the risk of misinterpreting the signal string in a valid
+data stream (very small probability, but it is finite, and a miscue
+would not necessarily be detectable).  The pro side of this method is
+that it allows us to radically manipulate the volume characteristic of
+a particular circuit at each intermediate onion router.  Currently, v2
+(ORtNG) has this as an optional flag in the onion specifying whether
+or not this circuit can contain in-band signalling (the in-band
+commands have yet to be worked out).  The default for now is to not
+engage this option.
+
+2) A spread-spectrum approach.  In this variant, we would open
+numerous (different) paths from an application proxy to the same
+responder proxy.  We can then do a spread spectrum approach of hopping
+between the circuits at either regular time or volume (or both)
+intervals.  This has the added overhead of opening numerous
+connections, but we may be able to amortize this cost by keeping the
+connections around and reusing some (or all) of them for subsequent
+connections.  One could imagine a pool of active connections that
+grows and shrinks over time (in a nondeterministic manner) that we
+could spread particular connections over.  This may greatly reduce the
+time-of-establishment attack and the volume attack since most
+individual circuits would have a similar profile.  This does, of
+course place more trust in the responder proxy (you already trust the
+application proxy absolutely, so it makes no difference on that end).
+
+3) Volume/timing matching.  If we can establish a rough volume/timing
+characteristic across all connections, it becomes harder to track each
+connection.  Currently we have different "classes" of data going
+through the network: short lived bursty connections (web), long lived
+low volume connections (telnet), and long lived high volume
+connections (VPNs).  It would be nice if the differences in these
+classes of data was not quite as evident to each onion router (the
+signatures are pretty obvious right now).  Combining approaches #1 and
+#2 to give us a semi-uniform data/timing profile will help.
+
+There are some others, but they are WAY to preliminary to start
+putting down on paper yet...I'd be interested in comments on the above
+though!
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNY6ZHk8Qx019l0ClAQFoKQP+IuFHAn5tMAEPLwnGFZWZhEt86ogVfEhe
+1fXK3/+dsl3O4ro2uDF7qDVSvbjfSRJrBxRUyXbhmmA2cQ5xJYm6UaF31ML9+8kg
+OA9W9l0TdBfYxn6ZPPoqrtR3wcjlYZVWnrbRjqoq1wDcgfOgDx18tNwhLbF5zaWK
+FFwubgvUPdo=
+=sDJn
+-----END PGP SIGNATURE-----
+
+
+From owner-onions  Mon Jun 22 14:02:03 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id OAA08900
+	for onions-outgoing; Mon, 22 Jun 1998 14:01:59 -0400 (EDT)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id OAA08891;
+	Mon, 22 Jun 1998 14:01:29 -0400 (EDT)
+Date: Mon, 22 Jun 1998 14:01:26 -0400 (EDT)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Lucky Green <shamrock@netcom.com>
+cc: onions@itd.nrl.navy.mil
+Subject: Re: OR without link padding insecure
+In-Reply-To: <3.0.2.32.19980621003030.0099cc20@netcom4.netcom.com>
+Message-ID: <Pine.GSO.3.95.980622135129.3628J-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+On Sun, 21 Jun 1998, Lucky Green wrote:
+|>http://www.onion-router.net/Vis.html is very impressive work. It makes a
+|>solid case for link padding. [I couldn't help but notice that NRL's
+|>solution suggested in the paper is to perform link padding according to a
+|>function that mirrors long term daily network usage patters, a proposal
+|>that, to the best of my knowlege, was first made by myself in response to
+|>the original Pipe-net post :-]
+
+Nice patting on the back :-) We had been considering this approach
+since the beginning, we just never implemented any form of thick-pipe
+padding in the prototype (other than for the tests I ran to generate
+the data for the Vis project.  Keep in mind that those tests were
+limited and recorded TOTAL VOLUME through each router, not volume
+through each link (a major oversight at the time that I only realized
+a few months ago).
+
+|>Given the experimental result that "it should now be very obvious that the
+|>Onion Routing system as it exists without link padding is still very
+|>vulnerable to traffic analysis attacks", how are the ORtNG going to address
+|>this issue?
+
+We have some other graphs which show this curve occurs in our
+day-to-day data-flows on the current prototype (sorry, they aren't
+released for publication yet, but I'm working on it :-).  We plan on
+implementing this through a multi-teared approach (these are notes, not
+tears :-):
+
+1) Rate limit data coming into the network at application proxies, input
+   funnels, output funnels, and responder proxies.
+
+2) Rate limit data going through the network at each Core -- this includes
+   circuit data as well as out of band data.  Circuit data has highest
+   priority over DB link updates, new circuit creation and destroy 
+   propagation.
+
+3) Establish a bandwidth minimum and maximum for each link based on what
+   they neighbors negotiate out-of-band.
+
+4) Curve data flows through each link to match the 24x7 cycle.  Allow for
+   gradual ramp up/ramp down if data flows dictate the need (not exceeding the
+   min/max).  Allow for data to sit at a node for a short while (ie, multiple
+   mix cycles).
+
+5) If any one circuit misbehaves radically (ie, it is evident someone is not
+   rate controlling it at the endpoints), kill it.
+
+6) per-link pad everything else.
+
+7) Do lazy propagation of destroys...especially in the case of a thick-
+   pipe going down.
+
+8) If load starts reaching max levels, refuse new connections until load
+   drops back down.
+
+Any other suggestions would be appreciated.  Thanks!
+
+
+- -Michael
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.2
+
+iQCVAwUBNY6b+U8Qx019l0ClAQHK9QP9FxJ+wNfTR0MckWQM7A40wDQsXr7eyfei
+i+XyQQE091qZJELJTB95pdV4ZYm2HUX88XOB/+dPYcinYDJOpWOqr06q9uG9k/i6
+653Hldhz8TYEEN1/yqMK7g0QI2ZZgWau5KOfMhznRI8xusPBQNEgt134qzXwlbJl
+LLzrSodQSZA=
+=XWko
+-----END PGP SIGNATURE-----
+
+
+From owner-onions  Thu Jun 25 14:47:59 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id OAA17312
+	for onions-outgoing; Thu, 25 Jun 1998 14:47:04 -0400 (EDT)
+Received: from mx1.eskimo.com (mx1.eskimo.com [204.122.16.48])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id OAA17300;
+	Thu, 25 Jun 1998 14:46:36 -0400 (EDT)
+Received: from eskimo.com (weidai@eskimo.com [204.122.16.13])
+	by mx1.eskimo.com (8.8.8/8.8.8) with ESMTP id LAA19366;
+	Thu, 25 Jun 1998 11:46:27 -0700
+Received: (from weidai@localhost)
+	by eskimo.com (8.8.8/8.8.8) id LAA03000;
+	Thu, 25 Jun 1998 11:46:31 -0700 (PDT)
+Message-ID: <19980625114629.A29766@eskimo.com>
+Date: Thu, 25 Jun 1998 11:46:29 -0700
+From: Wei Dai <weidai@eskimo.com>
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>,
+        Lucky Green <shamrock@netcom.com>
+Cc: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Re: Onion Routing Update!
+References: <3.0.2.32.19980620191622.0091bb70@netcom4.netcom.com> <Pine.GSO.3.95.980622133042.3628I-100000@banana-jr.itd.nrl.navy.mil>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 0.91.1i
+In-Reply-To: <Pine.GSO.3.95.980622133042.3628I-100000@banana-jr.itd.nrl.navy.mil>; from Michael G. Reed on Mon, Jun 22, 1998 at 01:49:15PM -0400
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+On Mon, Jun 22, 1998 at 01:49:15PM -0400, Michael G. Reed wrote:
+> Okay, let me preface this by saying these are ideas we are considering
+> / exploring and all the security ramifications have yet to be flushed
+> out.  Also, these are rough notes that I've been keeping for my PhD
+> dissertation, so plagiarism will be heavily frowned upon :-) :-) :-)
+> 
+> Possible countermeasures to active/passive attacks from within the
+> onion routing network:
+> 
+> 1) We have added a provision to allow in-band signalling to core onion
+> routers along a route.  This gives us a method to foil simple passive
+> volume attacks because we can instruct intermediate onion routers to
+> add and remove traffic at will (it is understood that the traffic
+> injected/removed is simple padding and not real data in the stream,
+> although this is indeterminable to every other onion router along the
+> route).  This method has it's ups and downs.  First problem is that
+> the in-band signal either expands the data size (in which case we have
+> to do some fancy bit shifting to avoid data growth/shrinkage) or we
+> have to run the risk of misinterpreting the signal string in a valid
+> data stream (very small probability, but it is finite, and a miscue
+> would not necessarily be detectable).  The pro side of this method is
+> that it allows us to radically manipulate the volume characteristic of
+> a particular circuit at each intermediate onion router.  Currently, v2
+> (ORtNG) has this as an optional flag in the onion specifying whether
+> or not this circuit can contain in-band signalling (the in-band
+> commands have yet to be worked out).  The default for now is to not
+> engage this option.
+
+I don't think this is a good idea. The goal should be to remove signals
+rather than to inject noise, because noise can too easily be removed
+with statistical methods.
+
+> 2) A spread-spectrum approach.  In this variant, we would open
+> numerous (different) paths from an application proxy to the same
+> responder proxy.  We can then do a spread spectrum approach of hopping
+> between the circuits at either regular time or volume (or both)
+> intervals.  This has the added overhead of opening numerous
+> connections, but we may be able to amortize this cost by keeping the
+> connections around and reusing some (or all) of them for subsequent
+> connections.  One could imagine a pool of active connections that
+> grows and shrinks over time (in a nondeterministic manner) that we
+> could spread particular connections over.  This may greatly reduce the
+> time-of-establishment attack and the volume attack since most
+> individual circuits would have a similar profile.  This does, of
+> course place more trust in the responder proxy (you already trust the
+> application proxy absolutely, so it makes no difference on that end).
+
+I don't think this helps either. A passive attacker can still note that
+someone with multiple connections is more likely to be the origin of a
+high-bandwidth anonymous source or sink than someone with a single
+connection. 
+
+> 3) Volume/timing matching.  If we can establish a rough volume/timing
+> characteristic across all connections, it becomes harder to track each
+> connection.  Currently we have different "classes" of data going
+> through the network: short lived bursty connections (web), long lived
+> low volume connections (telnet), and long lived high volume
+> connections (VPNs).  It would be nice if the differences in these
+> classes of data was not quite as evident to each onion router (the
+> signatures are pretty obvious right now).  Combining approaches #1 and
+> #2 to give us a semi-uniform data/timing profile will help.
+
+Why are web connections short lived? Wouldn't it be better to establish a
+long lived high volume connection and fetch all of your web pages on that
+connection? Short lived connections should be extremely easy to trace.
+
+From owner-onions  Thu Jun 25 14:55:12 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id OAA17546
+	for onions-outgoing; Thu, 25 Jun 1998 14:55:08 -0400 (EDT)
+Received: from mx1.eskimo.com (mx1.eskimo.com [204.122.16.48])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id OAA17531;
+	Thu, 25 Jun 1998 14:54:42 -0400 (EDT)
+Received: from eskimo.com (weidai@eskimo.com [204.122.16.13])
+	by mx1.eskimo.com (8.8.8/8.8.8) with ESMTP id LAA24235;
+	Thu, 25 Jun 1998 11:54:34 -0700
+Received: (from weidai@localhost)
+	by eskimo.com (8.8.8/8.8.8) id LAA03681;
+	Thu, 25 Jun 1998 11:54:37 -0700 (PDT)
+Message-ID: <19980625115433.B29766@eskimo.com>
+Date: Thu, 25 Jun 1998 11:54:33 -0700
+From: Wei Dai <weidai@eskimo.com>
+To: "Michael G. Reed" <reed@itd.nrl.navy.mil>,
+        Lucky Green <shamrock@netcom.com>
+Cc: onions@itd.nrl.navy.mil
+Subject: Re: OR without link padding insecure
+References: <3.0.2.32.19980621003030.0099cc20@netcom4.netcom.com> <Pine.GSO.3.95.980622135129.3628J-100000@banana-jr.itd.nrl.navy.mil>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 0.91.1i
+In-Reply-To: <Pine.GSO.3.95.980622135129.3628J-100000@banana-jr.itd.nrl.navy.mil>; from Michael G. Reed on Mon, Jun 22, 1998 at 02:01:26PM -0400
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+On Sun, 21 Jun 1998, Lucky Green wrote:
+|>http://www.onion-router.net/Vis.html is very impressive work. It makes a
+|>solid case for link padding. [I couldn't help but notice that NRL's
+|>solution suggested in the paper is to perform link padding according to a
+|>function that mirrors long term daily network usage patters, a proposal
+|>that, to the best of my knowlege, was first made by myself in response to
+|>the original Pipe-net post :-]
+
+I'm not sure time-varying padding is a good idea. It would seem to require
+some kind of absolute global time synchronization and open up the network
+to a new class of attacks based on disrupting this synchronization. Also
+with regular connections people sometimes do bulk data transfers during
+off-peak hours and presumably they would want to do this with anonymous
+connections as well. Using time-varying padding might save bandwidth
+during off-peak hours, but (assuming anonymous traffic follows the same
+usage pattern as normal traffic) bandwidth should already be cheap during
+off-peak hours.
+
+From owner-onions  Mon Jul 20 10:53:25 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id KAA15057
+	for onions-outgoing; Mon, 20 Jul 1998 10:52:28 -0400 (EDT)
+Received: from banana-jr.itd.nrl.navy.mil (banana-jr.itd.nrl.navy.mil [132.250.80.211])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with SMTP id KAA15045
+	for <onions@itd.nrl.navy.mil>; Mon, 20 Jul 1998 10:52:04 -0400 (EDT)
+Date: Mon, 20 Jul 1998 10:52:04 -0400 (EDT)
+From: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+Reply-To: "Michael G. Reed" <reed@itd.nrl.navy.mil>
+To: Onion Routing List <onions@itd.nrl.navy.mil>
+Subject: Prototype network more stable now...
+Message-ID: <Pine.GSO.3.95.980720103824.9298E-100000@banana-jr.itd.nrl.navy.mil>
+X-Personal: False
+X-Anonymous: False
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+All-
+	You may have noticed periodic down-times with the prototype
+network.  Needless to say, these were not scheduled (not a feature,
+but a bug :-) We think we've finally licked the problem so you should
+see a more stable network.  Please let us know
+(onion-info@itd.nrl.navy.mil) if you continue to see instabilities /
+bugs -- we're trying to not touch the old code any longer, but glaring
+bugs that can be quickly patched will be addressed.  On the other
+front, the new code is progressing nicely and we anticipate making it
+available (US/Canada) by the end of the fiscal year at the latest
+along with an implementation RFC-ID.
+
+-Michael (Onioneer)
+
+
+From owner-onions  Thu Nov 26 18:34:54 1998
+Received: (from majordom@localhost)
+	by itd.nrl.navy.mil (8.8.8/8.8.8) id SAA06657
+	for onions-outgoing; Thu, 26 Nov 1998 18:33:54 -0500 (EST)
+Received: from mx1.eskimo.com (mx1.eskimo.com [204.122.16.48])
+	by itd.nrl.navy.mil (8.8.8/8.8.8) with ESMTP id SAA06652
+	for <onions@itd.nrl.navy.mil>; Thu, 26 Nov 1998 18:33:52 -0500 (EST)
+Received: from eskimo.com (weidai@eskimo.com [204.122.16.13])
+	by mx1.eskimo.com (8.9.1a/8.8.8) with ESMTP id PAA19189;
+	Thu, 26 Nov 1998 15:33:50 -0800
+Received: (from weidai@localhost)
+	by eskimo.com (8.9.1a/8.9.1) id PAA12233;
+	Thu, 26 Nov 1998 15:33:50 -0800 (PST)
+Message-ID: <19981126153349.A12001@eskimo.com>
+Date: Thu, 26 Nov 1998 15:33:49 -0800
+From: Wei Dai <weidai@eskimo.com>
+To: cypherpunks@cyberpass.net
+Cc: onions@itd.nrl.navy.mil
+Subject: PipeNet 1.1 and b-money
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Mailer: Mutt 0.91.1i
+Sender: owner-onions@itd.nrl.navy.mil
+Precedence: bulk
+
+I've discovered some attacks against the original PipeNet design. The new
+protocol, PipeNet 1.1, should fix the weaknesses. PipeNet 1.1 uses layered
+sequence numbers and MACs. This prevents a collusion between a receiver
+and a subset of switches from tracing the caller by modifying or swaping
+packets and then watching for garbage.
+
+A description of PipeNet 1.1 is available at
+http://www.eskimo.com/~weidai.
+
+Also available there is a description of b-money, a new protocol for
+monetary exchange and contract enforcement for pseudonyms. 
+
+Please direct all follow-up discussion of these protocols to cypherpunks.
+

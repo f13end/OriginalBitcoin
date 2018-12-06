@@ -1,0 +1,113 @@
+Delivered-To: kanzure@gmail.com
+Received: by 10.220.76.146 with SMTP id c18cs11759vck;
+        Thu, 12 Feb 2009 14:18:02 -0800 (PST)
+Received: by 10.210.88.3 with SMTP id l3mr1049938ebb.20.1234477081401;
+        Thu, 12 Feb 2009 14:18:01 -0800 (PST)
+Return-Path: <p2presearch-bounces@listcultures.org>
+Received: from p10.alfaservers.com (p10.alfaservers.com [83.149.97.28])
+        by mx.google.com with ESMTP id 28si943963eye.59.2009.02.12.14.17.59;
+        Thu, 12 Feb 2009 14:18:01 -0800 (PST)
+Received-SPF: neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) client-ip=83.149.97.28;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) smtp.mail=p2presearch-bounces@listcultures.org
+Received: from localhost ([127.0.0.1]:35029 helo=p10.alfaservers.com)
+	by p10.alfaservers.com with esmtp (Exim 4.69)
+	(envelope-from <p2presearch-bounces@listcultures.org>)
+	id 1LXgo8-0004qf-CF; Thu, 12 Feb 2009 20:01:08 +0100
+Received: from [74.208.5.67] (port=46289 helo=mail.gmx.com)
+	by p10.alfaservers.com with smtp (Exim 4.69)
+	(envelope-from <satoshin@gmx.com>) id 1LXgo7-0004qZ-5H
+	for p2presearch@listcultures.org; Thu, 12 Feb 2009 20:01:07 +0100
+Received: (qmail invoked by alias); 12 Feb 2009 19:01:05 -0000
+Received: from c-68-57-205-126.hsd1.il.comcast.net (EHLO [96.207.31.1])
+	[68.57.205.126]
+	by mail.gmx.com (mp-us005) with SMTP; 12 Feb 2009 14:01:05 -0500
+X-Authenticated: #49196414
+X-Provags-ID: V01U2FsdGVkX19SLysFRLNS0yK/UkunGPD4akfgjoWH1cxUKIDMs8
+	riJui8r90BovaY
+Message-ID: <49947204.1090202@gmx.com>
+Date: Thu, 12 Feb 2009 19:01:24 +0000
+From: Satoshi Nakamoto <satoshin@gmx.com>
+User-Agent: Microsoft Outlook Express Macintosh Edition - 5.0 (1513)
+MIME-Version: 1.0
+To: Martien van Steenbergen <Martien@AardRock.COM>
+References: <4993519E.8080300@gmx.com>
+	<705E5B07-FAA9-4719-B3C3-E4854A19315D@AardRock.COM>
+In-Reply-To: <705E5B07-FAA9-4719-B3C3-E4854A19315D@AardRock.COM>
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.68
+Cc: p2presearch@listcultures.org
+Subject: Re: [p2p-research] Bitcoin open source implementation of P2P
+	currency
+X-BeenThere: p2presearch@listcultures.org
+X-Mailman-Version: 2.1.11.cp2
+Precedence: list
+List-Id: p2p research network <p2presearch_listcultures.org.listcultures.org>
+List-Unsubscribe: <http://listcultures.org/mailman/options/p2presearch_listcultures.org>,
+	<mailto:p2presearch-request@listcultures.org?subject=unsubscribe>
+List-Archive: <http://listcultures.org/pipermail/p2presearch_listcultures.org>
+List-Post: <mailto:p2presearch@listcultures.org>
+List-Help: <mailto:p2presearch-request@listcultures.org?subject=help>
+List-Subscribe: <http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org>,
+	<mailto:p2presearch-request@listcultures.org?subject=subscribe>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="windows-1252"; Format="flowed"
+Sender: p2presearch-bounces@listcultures.org
+Errors-To: p2presearch-bounces@listcultures.org
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p10.alfaservers.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - listcultures.org
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Martien van Steenbergen wrote:
+> Very interesting. Is this akin to David Chaum's anonymous digital money? =
+
+> His concept makes sure money is anonymous unless it is compromised, i.e. =
+
+> the same money spent more than once. As soon as it's compromised, the =
+
+> =91counterfeiter=92 is immediately publicly exposed.
+
+It's similar in that it uses digital signatures for coins, but different =
+
+in the approach to privacy and preventing double-spending.  The =
+
+recipient of a Bitcoin payment is able to check whether it is the first =
+
+spend or not, and second-spends are not accepted.  There isn't an =
+
+off-line mode where double-spenders are caught and shamed after the =
+
+fact, because that would require participants to have identities.
+
+To protect privacy, key pairs are used only once, with a new one for =
+
+every transaction.  The owner of a coin is just whoever has its private key.
+
+Of course, the biggest difference is the lack of a central server.  That =
+
+was the Achilles heel of Chaumian systems; when the central company shut =
+
+down, so did the currency.
+
+> Also, in bitcoin, is there a limited supply of money (that must be =
+
+> managed)? Or is money created exaclty at the moment of transaction?
+
+There is a limited supply of money.  Circulation will be 21,000,000 =
+
+coins.  Transactions only transfer ownership.
+
+Thank you for your questions,
+
+Satoshi
+
+http://www.bitcoin.org
+
+_______________________________________________
+p2presearch mailing list
+p2presearch@listcultures.org
+http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org

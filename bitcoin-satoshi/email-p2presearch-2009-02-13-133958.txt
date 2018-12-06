@@ -1,0 +1,86 @@
+Delivered-To: kanzure@gmail.com
+Received: by 10.220.76.146 with SMTP id c18cs28964vck;
+        Fri, 13 Feb 2009 13:39:58 -0800 (PST)
+Received: by 10.210.113.16 with SMTP id l16mr999171ebc.67.1234561197245;
+        Fri, 13 Feb 2009 13:39:57 -0800 (PST)
+Return-Path: <p2presearch-bounces@listcultures.org>
+Received: from p10.alfaservers.com (p10.alfaservers.com [83.149.97.28])
+        by mx.google.com with ESMTP id 5si4669295eyf.42.2009.02.13.13.39.55;
+        Fri, 13 Feb 2009 13:39:57 -0800 (PST)
+Received-SPF: neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) client-ip=83.149.97.28;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) smtp.mail=p2presearch-bounces@listcultures.org
+Received: from localhost ([127.0.0.1]:40757 helo=p10.alfaservers.com)
+	by p10.alfaservers.com with esmtp (Exim 4.69)
+	(envelope-from <p2presearch-bounces@listcultures.org>)
+	id 1LY2mz-00070p-32; Fri, 13 Feb 2009 19:29:25 +0100
+Received: from [74.208.5.67] (port=32849 helo=mail.gmx.com)
+	by p10.alfaservers.com with smtp (Exim 4.69)
+	(envelope-from <satoshin@gmx.com>) id 1LY2mx-00070d-Ih
+	for p2presearch@listcultures.org; Fri, 13 Feb 2009 19:29:23 +0100
+Received: (qmail invoked by alias); 13 Feb 2009 18:29:23 -0000
+Received: from obelix.traeff.ch (EHLO [96.207.31.1]) [78.46.64.75]
+	by mail.gmx.com (mp-us004) with SMTP; 13 Feb 2009 13:29:23 -0500
+X-Authenticated: #49196414
+X-Provags-ID: V01U2FsdGVkX19rGcUV/klr8WiKvvk5YiOtgCxiUEWNQpeaagUmyX
+	9mIUrtMkkP0xWl
+Message-ID: <4995BC19.80801@gmx.com>
+Date: Fri, 13 Feb 2009 18:29:45 +0000
+From: Satoshi Nakamoto <satoshin@gmx.com>
+User-Agent: Microsoft Outlook Express Macintosh Edition - 5.0 (1513)
+MIME-Version: 1.0
+To: Michel Bauwens <michelsub2004@gmail.com>
+References: <4993519E.8080300@gmx.com>	
+	<705E5B07-FAA9-4719-B3C3-E4854A19315D@AardRock.COM>	
+	<49947204.1090202@gmx.com>	
+	<FA4C2BB9-0CE3-4B47-A14B-66262DF9F576@AardRock.COM>	
+	<4994DB78.5080602@gmx.com>
+	<c776300b0902122212i31f07f72ld037a2f4a44d547c@mail.gmail.com>
+In-Reply-To: <c776300b0902122212i31f07f72ld037a2f4a44d547c@mail.gmail.com>
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.78
+Cc: p2presearch@listcultures.org
+Subject: Re: [p2p-research] Bitcoin open source implementation of P2P
+	currency
+X-BeenThere: p2presearch@listcultures.org
+X-Mailman-Version: 2.1.11.cp2
+Precedence: list
+List-Id: p2p research network <p2presearch_listcultures.org.listcultures.org>
+List-Unsubscribe: <http://listcultures.org/mailman/options/p2presearch_listcultures.org>,
+	<mailto:p2presearch-request@listcultures.org?subject=unsubscribe>
+List-Archive: <http://listcultures.org/pipermail/p2presearch_listcultures.org>
+List-Post: <mailto:p2presearch@listcultures.org>
+List-Help: <mailto:p2presearch-request@listcultures.org?subject=help>
+List-Subscribe: <http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org>,
+	<mailto:p2presearch-request@listcultures.org?subject=subscribe>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="us-ascii"; Format="flowed"
+Sender: p2presearch-bounces@listcultures.org
+Errors-To: p2presearch-bounces@listcultures.org
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p10.alfaservers.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - listcultures.org
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Michel Bauwens wrote:
+> how operational is your project? how soon do you think people will be 
+> able to use it in real life?
+
+It's fully operational and the network is growing.  If you try the 
+software, e-mail me your Bitcoin address and I'll send you a few coins.
+
+We just need to spread the word and keep getting more people interested.
+
+I'll forward the release introduction in the next message.
+
+Satoshi
+
+http://www.bitcoin.org
+
+_______________________________________________
+p2presearch mailing list
+p2presearch@listcultures.org
+http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org

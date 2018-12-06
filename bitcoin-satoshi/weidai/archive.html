@@ -1,0 +1,1370 @@
+
+<!DOCTYPE html>
+
+
+
+
+
+
+<!-- HEADER -->
+<html>
+	
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/weidai/archive.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 00:07:58 GMT -->
+<head>
+		<title>Internet Archive Wayback Machine</title>
+        <script type="text/javascript" src="../../../../static/js/analytics.html" ></script>
+        <script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app11.us.archive.org"; }</script>
+
+        <script> if (window.archive_analytics) { window.archive_analytics.values['server_ms'] = "187"; }</script>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../../../static/css/styles.html" />
+		<base target="_top" />
+	</head>
+	<body>
+<!-- /HEADER -->
+
+
+<script type="text/javascript" src="../../../../static/js/jquery-1.4.2.min.html"></script>
+<script type="text/javascript" src="../../../../static/js/jquery.dataTables.min.html" charset="utf-8"></script>
+<script type="text/javascript">
+$().ready(function(){
+    $('#resultsUrl th.url span').html('&nbsp;&uarr;');
+    $('#resultsUrl th').mouseup(function(){
+                $('#resultsUrl th span').html('');
+                $(this).find('span').html('&nbsp;&uarr;');            
+                if ($(this).hasClass('sorting_asc')) {
+                    $(this).find('span').html('&nbsp;&darr;');
+                } else if ($(this).hasClass('sorting_desc')) {
+                    $(this).find('span').html('&nbsp;&uarr;');
+                };
+            });
+           var rowCount = $('#resultsUrl tbody tr').length;
+            if (rowCount < 50) {
+                $('#resultsUrl').dataTable({
+                    "bProcessing": true,
+                    "aoColumns": [{"sType":"html"},{"sType":"date"},{"sType":"date"},null,null,null],
+                    "aaSorting": [ [0,'asc'] ],
+                    "bPaginate": false,
+                    "bInfo": false,
+                    "bFilter": true,
+                    "bStateSave": true,
+                    "bAutoWidth": false,
+                    "oLanguage": {
+                        "sSearch": "Filter results (i.e. '.txt'):"
+                    }
+                });
+            } else {
+                $('#resultsUrl').dataTable({
+                    "bProcessing": true,
+                    "aoColumns": [{"sType":"html"},{"sType":"date"},{"sType":"date"},null,null,null],
+                    "aaSorting": [ [0,'asc'] ],
+                    "bPaginate": true,
+                    "bInfo": true,
+                    "sPaginationType": "full_numbers",
+                    "bFilter": true,
+                    "bStateSave": true,
+                    "bAutoWidth": false,
+                    "oLanguage": {
+                        "sSearch": "Filter results (i.e. '.txt'):"
+                    },
+                    "iDisplayLength": 50
+                });
+            }
+        });
+</script>
+        <div id="positionHome">
+            <section>
+            <div id="logoHome">
+                <a href="http://diyhpl.us/index.jsp"><h1><span>Internet Archive's Wayback Machine</span></h1></a>
+            </div>
+            </section>
+            <section>
+            <div id="searchHome">
+                <form name="form1" method="get" action="http://diyhpl.us/web/form-submit.jsp">
+					<input type="hidden" name="type" value="urlquery">
+					<input type="text" name="url" value="http://" size="40" onfocus="javascript:this.focus();this.select();" >
+                    <button type="submit" name="Submit">Go Wayback!</button>
+                </form>
+                <!--
+		<div id="searchAdvHome">
+                    <a href="[ADVANCED SEARCH]">Advanced Search</a>
+                </div>
+		-->
+            </div>
+            </section>
+        </div>
+        <div id="positionTable">
+
+        <h2 class="green">103 URLs have been captured for this domain.</h2>
+
+    <table id="resultsUrl">
+        <thead>
+            <tr>
+                <th class="url">URL<span></span></th>
+                <th>From<span></span></th>
+                <th>To<span></span></th>
+                <th>Captures<span></span></th>
+                <th>Duplicates<span></span></th>
+                <th>Uniques<span></span></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252F&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/</a>
+                </td>
+                <td class="dateFrom">Feb 17, 2001</td>
+                <td class="dateTo">Feb 8, 2014</td>
+                <td class="captures">138</td>
+                <td class="dupes">117</td>
+                <td class="uniques">21</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Falgorithms.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/algorithms.html</a>
+                </td>
+                <td class="dateFrom">Dec 6, 2006</td>
+                <td class="dateTo">Jan 7, 2009</td>
+                <td class="captures">16</td>
+                <td class="dupes">13</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Famd64-benchmarks.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/amd64-benchmarks.html</a>
+                </td>
+                <td class="dateFrom">Dec 15, 2006</td>
+                <td class="dateTo">Jan 3, 2013</td>
+                <td class="captures">7</td>
+                <td class="dupes">3</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%252Fb-money.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com/b-money.txt</a>
+                </td>
+                <td class="dateFrom">Aug 19, 2011</td>
+                <td class="dateTo">Aug 19, 2011</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fbenchmarks.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/benchmarks.html</a>
+                </td>
+                <td class="dateFrom">Apr 29, 2001</td>
+                <td class="dateTo">Oct 27, 2005</td>
+                <td class="captures">11</td>
+                <td class="dupes">7</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fbenchmarks.html.&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/benchmarks.html.</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2005</td>
+                <td class="dateTo">Mar 26, 2005</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fblack-holes.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/black-holes.txt</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Apr 24, 2013</td>
+                <td class="captures">20</td>
+                <td class="dupes">15</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fbmoney.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/bmoney.txt</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Feb 9, 2014</td>
+                <td class="captures">53</td>
+                <td class="dupes">47</td>
+                <td class="uniques">6</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211174337');" href="http://diyhpl.us/web/20061211174337/http://www.weidai.com/borland5.txt">http://www.weidai.com:80/borland5.txt</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061215095034');" href="http://diyhpl.us/web/20061215095034/http://www.weidai.com/cryptlib.html">http://www.weidai.com:80/cryptlib.html</a>
+                </td>
+                <td class="dateFrom">Dec 15, 2006</td>
+                <td class="dateTo">Dec 15, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061202010410');" href="http://diyhpl.us/web/20061202010410/http://www.weidai.com/cryptlib.html%23download">http://www.weidai.com:80/cryptlib.html%23download</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Dec 2, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fcryptlib.html%252523platforms&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/cryptlib.html%23platforms</a>
+                </td>
+                <td class="dateFrom">Nov 30, 2006</td>
+                <td class="dateTo">Dec 1, 2006</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fcryptlib.html%2525cf%2525c2%2525d4%2525d8%2525a1%2525a3&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/cryptlib.html%cf%c2%d4%d8%a1%a3</a>
+                </td>
+                <td class="dateFrom">Nov 30, 2006</td>
+                <td class="dateTo">Dec 1, 2006</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fcryptlib.v42.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/cryptlib.v42.html</a>
+                </td>
+                <td class="dateFrom">Dec 1, 2006</td>
+                <td class="dateTo">Sep 23, 2007</td>
+                <td class="captures">4</td>
+                <td class="dupes">2</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175611');" href="http://diyhpl.us/web/20061211175611/http://www.weidai.com/crypto++.v32.mcp.sit">http://www.weidai.com:80/crypto++.v32.mcp.sit</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061213233250');" href="http://diyhpl.us/web/20061213233250/http://www.weidai.com/crypto++.v41.mcp.zip">http://www.weidai.com:80/crypto++.v41.mcp.zip</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Dec 13, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061212042542');" href="http://diyhpl.us/web/20061212042542/http://www.weidai.com/crypto++.v50.mcp.zip">http://www.weidai.com:80/crypto++.v50.mcp.zip</a>
+                </td>
+                <td class="dateFrom">Dec 12, 2006</td>
+                <td class="dateTo">Dec 12, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175152');" href="http://diyhpl.us/web/20061211175152/http://www.weidai.com/crypto42.zip">http://www.weidai.com:80/crypto42.zip</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211174923');" href="http://diyhpl.us/web/20061211174923/http://www.weidai.com/crypto42darwinpatch">http://www.weidai.com:80/crypto42darwinpatch</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175134');" href="http://diyhpl.us/web/20061211175134/http://www.weidai.com/crypto42gcc33patch">http://www.weidai.com:80/crypto42gcc33patch</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175446');" href="http://diyhpl.us/web/20061211175446/http://www.weidai.com/crypto42vsnet2003patch">http://www.weidai.com:80/crypto42vsnet2003patch</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061212042438');" href="http://diyhpl.us/web/20061212042438/http://www.weidai.com/crypto50fixes-20030310">http://www.weidai.com:80/crypto50fixes-20030310</a>
+                </td>
+                <td class="dateFrom">Dec 12, 2006</td>
+                <td class="dateTo">Dec 12, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175342');" href="http://diyhpl.us/web/20061211175342/http://www.weidai.com/crypto50vsnet2003patch">http://www.weidai.com:80/crypto50vsnet2003patch</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175646');" href="http://diyhpl.us/web/20061211175646/http://www.weidai.com/crypto52.zip">http://www.weidai.com:80/crypto52.zip</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061213233148');" href="http://diyhpl.us/web/20061213233148/http://www.weidai.com/cw6-crypto++.mcp.sit">http://www.weidai.com:80/cw6-crypto++.mcp.sit</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Dec 13, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20080607073403');" href="http://diyhpl.us/web/20080607073403/http://www.weidai.com/everything">http://www.weidai.com:80/everything</a>
+                </td>
+                <td class="dateFrom">Jun 7, 2008</td>
+                <td class="dateTo">Jun 7, 2008</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Feverything.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/everything.html</a>
+                </td>
+                <td class="dateFrom">Feb 17, 2001</td>
+                <td class="dateTo">Oct 21, 2013</td>
+                <td class="captures">36</td>
+                <td class="dupes">27</td>
+                <td class="uniques">9</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fweidai.com%252Ffavicon.ico&amp;count=150000&amp;start_page=1">http://weidai.com/favicon.ico</a>
+                </td>
+                <td class="dateFrom">Feb 7, 2011</td>
+                <td class="dateTo">Feb 8, 2014</td>
+                <td class="captures">40</td>
+                <td class="dupes">35</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Ffilters.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/filters.gif</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Dec 9, 2006</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fweidai.com%253A80%252Ffitness%252Fadhoc.cpp&amp;count=150000&amp;start_page=1">http://weidai.com:80/fitness/adhoc.cpp</a>
+                </td>
+                <td class="dateFrom">Jun 25, 2011</td>
+                <td class="dateTo">Dec 9, 2011</td>
+                <td class="captures">4</td>
+                <td class="dupes">0</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fweidai.com%253A80%252Ffitness%252Ffitness.htm&amp;count=150000&amp;start_page=1">http://weidai.com:80/fitness/fitness.htm</a>
+                </td>
+                <td class="dateFrom">Jun 25, 2011</td>
+                <td class="dateTo">Jan 7, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">0</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20111218231959');" href="../../../../web/20111218231959/http_/www.weidai.com/fitness/plot3.html">http://www.weidai.com/fitness/plot3.png</a>
+                </td>
+                <td class="dateFrom">Dec 18, 2011</td>
+                <td class="dateTo">Dec 18, 2011</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061211175205');" href="http://diyhpl.us/web/20061211175205/http://www.weidai.com/forte6.txt">http://www.weidai.com:80/forte6.txt</a>
+                </td>
+                <td class="dateFrom">Dec 11, 2006</td>
+                <td class="dateTo">Dec 11, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Ffreedom-attacks.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/freedom-attacks.txt</a>
+                </td>
+                <td class="dateFrom">Jun 16, 2007</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">12</td>
+                <td class="dupes">7</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061215095511');" href="http://diyhpl.us/web/20061215095511/http://www.weidai.com/index.html">http://www.weidai.com:80/index.html</a>
+                </td>
+                <td class="dateFrom">Dec 15, 2006</td>
+                <td class="dateTo">Dec 15, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252FLicense.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/License.txt</a>
+                </td>
+                <td class="dateFrom">Nov 30, 2006</td>
+                <td class="dateTo">Dec 1, 2006</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Flucas.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/lucas.html</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">25</td>
+                <td class="dupes">19</td>
+                <td class="uniques">6</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fmeasuring.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/measuring.txt</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">18</td>
+                <td class="dupes">13</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fmix-net.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/mix-net.txt</a>
+                </td>
+                <td class="dateFrom">Dec 12, 2006</td>
+                <td class="dateTo">Feb 7, 2012</td>
+                <td class="captures">13</td>
+                <td class="dupes">8</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070730111146');" href="http://diyhpl.us/web/20070730111146/http://www.weidai.com/mix-net.txt%7d%7d">http://www.weidai.com/mix-net.txt%7d%7d</a>
+                </td>
+                <td class="dateFrom">Jul 30, 2007</td>
+                <td class="dateTo">Jul 30, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fmonopoly-memory.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/monopoly-memory.txt</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">14</td>
+                <td class="dupes">10</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20080611081150');" href="http://diyhpl.us/web/20080611081150/http://www.weidai.com/pipenet.html">http://www.weidai.com:80/pipenet.html</a>
+                </td>
+                <td class="dateFrom">Jun 11, 2008</td>
+                <td class="dateTo">Jun 11, 2008</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fpipenet.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/pipenet.txt</a>
+                </td>
+                <td class="dateFrom">Apr 13, 2001</td>
+                <td class="dateTo">Nov 18, 2013</td>
+                <td class="captures">36</td>
+                <td class="dupes">30</td>
+                <td class="uniques">6</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20090107222813');" href="http://diyhpl.us/web/20090107222813/http://www.weidai.com/pipenet.txt%7D">http://www.weidai.com:80/pipenet.txt%7D</a>
+                </td>
+                <td class="dateFrom">Jan 7, 2009</td>
+                <td class="dateTo">Jan 7, 2009</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fpubkey.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/pubkey.txt</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Dec 21, 2013</td>
+                <td class="captures">13</td>
+                <td class="dupes">9</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fqm-interpretation.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/qm-interpretation.txt</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">19</td>
+                <td class="dupes">13</td>
+                <td class="uniques">6</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Frobots.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/robots.txt</a>
+                </td>
+                <td class="dateFrom">Nov 3, 2001</td>
+                <td class="dateTo">Feb 9, 2014</td>
+                <td class="captures">1003</td>
+                <td class="dupes">967</td>
+                <td class="uniques">36</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252F&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/</a>
+                </td>
+                <td class="dateFrom">Mar 22, 2007</td>
+                <td class="dateTo">May 9, 2013</td>
+                <td class="captures">9</td>
+                <td class="dupes">4</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070222045656');" href="http://diyhpl.us/web/20070222045656/http://www.weidai.com/scan-mirror/algs/md5crypt.txt">http://www.weidai.com:80/scan-mirror/algs/md5crypt.txt</a>
+                </td>
+                <td class="dateFrom">Feb 22, 2007</td>
+                <td class="dateTo">Feb 22, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095641');" href="http://diyhpl.us/web/20070220095641/http://www.weidai.com/scan-mirror/ap.html">http://www.weidai.com:80/scan-mirror/ap.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fapg.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/apg.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Aug 25, 2007</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fca.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/ca.html</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2001</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">51</td>
+                <td class="dupes">42</td>
+                <td class="uniques">9</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061202010536');" href="http://diyhpl.us/web/20061202010536/http://www.weidai.com/scan-mirror/ca.html%23cem_OAEP-MGF1">http://www.weidai.com:80/scan-mirror/ca.html%23cem_OAEP-MGF1</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Dec 2, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20061202010446');" href="http://diyhpl.us/web/20061202010446/http://www.weidai.com/scan-mirror/ca.html%23RSA">http://www.weidai.com:80/scan-mirror/ca.html%23RSA</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Dec 2, 2006</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%252Fscan-mirror%252Fcacute.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com/scan-mirror/cacute.gif</a>
+                </td>
+                <td class="dateFrom">Feb 8, 2012</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%252Fscan-mirror%252Fchi.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com/scan-mirror/chi.gif</a>
+                </td>
+                <td class="dateFrom">Feb 8, 2012</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095653');" href="http://diyhpl.us/web/20070220095653/http://www.weidai.com/scan-mirror/conventions.html">http://www.weidai.com:80/scan-mirror/conventions.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fcryptix-s.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/cryptix-s.gif</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fcryptix.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/cryptix.gif</a>
+                </td>
+                <td class="dateFrom">Jan 11, 2007</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fcs.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/cs.html</a>
+                </td>
+                <td class="dateFrom">Feb 24, 2001</td>
+                <td class="dateTo">May 14, 2013</td>
+                <td class="captures">44</td>
+                <td class="dupes">35</td>
+                <td class="uniques">9</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095419');" href="http://diyhpl.us/web/20070220095419/http://www.weidai.com/scan-mirror/csi.html">http://www.weidai.com:80/scan-mirror/csi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095745');" href="http://diyhpl.us/web/20070220095745/http://www.weidai.com/scan-mirror/csk.html">http://www.weidai.com:80/scan-mirror/csk.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095757');" href="http://diyhpl.us/web/20070220095757/http://www.weidai.com/scan-mirror/csm.html">http://www.weidai.com:80/scan-mirror/csm.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fcsp.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/csp.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">May 16, 2013</td>
+                <td class="captures">3</td>
+                <td class="dupes">0</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095618');" href="http://diyhpl.us/web/20070220095618/http://www.weidai.com/scan-mirror/dem.html">http://www.weidai.com:80/scan-mirror/dem.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095830');" href="http://diyhpl.us/web/20070220095830/http://www.weidai.com/scan-mirror/demi.html">http://www.weidai.com:80/scan-mirror/demi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070222074530');" href="../../../../web/20070222074530/http_/www.weidai.com/scan-mirror/getacro.html">http://www.weidai.com:80/scan-mirror/getacro.gif</a>
+                </td>
+                <td class="dateFrom">Feb 22, 2007</td>
+                <td class="dateTo">Feb 22, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Findex.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/index.html</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2007</td>
+                <td class="dateTo">Jul 30, 2007</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fintro.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/intro.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Apr 18, 2012</td>
+                <td class="captures">8</td>
+                <td class="dupes">3</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252FISAAC-64-BE&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/ISAAC-64-BE</a>
+                </td>
+                <td class="dateFrom">Feb 24, 2008</td>
+                <td class="dateTo">Feb 12, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252FISAAC-BE&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/ISAAC-BE</a>
+                </td>
+                <td class="dateFrom">Feb 19, 2008</td>
+                <td class="dateTo">Feb 12, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fka.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/ka.html</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2001</td>
+                <td class="dateTo">May 14, 2013</td>
+                <td class="captures">41</td>
+                <td class="dupes">31</td>
+                <td class="uniques">10</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095538');" href="http://diyhpl.us/web/20070220095538/http://www.weidai.com/scan-mirror/kf.html">http://www.weidai.com:80/scan-mirror/kf.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070223085610');" href="http://diyhpl.us/web/20070223085610/http://www.weidai.com/scan-mirror/kg.html">http://www.weidai.com:80/scan-mirror/kg.html</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2007</td>
+                <td class="dateTo">Feb 23, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fkpg.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/kpg.html</a>
+                </td>
+                <td class="dateFrom">Feb 22, 2007</td>
+                <td class="dateTo">Apr 18, 2012</td>
+                <td class="captures">6</td>
+                <td class="dupes">3</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Flist.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/list.html</a>
+                </td>
+                <td class="dateFrom">Feb 17, 2007</td>
+                <td class="dateTo">Jul 1, 2013</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fmac.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/mac.html</a>
+                </td>
+                <td class="dateFrom">Feb 28, 2001</td>
+                <td class="dateTo">May 14, 2013</td>
+                <td class="captures">41</td>
+                <td class="dupes">31</td>
+                <td class="uniques">10</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fmac.XMAC&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/mac.XMAC</a>
+                </td>
+                <td class="dateFrom">Apr 28, 2001</td>
+                <td class="dateTo">Mar 26, 2005</td>
+                <td class="captures">16</td>
+                <td class="dupes">10</td>
+                <td class="uniques">6</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fmaci.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/maci.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Jul 30, 2007</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fmd.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/md.html</a>
+                </td>
+                <td class="dateFrom">Feb 28, 2001</td>
+                <td class="dateTo">Mar 11, 2014</td>
+                <td class="captures">48</td>
+                <td class="dupes">37</td>
+                <td class="uniques">11</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095807');" href="http://diyhpl.us/web/20070220095807/http://www.weidai.com/scan-mirror/mdi.html">http://www.weidai.com:80/scan-mirror/mdi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fph.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/ph.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 12, 2012</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095547');" href="http://diyhpl.us/web/20070220095547/http://www.weidai.com/scan-mirror/phi.html">http://www.weidai.com:80/scan-mirror/phi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%252Fscan-mirror%252Fpi.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com/scan-mirror/pi.gif</a>
+                </td>
+                <td class="dateFrom">Feb 8, 2012</td>
+                <td class="dateTo">Jun 26, 2013</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070730111146');" href="http://diyhpl.us/web/20070730111146/http://www.weidai.com/scan-mirror/pknss.html">http://www.weidai.com/scan-mirror/pknss.html</a>
+                </td>
+                <td class="dateFrom">Jul 30, 2007</td>
+                <td class="dateTo">Jul 30, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fprf.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/prf.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fprfi.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/prfi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252FSAFER%252B%252B&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/SAFER++</a>
+                </td>
+                <td class="dateFrom">Feb 24, 2008</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070226015145');" href="http://diyhpl.us/web/20070226015145/http://www.weidai.com/scan-mirror/scan.zip">http://www.weidai.com:80/scan-mirror/scan.zip</a>
+                </td>
+                <td class="dateFrom">Feb 26, 2007</td>
+                <td class="dateTo">Feb 26, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252FSEAL-3.0-BE&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/SEAL-3.0-BE</a>
+                </td>
+                <td class="dateFrom">Feb 24, 2008</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fsig.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/sig.html</a>
+                </td>
+                <td class="dateFrom">Feb 23, 2001</td>
+                <td class="dateTo">May 14, 2013</td>
+                <td class="captures">48</td>
+                <td class="dupes">38</td>
+                <td class="uniques">10</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095819');" href="http://diyhpl.us/web/20070220095819/http://www.weidai.com/scan-mirror/sr.html">http://www.weidai.com:80/scan-mirror/sr.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095516');" href="http://diyhpl.us/web/20070220095516/http://www.weidai.com/scan-mirror/sri.html">http://www.weidai.com:80/scan-mirror/sri.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070222075153');" href="http://diyhpl.us/web/20070222075153/http://www.weidai.com/scan-mirror/suggestions.html">http://www.weidai.com:80/scan-mirror/suggestions.html</a>
+                </td>
+                <td class="dateFrom">Feb 22, 2007</td>
+                <td class="dateTo">Feb 22, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fuh.html&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/uh.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a onclick="SetAnchorDate('20070220095526');" href="http://diyhpl.us/web/20070220095526/http://www.weidai.com/scan-mirror/uhi.html">http://www.weidai.com:80/scan-mirror/uhi.html</a>
+                </td>
+                <td class="dateFrom">Feb 20, 2007</td>
+                <td class="dateTo">Feb 20, 2007</td>
+                <td class="captures">1</td>
+                <td class="dupes">0</td>
+                <td class="uniques">1</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fvcss.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/vcss.gif</a>
+                </td>
+                <td class="dateFrom">Jan 11, 2007</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252Fvh40.gif&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/vh40.gif</a>
+                </td>
+                <td class="dateFrom">Jan 11, 2007</td>
+                <td class="dateTo">Jun 25, 2013</td>
+                <td class="captures">5</td>
+                <td class="dupes">2</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fscan-mirror%252FWAKE-CFB-BE&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/scan-mirror/WAKE-CFB-BE</a>
+                </td>
+                <td class="dateFrom">Feb 24, 2008</td>
+                <td class="dateTo">Feb 13, 2012</td>
+                <td class="captures">4</td>
+                <td class="dupes">1</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%252Fsmart-losers.tx&amp;count=150000&amp;start_page=1">http://www.weidai.com/smart-losers.tx</a>
+                </td>
+                <td class="dateFrom">Jun 3, 2011</td>
+                <td class="dateTo">Jun 3, 2011</td>
+                <td class="captures">2</td>
+                <td class="dupes">0</td>
+                <td class="uniques">2</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fsmart-losers.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/smart-losers.txt</a>
+                </td>
+                <td class="dateFrom">Dec 13, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">21</td>
+                <td class="dupes">16</td>
+                <td class="uniques">5</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fssh2-attack.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/ssh2-attack.txt</a>
+                </td>
+                <td class="dateFrom">Nov 12, 2011</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">3</td>
+                <td class="dupes">0</td>
+                <td class="uniques">3</td>
+            </tr>
+    
+  
+            <tr>
+                <td class="url">
+                    <a href="http://diyhpl.us/web/query?q=type%3Aurlquery+url%3Ahttp%253A%252F%252Fwww.weidai.com%253A80%252Fstock-options.txt&amp;count=150000&amp;start_page=1">http://www.weidai.com:80/stock-options.txt</a>
+                </td>
+                <td class="dateFrom">Dec 2, 2006</td>
+                <td class="dateTo">Apr 25, 2013</td>
+                <td class="captures">16</td>
+                <td class="dupes">12</td>
+                <td class="uniques">4</td>
+            </tr>
+    
+  
+        </tbody>
+    </table>
+        
+
+
+
+
+
+<!-- FOOTER -->
+            <footer>
+            <div id="footerHome">
+                <p>The Wayback Machine is an initiative of the <a href="http://www.archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form.<br/>Other <a href="http://www.archive.org/projects/">projects</a> include <a href="http://www.openlibrary.org/">Open Library</a> &amp; <a href="http://www.archive-it.org/">archive-it.org</a>.</p>
+                <p>Your use of the Wayback Machine is subject to the Internet Archive's <a href="http://www.archive.org/about/terms.php">Terms of Use</a>.</p>
+            </div>
+            </section>
+        </div>
+    </body>
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/weidai/archive.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 00:07:58 GMT -->
+</html>
+<!-- /FOOTER -->

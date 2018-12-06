@@ -1,0 +1,11 @@
+p2presearch inherited its members from p2p-hackers
+p2p-hackers might be from decentralization@yahoogroups.com or decentralization@egroups.com
+
+bluesky (wei dai's list) (unc.edu?)
+transarc/ota bluesky
+p2p-hackers@zgp.org (zooko's list)
+cypherpunks (many)
+freenet mailing list
+p2prg@ietf.org
+p2presearch (p2pfoundation)
+eternity list (adam back)

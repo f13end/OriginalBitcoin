@@ -1,0 +1,120 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: kanzure@gmail.com
+Received: by 10.220.74.207 with SMTP id v15cs6742vcj;
+        Wed, 11 Feb 2009 17:47:56 -0800 (PST)
+Received: by 10.210.18.8 with SMTP id 8mr212370ebr.198.1234403275055;
+        Wed, 11 Feb 2009 17:47:55 -0800 (PST)
+Return-Path: <p2presearch-bounces@listcultures.org>
+Received: from p10.alfaservers.com (p10.alfaservers.com [83.149.97.28])
+        by mx.google.com with ESMTP id 10si1405294eyz.50.2009.02.11.17.47.53;
+        Wed, 11 Feb 2009 17:47:55 -0800 (PST)
+Received-SPF: neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) client-ip=83.149.97.28;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 83.149.97.28 is neither permitted nor denied by best guess record for domain of p2presearch-bounces@listcultures.org) smtp.mail=p2presearch-bounces@listcultures.org
+Received: from localhost ([127.0.0.1]:53828 helo=p10.alfaservers.com)
+    by p10.alfaservers.com with esmtp (Exim 4.69)
+    (envelope-from <p2presearch-bounces@listcultures.org>)
+    id 1LXNbU-0008PH-Eg; Wed, 11 Feb 2009 23:30:48 +0100
+Received: from [74.208.5.67] (port=48356 helo=mail.gmx.com)
+    by p10.alfaservers.com with smtp (Exim 4.69)
+    (envelope-from <satoshin@gmx.com>) id 1LXNbS-0008PB-Mo
+    for p2presearch@listcultures.org; Wed, 11 Feb 2009 23:30:46 +0100
+Received: (qmail invoked by alias); 11 Feb 2009 22:30:42 -0000
+Received: from tor.viol8r.org (EHLO [96.207.31.1]) [66.35.0.170]
+    by mail.gmx.com (mp-us002) with SMTP; 11 Feb 2009 17:30:42 -0500
+X-Authenticated: #49196414
+X-Provags-ID: V01U2FsdGVkX19e+Ap4GQxesGqstjv5ikuEmTKlzgTzLXTXpSvKUJ
+    48uXV43fVjxyKm
+Message-ID: <4993519E.8080300@gmx.com>
+Date: Wed, 11 Feb 2009 22:30:54 +0000
+From: Satoshi Nakamoto <satoshin@gmx.com>
+User-Agent: Microsoft Outlook Express Macintosh Edition - 5.0 (1513)
+MIME-Version: 1.0
+To: p2presearch@listcultures.org
+X-Y-GMX-Trusted: 0
+X-FuHaFi: 0.66
+Subject: [p2p-research] Bitcoin open source implementation of P2P currency
+X-BeenThere: p2presearch@listcultures.org
+X-Mailman-Version: 2.1.11.cp2
+Precedence: list
+List-Id: p2p research network <p2presearch_listcultures.org.listcultures.org>
+List-Unsubscribe: <http://listcultures.org/mailman/options/p2presearch_listcultures.org>,
+    <mailto:p2presearch-request@listcultures.org?subject=unsubscribe>
+List-Archive: <http://listcultures.org/pipermail/p2presearch_listcultures.org>
+List-Post: <mailto:p2presearch@listcultures.org>
+List-Help: <mailto:p2presearch-request@listcultures.org?subject=help>
+List-Subscribe: <http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org>,
+    <mailto:p2presearch-request@listcultures.org?subject=subscribe>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="us-ascii"; Format="flowed"
+Sender: p2presearch-bounces@listcultures.org
+Errors-To: p2presearch-bounces@listcultures.org
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p10.alfaservers.com
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - listcultures.org
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+I've developed a new open source P2P e-cash system called Bitcoin.  It's 
+completely decentralized, with no central server or trusted parties, 
+because everything is based on crypto proof instead of trust.  Give it a 
+try, or take a look at the screenshots and design paper:
+
+Download Bitcoin v0.1 at http://www.bitcoin.org
+
+The root problem with conventional currency is all the trust that's 
+required to make it work.  The central bank must be trusted not to 
+debase the currency, but the history of fiat currencies is full of 
+breaches of that trust.  Banks must be trusted to hold our money and 
+transfer it electronically, but they lend it out in waves of credit 
+bubbles with barely a fraction in reserve.  We have to trust them with 
+our privacy, trust them not to let identity thieves drain our accounts. 
+  Their massive overhead costs make micropayments impossible.
+
+A generation ago, multi-user time-sharing computer systems had a similar 
+problem.  Before strong encryption, users had to rely on password 
+protection to secure their files, placing trust in the system 
+administrator to keep their information private.  Privacy could always 
+be overridden by the admin based on his judgment call weighing the 
+principle of privacy against other concerns, or at the behest of his 
+superiors.  Then strong encryption became available to the masses, and 
+trust was no longer required.  Data could be secured in a way that was 
+physically impossible for others to access, no matter for what reason, 
+no matter how good the excuse, no matter what.
+
+It's time we had the same thing for money.  With e-currency based on 
+cryptographic proof, without the need to trust a third party middleman, 
+money can be secure and transactions effortless.
+
+One of the fundamental building blocks for such a system is digital 
+signatures.  A digital coin contains the public key of its owner.  To 
+transfer it, the owner signs the coin together with the public key of 
+the next owner.  Anyone can check the signatures to verify the chain of 
+ownership.  It works well to secure ownership, but leaves one big 
+problem unsolved: double-spending.  Any owner could try to re-spend an 
+already spent coin by signing it again to another owner.  The usual 
+solution is for a trusted company with a central database to check for 
+double-spending, but that just gets back to the trust model.  In its 
+central position, the company can override the users, and the fees 
+needed to support the company make micropayments impractical.
+
+Bitcoin's solution is to use a peer-to-peer network to check for 
+double-spending.  In a nutshell, the network works like a distributed 
+timestamp server, stamping the first transaction to spend a coin.  It 
+takes advantage of the nature of information being easy to spread but 
+hard to stifle.  For details on how it works, see the design paper at 
+http://www.bitcoin.org/bitcoin.pdf
+
+The result is a distributed system with no single point of failure. 
+Users hold the crypto keys to their own money and transact directly with 
+each other, with the help of the P2P network to check for double-spending.
+
+Satoshi Nakamoto
+http://www.bitcoin.org
+
+_______________________________________________
+p2presearch mailing list
+p2presearch@listcultures.org
+http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org

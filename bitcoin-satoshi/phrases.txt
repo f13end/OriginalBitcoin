@@ -1,0 +1,100 @@
+neighbour
+In a nutshell,
+Windows, and now Linux version available
+adjudicate
+Fortunately,
+sopping
+reorgs
+carding scheme
+optimisation
+synchronisation
+Paper cheques
+shenanigans
+The only way for everyone to stay on the same page is to believe
+stay on the same page
+only way
+detailed spec
+The fact that
+somehow,
+peer-to-peer (but also spells it as P2P)
+Gnutella
+Tor
+the good guys
+are then the "honest nodes".  (I need a better term than "honest")  The more smaller
+much money trying to pull a carding scheme like that
+Visa processed 37 billion transactions in FY2008
+or the size of 12 DVD or 2 HD quality movies
+the Internet
+it would be left more and more to
+LAN
+400 bytes
+1KB
+12KB
+(ECC is nicely compact)
+ECC
+, so lets say 1KB per transaction.
+so lets say
+At first,
+proof-of-work
+third party (never "third-party")
+middleman
+Long before the network gets anywhere near as large as that,
+anywhere near as large
+gets anywhere near
+allotted
+It's not pseudonymous in the sense of nyms identifying people,
+sock puppets
+nyms
+fairly satisfactorily
+shunt it off
+optimise
+more error prone
+help protect against
+This is why people
+just say
+stochastic approximation
+Think 6 degrees of freedom -- it spreads exponentially.
+According to the "long tail" theory,
+wait till it ships,
+I don't think
+Governments are good at cutting off the heads of a centrally controlled networks like 
+The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
+Leading zeroes encoded as base58 zeros
+// Get merkle branch if transaction was found in a block
+shunt it off to holding area until we get it
+// Don't know what it is, just say we already got one
+Base rate is 0.01 per KB
+10K (not "10k")
+// Solve subset sum by stochastic approximation
+// Check that enough fee is included
+// Blocks are appended to blk0001.dat files on disk.  Their location on disk
+, i.e.
+// Prevent from relaying cancel if wasn't subscribed
+//// todo: start one thread per processor, use getenv("NUMBER_OF_PROCESSORS")
+// This is why people hate C++
+// I'm not sure if this should
+serializing to anything that looks like a stream
+// Thanks to Boost serialization for this idea.
+// MSVC8 default copy constructor is broken
+// Workaround until upgrade to wxWidgets supporting UTF-8
+// "Never go to sea with two chronometers; take one or three."
+// I'd rather be careful than suffer the other more error prone
+// The compiler will optimise away all this loop junk.
+// Randomize the stack to help protect against buffer overrun exploits
+that would be great.
+, but I'll look into it.
+the command line to run it is:
+the to-do list
+functionality
+Multi-processor support
+portscan
+SSLing
+DPI
+TOR
+agenda
+stealth stuff
+UPnP
+enabled by default
+daemon
+automation friendly
+.  Or what about an http interface on some port other than 80 to manage it with a browser?

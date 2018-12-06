@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 30
+Disallow: /index.php
+Disallow: /skins/
+Disallow: /Special:Random
+Disallow: /Special%3ARandom
+Disallow: /Special:Search
+Disallow: /Special%3ASearch
+Disallow: /Special:Recentchangeslinked/

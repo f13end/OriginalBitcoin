@@ -1,0 +1,29 @@
+bitcoin-help@vistomail.com
+    used 2009-01-25 16:45:25 see http://sourceforge.net/p/bitcoin/mailman/message/21424626/
+    bitcoin-help at vistomail dot com
+
+satoshi@vistomail.com
+satoshin@gmx.com
+bitcoin-help@vistomail.com
+
+87.251.146
+
+09:26 <+sbp> incidentally, did you notice there's an IP address hard coded into the original bitcoin code?
+09:26 <+sbp> he was using it to test some kind of irc bot on freenode
+09:26 <+kanzure> nope didn't notice that
+09:26 <+sbp> the address has been partially obfuscated, but it seems to just be a Russian proxy anyway
+09:26 <+sbp> lemme find it
+09:28 <+sbp> here:                 // :username!username@50000007.F000000B.90000002.IP JOIN :#channelname
+09:28 <+sbp> in irc.cpp
+09:28 <+sbp> so you take out the 0s and you get...
+09:28 <+sbp> .py 0x57, 0xFB, 0x92
+09:28 <+saxo> (87, 251, 146)
+09:28 <+sbp> so 87.251.146.*
+09:29 <+sbp> .t http://db-ip.com/all/87.251.146
+09:29 <+saxo> Search IP addresses
+09:29 <+sbp> "Russian Federation - Anders Telecom"
+09:30 <+sbp> Moscow addresses
+09:31 <+sbp> as far as I can tell, nobody's ever remarked on this
+09:31 <+sbp> I noticed it quite a while ago
+
+
