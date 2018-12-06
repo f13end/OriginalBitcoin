@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010992.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:23 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-October/010992.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:17 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Hackershare Time Exchange
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Hackershare%20Time%20Exchange&In-Reply-To=%3CAANLkTikAv%3DhPoSh6%3DDkNgrrpOhcvL1Oxwxdz8kShaKXg%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010991.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010993.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Hackershare Time Exchange</H1>
+    <B>Michel Bauwens</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Hackershare%20Time%20Exchange&In-Reply-To=%3CAANLkTikAv%3DhPoSh6%3DDkNgrrpOhcvL1Oxwxdz8kShaKXg%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Hackershare Time Exchange">michelsub2004 at gmail.com
+       </A><BR>
+    <I>Fri Oct 29 00:50:02 CEST 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010991.html">[p2p-research] 5 min video introducing &quot;Ripple&quot; ( &quot;credit	exchange&quot;?)
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010993.html">[p2p-research] Fwd: SOLUTIONS by Bill McKibben, Policy Reform to 350
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/date.html#10992">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/thread.html#10992">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/subject.html#10992">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/author.html#10992">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>[austin-hacker-space] Hackershare Time Exchange
+Bryan Bishop &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">kanzure at gmail.com</A>&gt; Oct 26 05:08AM -0500 ^
+
+
+---------- Forwarded message ----------
+From: Brandon Wiley &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">brandon at blanu.net</A>&gt;
+Date: Tue, Oct 26, 2010 at 12:04 AM
+Subject: [austin-hacker-space] Hackershare Time Exchange
+To: <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">austin-hacker-space at googlegroups.com</A>
+
+
+I was at the space last Friday and somehow Marshall and I got to talking
+about complimentary currencies and the Austin Time
+Exchange&lt;<A HREF="http://www.austintimeexchange.org/">http://www.austintimeexchange.org/</A>&gt;(ATEN&lt;<A HREF="http://www.austintimeexchange.org/%3E(ATEN">http://www.austintimeexchange.org/%3E(ATEN</A>&gt;).
+It's what is
+sometimes called a community skillshare or timebank.
+Basically it's a way to trade your time and skills for the time and skills
+of other people in the community. The exchange gives people a place to post
+services which are available or needed and it keeps track of time spent on
+projects through a simple ledger. So if I help you out with something for an
+hour, you can transfer to me &quot;1 hour&quot; as payment and now I have +1 and you
+have -1. All transactions are public, which gives you a way to show off that
+you're awesome and helpful. It's not really about accumulating hours since
+the overall balance will always be zero. It's just a way to keep track of
+your community give and take and it's a fun way to thank people for helping
+you out.
+
+Both ATEN and the Bay Area exchange (BACE) use a Rails app called
+OpenSourceCurrency &lt;<A HREF="http://opensourcecurrency.org/">http://opensourcecurrency.org/</A>&gt;. It has some cool
+features like OpenID for login and the OpenTransact API so you can write
+apps that talk to it. I have actually used this API in the past to make an
+app that let's you withdraw hours from your account like at an ATM machine
+and it prints QR code stamped dollars which you can trade offline. When you
+scan the QR codes it deposits those hours in your account.
+
+Well, OpenSourceCurrency runs on Heroku, so I went ahead and started an
+instance for the hacker space called
+Hackershare&lt;<A HREF="http://hackershare.heroku.com/">http://hackershare.heroku.com/</A>&gt;.
+The first purpose of this exchange is to help people find people to help
+them on projects. You can fill out a profile with your skills, make requests
+for help, post offers of assistance, and of course keep track of the hours
+of help you give and receive.
+
+The second purpose is to have another thing to hack on. All the source is on
+github and it has open APIs. I had a bunch of ideas today for cool features
+and I asked the lead developer Tom Brown about it and they're already
+working on some of them. For instance, you can now start groups, which are
+basically micro-currencies you can launch for a small group or single
+project. This could be used by committees to keep track of how much time
+people volunteer on committee projects, if anyone ever wanted to track such
+a thing. I also had an idea about setting up a prepaid dollar-denominated
+micropayment currency for consumables. I never have cash on me, but I like
+to drink sodas when I'm at the space. I'd like to pay upfront to establish a
+soda fund and then withdraw from the fund each time I drink a soda. That way
+there will be minimal transaction fees and I don't have to remember to go to
+the ATM and get change and all that hassle. Maybe there could be a QR code
+on the fridge I could scan to debit my account. The same thing could go for
+solder, etc.. So I when I think of ideas like that I sometimes try to
+implement them on top of OpenSourceCurrency because 99% of the functionality
+you want is the same for any currency such as ledgers, accounts, transaction
+logs, etc..
+
+It's up and running now at hackershare.heroku.com, so check it out if you
+want. This is a totally unofficial, just-for-fun, but fully functional demo
+we could use for stuff or not. I had a lot of fun setting it up. I only had
+to type 4 lines, but that was kind of why it was so fun. Yay cloud!
+
+
+-- 
+P2P Foundation: <A HREF="http://p2pfoundation.net/">http://p2pfoundation.net</A>  - <A HREF="http://blog.p2pfoundation.net/">http://blog.p2pfoundation.net</A>
+
+Connect: <A HREF="http://p2pfoundation.ning.com;/">http://p2pfoundation.ning.com;</A> Discuss:
+<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org</A>
+
+Updates: <A HREF="http://del.icio.us/mbauwens;">http://del.icio.us/mbauwens;</A> <A HREF="http://friendfeed.com/mbauwens;">http://friendfeed.com/mbauwens;</A>
+<A HREF="http://twitter.com/mbauwens;">http://twitter.com/mbauwens;</A> <A HREF="http://www.facebook.com/mbauwens">http://www.facebook.com/mbauwens</A>
+
+Think tank: <A HREF="http://www.asianforesightinstitute.org/index.php/eng/The-AFI">http://www.asianforesightinstitute.org/index.php/eng/The-AFI</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20101029/adfa13b8/attachment.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20101029/adfa13b8/attachment.html</A>&gt;
+</PRE>
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010991.html">[p2p-research] 5 min video introducing &quot;Ripple&quot; ( &quot;credit	exchange&quot;?)
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010993.html">[p2p-research] Fwd: SOLUTIONS by Bill McKibben, Policy Reform to 350
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/date.html#10992">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/thread.html#10992">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/subject.html#10992">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/author.html#10992">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010992.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:23 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-October/010992.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:17 GMT -->
+</html>

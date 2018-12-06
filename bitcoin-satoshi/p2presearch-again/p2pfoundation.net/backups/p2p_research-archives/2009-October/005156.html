@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005156.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:21 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-October/005156.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:42 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] The State of Solid State Hard Drives
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20The%20State%20of%20Solid%20State%20Hard%20Drives&In-Reply-To=%3C0016367b70ee5cf6920475e87046%40google.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005154.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005157.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] The State of Solid State Hard Drives</H1>
+    <B>Ryan</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20The%20State%20of%20Solid%20State%20Hard%20Drives&In-Reply-To=%3C0016367b70ee5cf6920475e87046%40google.com%3E"
+       TITLE="[p2p-research] The State of Solid State Hard Drives">rlanham1963 at gmail.com
+       </A><BR>
+    <I>Wed Oct 14 19:24:44 CEST 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005154.html">[p2p-research] p2p traffic on decline
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005157.html">[p2p-research] [Autonomo.us] ESR complains about &quot;forge&quot; lock-in
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/date.html#5156">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/thread.html#5156">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/subject.html#5156">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/author.html#5156">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>  Sent to you by Ryan via Google Reader: The State of Solid State Hard
+Drives via Coding Horror by Jeff Atwood on 10/14/09
+
+I've seen a lot of people play The Computer Performance Shell Game
+poorly. They overinvest in a fancy CPU, while pairing it with limited
+memory, a plain jane hard drive, or a generic video card. For most
+users, that fire-breathing quad-core CPU is sitting around twiddling
+its virtual thumbs most of the time. Computer performance is typically
+limited by the slowest part in your system. You'd get better overall
+performance by building a balanced system and removing bottlenecks.
+One of those key bottlenecks -- and in my experience, the one typical
+users are most likely to underestimate -- is the hard drive. I've been
+a long time advocate of having a small, fast 10,000 RPM boot drive for
+your OS and key applications, and a larger, slower secondary drive for
+storage. The two drive approach is a smart strategy, regardless of your
+budget.
+Hard drives may not be particularly sexy bits of hardware, but we're on
+the verge of a major transition point in storage hardware -- from
+physical, magnetic platters to solid state memory. I was an early solid
+state (SSD) drive adopter with my last laptop purchase, and it was a
+profound disappointment. Those first and second generation SSD drives
+turned out to be slower than their magentic equivalents, despite the
+eager promises of vendors. On top of that, they were incredibly
+expensive, and of limited capacity. Running Windows Vista on an early
+32 gigabyte SSD was an exercise in pain and frustration on so many
+levels. What's not to love? A lot.
+I eventually sold that SSD and replaced it with a traditional hard
+drive. I had grown deeply disillusioned with SSD drives. That is, until
+I read Linus Torvalds' report on the Intel X-25 SSD:
+I can't recall the last time that a new tech toy I got made such a
+dramatic difference in performance and just plain usability of a
+machine of mine.
+The whole thing just rocks. Everything performs well. You can put that
+disk in a machine, and suddenly you almost don't even need to care
+whether things were in your page cache or not. Firefox starts up pretty
+much as snappily in the cold-cache case as it does hot-cache. You can
+do package installation and big untars, and you don't even notice it,
+because your desktop doesn't get laggy or anything.
+So here's the deal: right now, don't buy any other SSD than the Intel
+ones, because as far as I can tell, all the other ones are pretty much
+inferior to the much cheaper traditional disks, unless you never do any
+writes at all (and turn off 'atime', for that matter).
+
+
+At that moment, SSD drives came of age. And by that I mean, they began
+to justify their hefty price premium at last. But that was almost a
+year ago, and even the Intel drives -- as great as they were -- had
+some teething problems. Not to mention that price and capacity were
+still ongoing concerns.
+But when Intel introduced the second generation, mainstream X25-M
+drives, that's when I knew SSDs were poised to go mainstream. Now,
+those drives are still anything but cheap, at $289 for 80 GB and $609
+for 160 GB. But they offer more performance than the original X25-E
+that Linus reviewed, at about half the price, with hardware fixes to
+address the fragmentation issue that plagued the original model.
+Intel was the only game in town for about a year, but fortunately for
+us consumers, the competition finally caught up. The new Indilinx
+controller models, such as this Crucial 128 GB SSD, are just as fast as
+the X25-M. And, best of all, they're cheaper, while also offering a
+not-insubstantial bump to 128 GB of storage!
+
+I picked this model up for $325 plus tax and shipping. And, frankly, I
+was blown away by the performance difference compared to the 300 GB
+Velociraptor I had in my system before. That drive is not exactly
+chopped liver; it's incredibly fast by magnetic platter drive
+standards. But it's beyond slow next to the latest SSDs. See for
+yourself:
+
+This is just an excerpt, browse the reviews for more detail, but I was
+astonished how often this drive (based on the Indilinx Barefoot
+controller) topped the charts. Suffice it to say, the performance
+increase is not subtle. All those little pauses while your system pulls
+some chunk of data off the hard drive? They simply cease to exist.
+How much do I like this drive? I like it so very much I bought one for
+every member of the Stack Overflow team, as a small gesture of thanks
+for enduring new feature crunch mode. I couldn't sell my old
+Velociraptor on eBay fast enough.
+In my humble opinion, $200 - $300 for a SSD is easily the most cost
+effective performance increase you can buy for a computer of anything
+remotely resembling recent vintage. Whether you prefer the 80 GB X25-M
+SSD or the 128 GB Crucial SSD, it's money well invested for people like
+us who are obsessive about how their computer performs.
+Trust me, you will feel the performance difference of a modern SSD in
+day to day computing. That's far more than I can say for most of
+today's CPU and memory upgrades. The transition from magnetic storage
+to solid state storage is nothing less than a breakthrough. It's
+already transformative; I can only imagine how fast, cheap, and large
+these drives are going to be in a few years. So, if you've ever
+wondered what performance would be like if everything was in RAM all
+the time -- well, we just got one giant step closer to that.
+[advertisement] JIRA 4 - Simplify issue tracking for everyone involved.
+Get started from $10 for 10 users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Things you can do from here:
+- Subscribe to Coding Horror using Google Reader
+- Get started using Google Reader to easily keep up with all your
+favorite sites
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20091014/a0c5c48f/attachment.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20091014/a0c5c48f/attachment.html</A>&gt;
+</PRE>
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005154.html">[p2p-research] p2p traffic on decline
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005157.html">[p2p-research] [Autonomo.us] ESR complains about &quot;forge&quot; lock-in
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/date.html#5156">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/thread.html#5156">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/subject.html#5156">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/author.html#5156">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-October/005156.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:21 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-October/005156.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:42 GMT -->
+</html>

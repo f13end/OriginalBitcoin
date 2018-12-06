@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011600.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:09 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-December/011600.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:14 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Zero information banking
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Zero%20information%20banking&In-Reply-To=%3C4D134063.6070907%40anarchism.is%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011615.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011603.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Zero information banking</H1>
+    <B>Sm&#225;ri McCarthy</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Zero%20information%20banking&In-Reply-To=%3C4D134063.6070907%40anarchism.is%3E"
+       TITLE="[p2p-research] Zero information banking">smari at anarchism.is
+       </A><BR>
+    <I>Thu Dec 23 13:28:19 CET 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011615.html">[p2p-research] [P2P-Coop] Choosing the copyfarleft for the P2P Foundation coop
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011603.html">[p2p-research] Zero information banking
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/date.html#11600">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/thread.html#11600">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/subject.html#11600">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/author.html#11600">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi all,
+
+  I've been experimenting with a line of thought to allow for p2p social
+banking with a high level of privacy, but yet limiting the possibilities
+for fraud.
+
+  The approach I'm taking is based on zero-information proofs, utilizing
+some features of public key crytpography. For example, the mechanism for
+doing a trusted transfer is as follows:
+
+&quot;&quot;&quot;
+    A - Alice's name
+    B - Bob's name
+    Sx(m) - Sign message m with x's private key
+    Ex(m) - Encrypt message m to x using his public key
+    Dx(m) - Decrypt message m using x's private key
+    Vx(m) - Verify signature of message m using x's public key
+
+        Alice wants to transfer 1000 to Bob. They want the amount of the
+transfer to be secret, but they want their transfer to be accountable so
+neither can cheat.
+    Cheating is:
+        Alice pretending not to have transferred
+        Bob pretending not to have received the money
+        Alice or Bob lying about how much was transferred
+        Replay attacks - Bob using the same transfer repeatedly, or Eve
+making Alice bankrupt by replaying the transfer
+        MITM - Eve intercepts the transfer and meddles with the amount
+or prevents it from getting to Bob
+
+        They ask Trent (the trusted server - a broker) to be a witness,
+but Trent isn't supposed to know enough about the transfer to be able to
+tell anybody how much was transferred, only that it happened and, if
+need be, he can verify which transfer it was.
+
+        [implied: transaction identities and timestamps to prevent
+replay; couldn't be bothered to work it in ;-)]
+
+    Alice creates a transfer token p = 1000 and signs it with her public
+key, Sa(p). Sends to Bob (Eb(Sa(p))).
+    Bob Va(Db(Sa(p)))
+    Bob signs and sends (Ea(Sb(Db(Eb(Sa(p)))))) = (Ea(Sb(Sa(p))) to Alice
+    Alice notifies Trent that a transfer has occurred, (Eb(Sb(Sa(p))),
+Ea(Sb(Sa(p))), A, B).
+    Trent saves this in his brokerage diary.
+    Trent starts asking Alice and Bob questions at random.
+        e.g., Trent asks Alice: What is the amount transferred
+multiplied by 400?
+                Alice responds:  Eb(p*400)
+                Trent asks Bob: What number has the amount been
+multiplied with in Eb(p*400)
+                Bob responds: Et(Db(p*400)/p)
+                Trent asks 4-5 questions like this, starting with Bob
+and Alice interchangably (or randomly). If Trent always gets the correct
+answer, he publishes a certificate:
+                        St(Eb(Sb(Sa(p))), Ea(Sb(Sa(p))), A, B)
+                Alice stores a transfer out on her ledger:
+                   (-p, St(Eb(Sb(Sa(p))), Ea(Sb(Sa(p))), A, B), A, B)
+                Bob stores a transfer in on his ledger:
+                   (p, St(Eb(Sb(Sa(p))), Ea(Sb(Sa(p))), A, B), A, B)
+&quot;&quot;&quot;
+
+This essentially allows Trent to verify that a transaction has occurred
+from Alice to Bob, and they agree on the amount transferred on both
+ends, and that nobody has tampered with the transaction... all without
+Trent ever knowing how much is being transferred. As zero information
+proofs go, this is fairly simple - the only &quot;innovation&quot; (if it could be
+called that :P) here is the use of &quot;accounting logic&quot;...
+
+Now, this is all well and good, although an early critique of this is
+that it doesn't immediately guard against collusion between Eve and
+Trent; or indeed Trent being an impostor. The inclusion of a trusted
+third party is, unfortunately, an unavoidable fact; but since it's a
+zero information proof arbitrarily many trusted parties can be included
+in the process... besides, there's an assumption here that validation of
+Trent's identity is done prima facie, and that some mechanism is used to
+enforce his trustworthiness... but what that mechanism is, I don't know.
+
+
+So, the three features needed, imo, are:
+
+ * Zero information transfers (transfer between two parties such that
+neither party can cheat, without any third party knowing how much was
+transferred) (done-ish)
+
+ * 1 bit &quot;can X pay&quot;? (one party can, given the permission of the other,
+find out whether the latter can afford to pay a certain amount, without
+being given any information about how much that party has)
+
+ * circuitous roundups (an algorithm allowing circular debt elimination;
+if A owes B and B owes C and C owes A, then the minimum of their common
+debt can be eliminated)
+
+... I haven't yet figured out if these three are sufficient for a
+complete system (assuming that we have key exchange and such out of the
+way). Probably not.
+
+For the 1 bit &quot;clearance&quot;, Alice wants to know if Bob can afford to pay
+her 1000 CryptoDollars - this is a prerequisite to her accepting a
+transaction from him, since no other entity will be able to confirm this
+[having such an entity would cause an authority disequilibrium in the
+system, which I'm trying to avoid...]. Bob can choose to show Alice his
+account (showing that you have the money is the traditional method, but
+harder in digital currencies --), but not without revealing all of the
+transfers and amounts transferred to date; or at least back until the
+previous roundup [a feature of the system].
+
+Some requirements of such a system are that
+ - Bob must give permission before Alice is allowed to learn the value
+of the bit.
+ - Bob must not be trusted to give the correct value of the bit.
+ - Trent can be asked, but only questions that he has the answer to...
+
+
+Circuitous roundups are easy in the case where a trusted party (Trent)
+has full knowledge of the system, but full information very quickly
+becomes impossible if you have a federated or truly p2p system, and we
+don't want anybody to have that much information anyway.
+
+For the record, I'm not adverse to probabilistic approaches - heck, zero
+information proofs like the one above are almost always probabilistic.
+I'm fairly sure that some would argue against having a probabilistic
+banking system, but they don't understand the law of large numbers and
+should read up on it.. ;)
+
+... to address the most obvious criticism of this, it's a very clearly
+technocratic approach with a lot of implicit faith in the idea of public
+key crypto and doesn't take human nature much into account. Well, yes.
+If I were trying to build a system to regulate human nature, it'd
+probably involve a lot of violence and be ultimately unsuccessful -
+that's not the goal. The goal is to take the currency-trade model that's
+been working well in meatspace and raise it to a level where it becomes
+independently reliable in cyberspace. The more successful such an
+attempt is, the less regulation of human behaviour is necessary to
+ensure the stability of the monetary system. &quot;Stability by design&quot;
+versus &quot;stability by policy&quot; is a good direction to go in, even if we
+can't get there.
+
+  Thoughts?
+
+  - Sm&#225;ri
+
+
+
+
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011615.html">[p2p-research] [P2P-Coop] Choosing the copyfarleft for the P2P Foundation coop
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011603.html">[p2p-research] Zero information banking
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/date.html#11600">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/thread.html#11600">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/subject.html#11600">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/author.html#11600">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-December/011600.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:09 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-December/011600.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:14 GMT -->
+</html>

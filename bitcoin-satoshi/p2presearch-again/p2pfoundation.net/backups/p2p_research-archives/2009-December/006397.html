@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006397.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:51 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006397.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:35 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Google gets into the DNS business
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Google%20gets%20into%20the%20DNS%20business&In-Reply-To=%3C20091206161956.GE1991%40nexaima.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006393.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006399.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Google gets into the DNS business</H1>
+    <B>M. Fioretti</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Google%20gets%20into%20the%20DNS%20business&In-Reply-To=%3C20091206161956.GE1991%40nexaima.net%3E"
+       TITLE="[p2p-research] Google gets into the DNS business">mfioretti at nexaima.net
+       </A><BR>
+    <I>Sun Dec  6 17:19:56 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006393.html">[p2p-research] Google gets into the DNS business
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006399.html">[p2p-research] Google gets into the DNS business
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6397">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6397">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6397">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6397">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sun, Dec 06, 2009 16:19:36 PM +0100, Eugen Leitl wrote:
+&gt;<i> 
+</I>&gt;<i> &gt; servers. Port 25 incoming (=receiving email from the Internet for
+</I>&gt;<i> 
+</I>&gt;<i> Sharing services can be typically on arbitrary ports.
+</I>
+Eugen,
+
+to the best of my knowledge, you cannot specify port numbers in mx DNS
+records. See &quot;incoming SMTP port&quot; at
+<A HREF="http://www.code-crafters.com/abilitymailserver1/smtp.html">http://www.code-crafters.com/abilitymailserver1/smtp.html</A>
+
+This means that if you run the email server at home but your
+ISP blocks port 25 incoming, other mail servers will find yours (by
+reading the mx record) but won't be able to talk with it: because they
+will try to do it through port 25 which is blocked by the ISP, and
+won't know which other port they could use.
+
+&gt;<i> &gt; Besides, any home computer is much less reliable than a server in a
+</I>&gt;<i> &gt; professional datacenter. If a fuse blows up at home and fries your
+</I>&gt;<i> &gt; computer while you're on a business trip, you're toast. And I don't
+</I>&gt;<i>
+</I>&gt;<i> If your service provider eats your data you've got not even a
+</I>&gt;<i> bricked piece of hardware to show for it.
+</I>
+All the mailboxes and configuration of my VPS mail server are already
+regularly backed up elsewhere. The probability of blackouts, hardware
+failures, hardware theft, unavailable connectivity and so on are
+orders of magnitude lower in a data center than in any private
+residence, so I'll continue to use a remote VPS. If they screw up, I
+can find another provider, get a new account and migrate there all my
+data and email management in two days. Communication privacy would
+really exist only if it were possible to only use crypted email for
+all personal messages, but that is still impossible because of people,
+so it wasn't an issue when I decided how to manage my email.
+
+This said, a couple of comments:
+
+I'm talking mostly about communications, you mostly about access to
+one's private data. They're both important, but different problems.
+
+Personally I would have no problem in continuing discussions about
+NAT, dynamic DNS and so on, but there's no better way I could find to
+make sure that nobody else on the list participates. I'd rather avoid
+deeply technical discussions here.
+
+Marco
+
+</PRE>
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006393.html">[p2p-research] Google gets into the DNS business
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006399.html">[p2p-research] Google gets into the DNS business
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6397">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6397">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6397">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6397">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006397.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:51 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006397.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:35 GMT -->
+</html>

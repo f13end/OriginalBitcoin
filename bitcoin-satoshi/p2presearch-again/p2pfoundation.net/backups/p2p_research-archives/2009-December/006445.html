@@ -1,0 +1,359 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006445.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:53 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006445.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:36 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] keimform.de: The Tricky Business of &#8220;Copylefting&#8221; Hardware
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20%3D%3Futf-8%3Fq%3Fkeimform%3D2Ede%3D3A_The_Tricky_Business_of_%3F%3D%0A%20%3D%3Futf-8%3Fb%3F4oCcQ29weWxlZnRpbmfigJ0gSGFyZHdhcmU%3D%3F%3D&In-Reply-To=%3C4B1EF1BE.4040704%40siefkes.net%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006443.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006446.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] keimform.de: The Tricky Business of &#8220;Copylefting&#8221; Hardware</H1>
+    <B>Christian Siefkes</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20%3D%3Futf-8%3Fq%3Fkeimform%3D2Ede%3D3A_The_Tricky_Business_of_%3F%3D%0A%20%3D%3Futf-8%3Fb%3F4oCcQ29weWxlZnRpbmfigJ0gSGFyZHdhcmU%3D%3F%3D&In-Reply-To=%3C4B1EF1BE.4040704%40siefkes.net%3E"
+       TITLE="[p2p-research] keimform.de: The Tricky Business of &#8220;Copylefting&#8221; Hardware">christian at siefkes.net
+       </A><BR>
+    <I>Wed Dec  9 01:39:26 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006443.html">[p2p-research] Back to DNS one last time with an open-source tool:
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006446.html">[p2p-research] The Role of Social Stock Exchanges
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6445">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6445">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6445">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6445">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>[For links, see the web version:
+<A HREF="http://www.keimform.de/2009/12/09/the-tricky-business-of-copylefting-hardware/">http://www.keimform.de/2009/12/09/the-tricky-business-of-copylefting-hardware/</A> ]
+
+It&#8217;s probably safe to say that the copyleft principle has been essential
+for the success of free software. Copyleft means that all versions of a
+software or document will remain free, preventing companies from creating
+&#8220;value-added&#8221; versions of free programs and selling them as proprietary,
+non-free software. The GNU General Public License (GPL)&#8212;the first and most
+well-known incorporation of the copyleft principle&#8212;is used for about 50&#8211;70%
+of all free programs, making it more popular than all other free software
+licenses together.
+
+At first sight, the situation in the newly emerging field of free and open
+hardware might seem similar&#8212;here, copyleft licenses such as the GPL and the
+Creative Commons Attribution-ShareAlike License (BY-SA) are very popular
+too (see below for a more detailed analysis). But actually, the situation
+is very different for hardware design, since copyleft relies on copyright,
+and hardware is (in most cases) not protected by copyright law.
+
+The Problem: Copyleft Depends on Copyright
+------------------------------------------
+
+In hardware design, the copyleft clauses of the GPL and the CC BY-SA
+license thus don&#8217;t work in the way you might expect them to work. Anybody
+who modifies and spreads the design description is bound by them, but
+people and companies using the design to build and distribute actual
+hardware are not. Vendors can modify the hardware and sell or distribute
+the modified hardware without having to publish their modified design,
+since licenses only govern the design descriptions (the instructions on how
+to build the hardware), not the hardware itself. Here&#8217;s how the FSF puts it
+in their GPL FAQ:
+
+    Can I use the GPL to license hardware?
+
+    Any material that can be copyrighted can be licensed under the GPL.
+    GPLv3 can also be used to license materials covered by other
+    copyright-like laws, such as semiconductor masks. So, as an example,
+    you can release a drawing of a hardware design under the GPL. However,
+    if someone used that information to create physical hardware, they
+    would have no license obligations when distributing or selling that
+    device: it falls outside the scope of copyright and thus the GPL
+    itself.
+
+The problem is that copyright governs only the distribution of information,
+but not its usage. If somebody has access to information, they can use them
+and act upon them in any way they like without violating copyright law.
+
+If a bookseller publishes a book describing how to build a product X, the
+bookseller cannot prevent me from using this information to build and sell
+X. The book is protected by copyright laws, but the factual information
+contained in it is not, and my use of that factual information falls
+outside of copyright laws. The GPL relaxes the restrictions of copyright,
+giving me more freedom to use copyrighted information than I would usually
+have, but of course it cannot deny me the freedoms which I always have,
+even with full copyright in force.
+
+A Solution: Patents?
+--------------------
+
+I know of only one license that is specifically targeted at open hardware
+and tries to work around this issue by relying not only on copyright, but
+also on a mutual patent immunity clause: the TAPR Open Hardware License,
+published in May 2007 (Version 1.0). The idea is that the licensor grants
+everybody who complies with the terms of the license the right to use any
+relevant patents they control. So if you don&#8217;t comply (e.g. by not
+publishing the &#8220;source&#8221; for physical products you build based on the
+licensed information), you might get sued by the licensor for patent
+violation, but if you comply you&#8217;re safe.
+
+TAPR has published two versions of the license: the Open Hardware License
+(OHL), which emulates standard copyleft (like the GPL or CC BY-SA), and the
+TAPR Noncommercial Hardware License (NCL), which additionally prohibits
+commercial usage (like the CC BY-NC-SA).
+
+Relying on patent law instead of copyright law for hardware makes sense,
+since patent law is made for hardware, while copyright law is made for
+information. But it&#8217;s also a problem, since getting a patent is a difficult
+and costly process, while getting copyright is free and automatic.
+
+The TAPR licenses will only be really effective if the licensor possesses
+relevant patents, or at least if people can&#8217;t be entirely sure that (s)he
+doesn&#8217;t have any such patents. That&#8217;s a pretty bad limitation, since
+patents are difficult and expensive to get. Most peer projects will be
+unable or unwilling to apply for a patent, so the TAPR licenses will hardly
+be suitable for them.
+
+Another unrelated problem of the TAPR licenses is that they require you to
+distribute the original designs you&#8217;ve received from others in addition to
+your own modified version&#8212;you must distribute both &#8220;before&#8221; and &#8220;after&#8221;
+versions of any files you&#8217;ve modified (&#167; 4.2 (b)). This might be extremely
+impractical for large version histories (think of hundreds or thousands of
+versions), and it makes the creation of printed versions of modified
+hardware documentation practically impossible. It&#8217;s also unclear what&#8217;s the
+point of this requirement.
+
+Pragmatic Solutions: Just Use Standard Copyleft&#8212;Or No Copyleft Altogether
+-------------------------------------------------------------------------
+
+Most open hardware projects seem to care little about the specific issues
+of hardware licensing. Most projects aiming for copyleft just apply a
+standard license such as the GNU GPL or the Creative Commons BY-SA license,
+apparently either not knowing or not caring that is won&#8217;t apply to building
+hardware (see list of projects below).
+
+Another solution is to forgo copyleft altogether and just use a permissive
+license such as the (modified) BSD license. This allows everybody to use
+the provided information in any way they like, without having to keep
+modifications or improvements open.
+
+There even is a hardware-specific non-copyleft license, the Balloon
+Licence. The Balloon Licence is a simple MIT-style license. Since it does
+not try to apply any restrictions on the manufacturing of hardware (no
+copyleft or non-commercial clause), it doesn&#8217;t have the problems of other
+open hardware licenses. However, since this license is very similar to the
+commonly used MIT and (modified) BSD licenses and doesn&#8217;t address any new
+issues, there seems to be little reason to choose this special license
+instead of one of the standard ones.
+
+What To Do?
+-----------
+
+As can be seen from the list below, there is a clear tendency of projects
+to use standard copyleft (the GPL or the CC BY-SA), protecting the design
+information itself but not any physical hardware built on their basis. Does
+this mean that projects are willing to live with a limited copyleft, or are
+they just unaware of the problem? I&#8217;m not so sure&#8230;
+
+In any case, no convincing solutions seem to exist. The TAPR license, the
+only license that tries the address the problem of extending copyleft to
+the hardware itself, never became very popular&#8212;almost nobody outside the
+TAPR project seems to be using it. And indeed, its reliance on patent law
+makes the license very impractical to use for all but the biggest projects.
+
+On the other hand, just using permissive licenses (like the Apache projects
+and the BSD family do) doesn&#8217;t seem to be an attractive option for the
+majority of open hardware projects&#8212;most prefer to get at least the partial
+copyleft protection that standard licenses such as the GPL and CC BY-SA can
+give them.
+
+But, as described above, their copyleft protection is very incomplete in
+case of hardware&#8212;hardware builders aren&#8217;t required to give back their
+improvements. In the case of the RONJA project, this difference between
+hardware builders not giving back but the project maintainers expecting
+them to do so, has already caused tensions that contributed to the downfall
+of the project. Whether similar problems will appear in other projects and
+weaken the open hardware community, remains to be seen...
+
+                                  * * *
+
+Appendix: Project Listing
+-------------------------
+
+The following projects use standard copyleft licenses:
+
+* GPL:
+
+  - Bug Labs, modular open source computer hardware (cf. Bug Labs: License)
+  - Elphel, high performance cameras based on free software and hardware
+    designs (cf. About Elphel)
+  - RepRap, an open source fabber (cf. RepRap GPL Licence)
+  - Sun&#8217;s OpenSPARC project, publishes free hardware designs for the
+    UltraSPARC T1 and T2 processors
+  - Free Telephony Project
+
+* CC Attribution-ShareAlike:
+
+  - Arduino (cf. Arduino Hardware) and Freeduino (cf. Freeduino PCB Design
+    Files), two variants of a free microcontroller board. They are aware
+    that the CC clauses don&#8217;t apply to physical production: &#8220;You don&#8217;t need
+    to give attribution on the physical products that you might make with
+    these files, as copyright in general, and CC2.5 in particular, do not
+    apply to physical objects.&#8221;
+  - Beagle Board, a free low-cost computer board based on a Texas
+    Instruments processor
+  - MultiMachine, a low-cost multi-purpose machine that can be built with
+    common hand tools
+  - Openmoko, open source mobile phones (uses BY-SA for CAD Files and
+    schematics)
+
+* GNU Free Documentation License:
+
+  - Ronja, optical data transmission (cf. Ronja Copying)
+
+Projects using a standard share-alike license that prohibits commercial
+usage (CC Attribution-Noncommercial-ShareAlike):
+
+* Ronen Kadushin, free furniture designs
+
+Projects supporting various Creative Commons license:
+
+* Open Architecture Network, a repository of architectural designs and
+  plans; users can choose any CC license, including public domain (cf. OAN
+  Licensing)
+* Thingiverse, a repository of digital designs for physical objects; users
+  choose either standard copyright or a CC license, GPL and public domain
+  are also supported (cf. Thingiverse Terms of Services)
+* Ponoko, a repository and marketplace for digital fabrication; available
+  choices are full copyright and Creative Commons licenses (list of
+  CC-licensed designs)
+
+Projects using the TAPR Open Hardware License, a share-alike license
+designed specifically for hardware which relies on patent rather than
+copyright law:
+
+* TAPR, the community of radio amateurs which developed that license
+
+Projects dual-licensing between TAPR License and standard copyleft:
+
+* Open Graphics Project, open source graphics cards; three license
+  alternatives for its hardware descriptions (schematics and artwork): GPL,
+  TAPR License, or a commercial proprietary license, cf. OGP FAQ and
+  Announcement from 7 April 2009. Of course, dual/triple-licensing with
+  TAPR as one of several options makes the special protections of the TAPR
+  License void (users can just choose the GPL instead), so this
+  multi-licensing model seems somewhat pointless.
+
+Projects using a non-share-alike license specifically developed for
+hardware (the Balloon Licence):
+
+* Balloon Project, another circuit board (only parts of the design are
+  free, some design files are kept proprietary)
+
+Projects using a standard non-copyleft license (the BSD license):
+
+* <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">Fab at Home</A>, another project for building an open source fabber (cf.
+  <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">Fab at Home</A>: General disclaimer)
+
+Mixed:
+
+* OpenCores, develops computer components for CPUs, memory controllers,
+  peripherals, motherboards etc.; uses a mix of GPL or (preferably) LGPL
+  and modified BSD license, depending on the preferences of the
+  contributors (OpenCores FAQ)
+
+If I have forgotten important projects, add them in a comment and I&#8217;ll
+update the article. I didn&#8217;t try to cover projects that are small or in
+early development. Long lists of open hardware projects can be found in the
+Wikipedia article on open source hardware, the P2P Foundation&#8217;s Product
+Hacking page, the Open Innovation Projects site, the GOSH List of Open
+Hardware Projects and the GOSH List of Open Hardware Organizations.
+
+
+Best regards
+	Christian
+
+-- 
+|<i>------- Dr. Christian Siefkes ------- <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">christian at siefkes.net</A> -------
+</I>|<i> Homepage: <A HREF="http://www.siefkes.net/">http://www.siefkes.net/</A> | Blog: <A HREF="http://www.keimform.de/">http://www.keimform.de/</A>
+</I>|<i>    Peer Production Everywhere:       <A HREF="http://peerconomy.org/wiki/">http://peerconomy.org/wiki/</A>
+</I>|<i>---------------------------------- OpenPGP Key ID: 0x346452D8 --
+</I>Whenever anyone says, &quot;theoretically,&quot; they really mean, &quot;not really.&quot;
+        -- Dave Parnas
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 260 bytes
+Desc: OpenPGP digital signature
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20091208/72040006/attachment.bin">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20091208/72040006/attachment.bin</A>&gt;
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006443.html">[p2p-research] Back to DNS one last time with an open-source tool:
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006446.html">[p2p-research] The Role of Social Stock Exchanges
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6445">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6445">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6445">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6445">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006445.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:53 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006445.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:36 GMT -->
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001938.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:48:02 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-April/001938.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:55 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Fwd: launch of code depository for authentic free	network services
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Fwd%3A%20launch%20of%20code%20depository%20for%20authentic%20free%0A%09network%20services&In-Reply-To=%3Cc776300b0904120045u6060421bmb3d923f335f25ab4%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001935.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001943.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Fwd: launch of code depository for authentic free	network services</H1>
+    <B>Michel Bauwens</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Fwd%3A%20launch%20of%20code%20depository%20for%20authentic%20free%0A%09network%20services&In-Reply-To=%3Cc776300b0904120045u6060421bmb3d923f335f25ab4%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Fwd: launch of code depository for authentic free	network services">michelsub2004 at gmail.com
+       </A><BR>
+    <I>Sun Apr 12 09:45:32 CEST 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001935.html">[p2p-research] Open Everything New York (and other cities)
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001943.html">[p2p-research] 3 Quarks: Inequality the root of all evil?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/date.html#1938">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/thread.html#1938">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/subject.html#1938">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/author.html#1938">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Dear Sepp,
+
+the following is an announcement on the launch of a free network service
+depository, by the autonomous group, which seems an important development
+for open standards, but too technical for me to report on.
+
+if you ever have time, I would appreciate if you could at least announce it,
+say something about their principles for inclusion and mention the 3
+services that seem to pass the test, listed here just below,
+
+Michel
+
+[1] Fossil SCM
+<A HREF="http://www.fossil-scm.org/">http://www.fossil-scm.org</A>
+
+[2] Bcfg2
+<A HREF="http://bcfg2.org/">http://bcfg2.org</A>
+
+[3] dotCloud
+<A HREF="http://bitbucket.org/dotcloud/dotcloud/wiki/Home">http://bitbucket.org/dotcloud/dotcloud/wiki/Home</A>
+
+
+---------- Forwarded message ----------
+From: Daniel Clark &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">dclark at pobox.com</A>&gt;
+Date: Apr 12, 2009 10:26 AM
+Subject: [Autonomo.us] = code.autonomo.us: take 2 proposal version 1.0 =
+To: <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">Discuss at lists.autonomo.us</A>
+
+= code.autonomo.us: take 2 proposal version 1.0 =
+
+== History of take 1 ==
+
+The first version of code.autonomo.us was started very quickly at the
+Libreplanet 2009 conference, in the spirit of getting hacking done; it
+created some useful discussion that has lead to this proposal for a new
+concept for a second version of the service, one that I hope is more in
+line with the ideals of the autonomo.us project.
+
+The first version was based on the idea of using Trac plus a project
+that provided some amount of automation around the creation of new Trac
+projects. The plan was to work towards exposing all of the used Trac
+code, configuration and data (except for authentication tokens), so
+people could in theory replicate the entire system and also host on
+computers they controlled if they decided to do so; however the fact
+that Trac was not designed to be a free network service would have made
+it cumbersome, and other issues such as non-support for any version
+control systems other than SVN in the stable version of Cluemapper, the
+Trac project software chosen after evaluating 3 alternatives (none of
+which supported anything but SVN either), made it unattractive for many
+people. Also, it came to light on the mailing list that a closely
+aligned project, the Open Knowledge Foundation, was already running such
+a service (that was not found in the initial evaluation period) called
+kforge or knowledgeforge, so the added value of having autonomo.us host
+such a service was diminished.
+
+== Take 2 proposal: overview ==
+
+The proposal is for take 2 to be based on software that actually
+conforms to our principles on a technical level (although sadly in no
+cases using our chosen license to avoid being screwed, AGPLv3 - if there
+is software I haven't found that is AGPLv3 I would love to hear about
+it). This has 3 elements:
+
+1. Require that each project have ultimate control over its services, by
+requiring that each project control its own DNS domain. We will request
+but not require that each project have &quot;hosted by code.autonomo.us&quot;
+(with a link to <A HREF="http://code.autonomo.us/">http://code.autonomo.us</A>) displayed on each web page
+somewhere, or at least on the front page. Logos for this would be welcomed.
+
+2. Only use software that allows users to easily maintain control over
+their project's data, configuration, and code; in practice without legal
+shenanigans this would seem to mean that they can work with their
+project the same way locally, using only resources on a machine they
+own, as when on the network, and are only dependent on the network as an
+easy-to-use display mechanism for other people (and are not dependent on
+the continued existence of code.autonomo.us for that purpose, as they
+can switch their DNS to use another server at any time.)
+
+3. Expose the entire configuration of code.autonomo.us, so that users
+are also not dependent on code.autonomo.us for its aggregation features
+(as they could easily replicate them themselves). This information will
+be included in the code.autonomo.us Fossil SCM [1] instance, which will
+be the only project that is actually hosted by the code.autonomo.us
+service using an autonomo.us domain. Plan is to do this with Bcfg2 [2]
+and maybe dotCloud [3].
+
+[1] Fossil SCM
+<A HREF="http://www.fossil-scm.org/">http://www.fossil-scm.org</A>
+
+[2] Bcfg2
+<A HREF="http://bcfg2.org/">http://bcfg2.org</A>
+
+[3] dotCloud
+<A HREF="http://bitbucket.org/dotcloud/dotcloud/wiki/Home">http://bitbucket.org/dotcloud/dotcloud/wiki/Home</A>
+
+== Take 2 proposal: technical details ==
+
+=== code.autonomo.us meta-project ===
+
+code.autonomo.us website becomes a Fossil SCM instance
+* Main page is a DOAP [4,5] aggregator; very simple, just a script that
+runs from cron, looks for the latest page (say
+code.autonomo.us/admin/projects-list.wiki) that is signed by one of a
+defined set of GnuPG keys, and then processes the DOAP URLs in that
+document, and spits out an HTML page that gets checked back in to fossil.
+* Page will indicate type of hosting
+* Will need to use PGP-signed DOAP [6]
+* PGP-Singed DOAP page will control other things hosting does as well
+(eg make backup copies of other DVCS repos perhaps)
+* All scripts and config (eg Bcfg2 repo) will also be in this Fossil SCM
+repo. With this one file, you will be able to completely recreate the
+entire service (except for some auth info).
+* Small number of already externally linked to pages can have redirect
+at the apache level (look through logs and/or use google to find these)
+
+[4] DOAP: Description Of A Project
+<A HREF="http://trac.usefulinc.com/doap">http://trac.usefulinc.com/doap</A>
+
+[5] DOAP A Matic
+<A HREF="http://crschmidt.net/semweb/doapamatic/">http://crschmidt.net/semweb/doapamatic/</A>
+
+[6] PGP Signing FOAF Files (should be applicable to DOAP as well)
+<A HREF="http://usefulinc.com/foaf/signingFoafFiles">http://usefulinc.com/foaf/signingFoafFiles</A>
+
+=== Hosted projects ===
+
+With both choices you are required to control your own domain name.
+Explain why this is important for autonomy (I think someone on the list
+wrote a good summary of this at one point; just need to find it). We can
+point to some registers; gandi.net, namecheap.com, etc (and also
+recommend against some, like GoDaddy).
+
+==== Recommended choice ====
+
+All-in-one with Fossil SCM; this will include replication across at
+least 3 geographically distributed servers (need to contact FSF France
+and Joyent to accept their offers; I think this will get us the US
+(FSF), Canada (Joyent), and Europe (FSF France) to start off with).
+
+For communications I almost think we should set up usenet as the main
+service with a gateway to mail; usenet's architecture seems closer to
+the FNS concept than mailing lists.
+
+Where possible things that are not integrated into Fossil SCM (such as
+usenet / mailing list archives and configuration) will be inserted into
+the hosted project's Fossil SCM repo with simple scripts run from cron.
+The idea is that everything having to do with a project will be on each
+developer's personal box, since it will be there as a side-effect of the
+process of checking in and out code. The project should have no
+dependence on code.autonomo.us's continued existence at any given moment
+to retain all of its code, documentations, and bug database
+information (perhaps behind a few hours, which shouldn't be crippling to
+any project).
+
+We may want to do some kind of load balancing / geographical redirection
+service to make code.autonomo.us automatically redirect to or
+transparently use us.code.autonomo.us, fr.code.autonomo.us,
+ca.code.autonomo.us.
+
+Reason that Fossil SCM would be recommended over a la carte service is
+that a big part of what makes web services so attractive is ease of use;
+Fossil SCM is very easy to use locally (one executable, one data file,
+build-in web server, works on GNU/Linux, Mac OS X, and Windows), whereas
+using a la carte service options locally would require significantly
+more local software setup.
+
+==== A la carte service ====
+
+Mix-n-match:
+* DVCS: Your DVCS of choice (Bazaar / bzr, darcs, git, Mercurial / Hg,
+monotone, svn / svk) hosted elsewhere (list the common sites -
+bitbucket.org for Hg, launchpad.net for Bzr, etc.) with transparent
+proxy from the domain of your choice, hosted by code.autonomo.us (so you
+can tell people to check out from for example <A HREF="http://hg.yourproject.org/">http://hg.yourproject.org</A>
+instead of <A HREF="http://yourproject.bitbucket.org;/">http://yourproject.bitbucket.org;</A> the transparent proxy would
+be handled by code.autonomo.us, however since you control
+yourproject.org you chould change that to a server you control at any
+point).
+* Wiki: ikiwiki [7], Ajatus CRM [8] or Fossil SCM
+* Bug/Ticket tracking: Best Practical SD [9] or Fossil SCM
+* Search across resources: TBD
+
+[7] ikiwiki
+<A HREF="http://ikiwiki.info/">http://ikiwiki.info/</A> ikiwiki
+
+[8] Ajatus CRM
+<A HREF="http://www.ajatus.info/">http://www.ajatus.info</A>
+
+[9] SD
+<A HREF="http://syncwith.us/sd/using">http://syncwith.us/sd/using</A>
+
+==== Totally external recommendations ====
+
+Mention that if you really want to use Trac, look at KnowledgeForge [10]
+(and also eventually config.fsf.org if you want a do-it-yourself
+example, as well as whatever bkuhn sets up for SFLC).
+
+Mention the more freedom-respecting traditional services (eg the FSF's
+Savannah, FSF France's service I'm forgetting the name of at the moment;
+please make suggestions...)
+
+[10] KForge (project of The Open Knowledge Foundation)
+<A HREF="http://www.knowledgeforge.net/">http://www.knowledgeforge.net/</A>
+
+--
+Daniel JB Clark   | Sys Admin, Free Software Foundation
+pobox.com/~dclark | <A HREF="http://www.fsf.org/about/staff#danny">http://www.fsf.org/about/staff#danny</A>
+
+
+_______________________________________________
+Discuss mailing list
+<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">Discuss at lists.autonomo.us</A>
+<A HREF="http://lists.autonomo.us/mailman/listinfo/discuss">http://lists.autonomo.us/mailman/listinfo/discuss</A>
+
+
+
+
+-- 
+Working at <A HREF="http://en.wikipedia.org/wiki/Dhurakij_Pundit_University">http://en.wikipedia.org/wiki/Dhurakij_Pundit_University</A> -
+<A HREF="http://www.dpu.ac.th/dpuic/info/Research.html">http://www.dpu.ac.th/dpuic/info/Research.html</A> -
+<A HREF="http://www.asianforesightinstitute.org/index.php/eng/The-AFI">http://www.asianforesightinstitute.org/index.php/eng/The-AFI</A>
+
+Volunteering at the P2P Foundation:
+<A HREF="http://p2pfoundation.net/">http://p2pfoundation.net</A>  - <A HREF="http://blog.p2pfoundation.net/">http://blog.p2pfoundation.net</A> -
+<A HREF="http://p2pfoundation.ning.com/">http://p2pfoundation.ning.com</A>
+
+Monitor updates at <A HREF="http://del.icio.us/mbauwens">http://del.icio.us/mbauwens</A>
+
+The work of the P2P Foundation is supported by SHIFTN,
+<A HREF="http://www.shiftn.com/">http://www.shiftn.com/</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20090412/e2575694/attachment-0001.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20090412/e2575694/attachment-0001.html</A>&gt;
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001935.html">[p2p-research] Open Everything New York (and other cities)
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001943.html">[p2p-research] 3 Quarks: Inequality the root of all evil?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/date.html#1938">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/thread.html#1938">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/subject.html#1938">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/author.html#1938">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-April/001938.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:48:02 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-April/001938.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:55 GMT -->
+</html>

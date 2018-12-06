@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009367.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:46 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-July/009367.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:21 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Fwd: [Social-discuss] Announcing P2P GNU Social
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Fwd%3A%20%5BSocial-discuss%5D%20Announcing%20P2P%20GNU%20Social&In-Reply-To=%3CAANLkTilLFD6CNI9gZ1V4pzjmQ0ENYL02kfE8eSMfpOBG%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009374.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009368.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Fwd: [Social-discuss] Announcing P2P GNU Social</H1>
+    <B>Samuel Rose</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Fwd%3A%20%5BSocial-discuss%5D%20Announcing%20P2P%20GNU%20Social&In-Reply-To=%3CAANLkTilLFD6CNI9gZ1V4pzjmQ0ENYL02kfE8eSMfpOBG%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Fwd: [Social-discuss] Announcing P2P GNU Social">samuel.rose at gmail.com
+       </A><BR>
+    <I>Sat Jul 10 02:34:05 CEST 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009374.html">[p2p-research] The link between poverty, (de)centralisation and (non)connectivity
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009368.html">[p2p-research] weekend reading on damanhur
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/date.html#9367">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/thread.html#9367">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/subject.html#9367">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/author.html#9367">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>An update on GNU Social Project...
+
+
+---------- Forwarded message ----------
+From: Ted Smith &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">teddks at gmail.com</A>&gt;
+Date: Fri, Jul 9, 2010 at 7:21 AM
+Subject: [Social-discuss] Announcing P2P GNU Social
+To: social-discuss &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">social-discuss at nongnu.org</A>&gt;, social &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">social at gnu.org</A>&gt;
+
+
+For the past few weeks, Miron Cuperman and I have been thinking about
+how to do social networking in a p2p and privacy-enhanced way. We've
+come up with some code and documents that describe a distributed social
+networking system that is able to make and enforce strong guarantees
+about user privacy while still providing usability in the same vein as
+traditional, centralized or hub-and-spoke services. We've collected this
+into an effort to build a P2P GNU Social.
+
+The GNU Social P2P effort attempts to create a distributed,
+privacy-enhanced and privacy-enforcing, user-controlled social network.
+The goals of the P2P effort include:
+
+* User Control - The user can run their own node on their own machine
+with maximal ease of use and maintenance - it shouldn't take a sysadmin
+to be social
+* Privacy controls are not merely stated, but are enforced by strong
+cryptography and time-tested protocols. All user data, including the
+social graph, is private by default.
+* Transparent developer access to other social networking systems,
+including OStatus - the modular transport/translation system of the P2P
+GNU Social will ensure that from the point of view of the end-user and
+developer, there is only One Big Network.
+* Modularity - Components in the node stack should be separated such
+that it is simple to add and remove components. A full, working GNU
+Social P2P node will be composed of several different individual
+programs, and several different user interfaces. A strong client-side
+API should enable developers to integrate P2P GNU Social into all
+relevant existing desktop applications. Some of you may remember this
+design from the document I posted to this list some months ago[1].
+* Composition - Whenever possible, P2P GNU Social will borrow/loot from
+existing Free protocols and implementations, though all code written by
+us will be licensed under the AGPL.
+
+To learn more about the P2P GNU Social design and structure, visit
+&lt;<A HREF="http://groups.fsf.org/wiki/Group:GNU_Social/P2P">http://groups.fsf.org/wiki/Group:GNU_Social/P2P</A>&gt;. Currently, we have a
+prototype for the GNU Social &quot;core&quot;, written in Java, hosted on
+Gitorious here: &lt;<A HREF="http://gitorious.org/social-p2p/core">http://gitorious.org/social-p2p/core</A>&gt;. We also have our
+own mailing list at &lt;<A HREF="http://lists.gnu.org/mailman/listinfo/social-p2p">http://lists.gnu.org/mailman/listinfo/social-p2p</A>&gt;
+and an IRC channel at &lt;<A HREF="irc://irc.freenode.net/social-p2p">irc://irc.freenode.net/social-p2p</A>&gt;.
+
+We need people to help make this system a reality, by hacking on it and
+fleshing out the protocol. Some things that people could get started
+with include transport layers or translators for pre-existing networks,
+and building user interfaces, ranging from a basic prototype to
+integration with existing &quot;social desktop&quot; initiatives and mobile
+devices.
+
+We'd like to emphasize that this is **NOT** a fork of the mainline GNU
+Social. StatusNet GNU Social and P2P GNU Social fulfill different niches
+in the social networking space and should interoperate fully. If you
+have to choose on one implementation to work on, it's probably better
+for you to work on StatusNet GNU Social - there's more maturity and
+it'll be possible to create free social networking systems faster. We
+expect that P2P GNU Social will be more of a &quot;research&quot; effort - a
+vanguard into privacy-enhanced social networking - which other social
+networking systems, including and especially StatusNet GNU Social, will
+be able to learn and build from. We have signed copyright assignment
+papers with the FSF and expect contributors to do so as well.
+
+We hope that many of the questions people have about how the network
+works and how it guarantees privacy can be answered by our design
+documents on groups.fsf.org, but please feel free to ask further
+questions.
+
+[1] <A HREF="http://groups.fsf.org/wiki/Group:GNU_Social/P2P/Node_Architecture">http://groups.fsf.org/wiki/Group:GNU_Social/P2P/Node_Architecture</A>
+
+
+
+
+
+-- 
+--
+Sam Rose
+Future Forward Institute and Forward Foundation
+Tel:+1(517) 639-1552
+Cel: +1-(517)-974-6451
+skype: samuelrose
+email: <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">samuel.rose at gmail.com</A>
+<A HREF="http://forwardfound.org/">http://forwardfound.org</A>
+<A HREF="http://socialsynergyweb.org/culturing">http://socialsynergyweb.org/culturing</A>
+<A HREF="http://flowsbook.panarchy.com/">http://flowsbook.panarchy.com/</A>
+<A HREF="http://socialmediaclassroom.com/">http://socialmediaclassroom.com</A>
+<A HREF="http://localfoodsystems.org/">http://localfoodsystems.org</A>
+<A HREF="http://notanemployee.net/">http://notanemployee.net</A>
+<A HREF="http://communitywiki.org/">http://communitywiki.org</A>
+<A HREF="http://p2pfoundation.net/">http://p2pfoundation.net</A>
+
+&quot;The universe is not required to be in perfect harmony with human
+ambition.&quot; - Carl Sagan
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009374.html">[p2p-research] The link between poverty, (de)centralisation and (non)connectivity
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009368.html">[p2p-research] weekend reading on damanhur
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/date.html#9367">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/thread.html#9367">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/subject.html#9367">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/author.html#9367">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-July/009367.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:46 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-July/009367.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:21 GMT -->
+</html>

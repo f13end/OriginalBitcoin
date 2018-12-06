@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007571.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:38 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-February/007571.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:32 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] What should a Community do with Profit? (was:	personal server technology)
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20What%20should%20a%20Community%20do%20with%20Profit%3F%20%28was%3A%0A%09personal%20server%20technology%29&In-Reply-To=%3C20100221214313.GY17686%40leitl.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007570.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007602.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] What should a Community do with Profit? (was:	personal server technology)</H1>
+    <B>Eugen Leitl</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20What%20should%20a%20Community%20do%20with%20Profit%3F%20%28was%3A%0A%09personal%20server%20technology%29&In-Reply-To=%3C20100221214313.GY17686%40leitl.org%3E"
+       TITLE="[p2p-research] What should a Community do with Profit? (was:	personal server technology)">eugen at leitl.org
+       </A><BR>
+    <I>Sun Feb 21 22:43:13 CET 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007570.html">[p2p-research] What should a Community do with Profit? (was: personal server technology)
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007602.html">[p2p-research] What should a Community do with Profit? (was:	personal server technology)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/date.html#7571">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/thread.html#7571">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/subject.html#7571">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/author.html#7571">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sun, Feb 21, 2010 at 10:08:32PM +0100, M. Fioretti wrote:
+
+&gt;<i> I answered to Patrick trying to stick to the original question, that
+</I>&gt;<i> is &quot;personal servers&quot;. Speaking of servers means speaking of
+</I>
+I realize that the issue is hard to contain. I must admit I wasn't
+even trying to.
+
+&gt;<i> &quot;datacenters&quot; and of course &quot;datacenters&quot; may be anything from a
+</I>
+Technically, <A HREF="http://www.pogoplug.com/">http://www.pogoplug.com/</A> is a server. Something hitherto people
+have been rolling out by themselves, using the DynDNS service and home routers
+which double as NAS (exporting USB hard drives and flash sticks on 
+the local LAN) to make home resources available abroad. Poor upstream,
+yes. Unreliable, yes. Still, a lot better than no access to home
+resources at all.
+
+Of course Pogo is still a commercial service, so what you need is a serverless/
+headless P2P grid client running on your local embedded. The poor availability
+and low upstream is no longer an issue if multiple copies of your content
+are dynamically locally coalesced on demand. Wherever you are. As long
+as you run the right client, and authenticate properly.
+
+&gt;<i> closet to a big structure as I described. In any case, I sticked to
+</I>&gt;<i> that, ignoring on purpose the last mile and backbone connectivity
+</I>&gt;<i> issues. I agree with most of what you said about infrastructure, but
+</I>&gt;<i> that's a different issue wrt the original topic.
+</I>
+The topic warrants further exploration here, methinks. Anyone agrees?
+ 
+&gt;<i> to point out that this is what you need to keep a *server* up and
+</I>&gt;<i> running. What you answered:
+</I>
+We're less interested in a particular piece of hardware than the
+service it provides. Even few instances of low-end embeddeds on
+unreliable, low-upstream domestic broadband can provide a remarkably
+resilient, reliable and performant service. In theory, at least.
+The proof of the pudding is in the eating.
+ 
+&gt;<i> &gt; Redundant networks (meshes qualify) degrade gracefully, so there's
+</I>&gt;<i> &gt; no need to rush out for repairs.
+</I>&gt;<i> 
+</I>&gt;<i> is true, but is a whole other issue (network uptime and performance vs
+</I>&gt;<i> reliability and uptime of the single server). Even if I agreed that
+</I>
+The probability of complete outage over multiple geographic locations
+and multiple providers is indistinguishable from zero.
+
+&gt;<i> carrier quality systems are an overkill for _connectivity_, I would
+</I>&gt;<i> still want my actual server to run carrier-quality hardware.
+</I>
+If I'm using a service, which relies on multiple locationally and
+logically diverse servers then the quality of the individual server
+and its connectivity does not nearly matter that much.
+
+Of course this is not what most people are familiar with, and 
+making this foolproof zero-administration is rather nontrivial.
+ 
+&gt;<i> &gt; The only reason for a virtual server is energy efficiency,
+</I>&gt;<i> &gt; professional operators and it being close to the network
+</I>&gt;<i> &gt; core/backbone.
+</I>&gt;<i> 
+</I>&gt;<i> My reason for a virtual server is high energy efficiency and
+</I>
+Well, embeddeds do around 10-15 W these days. That's around
+10-25 EUR/year, 27/7/365 operation. Virtual servers start at about 10 EUR/month,
+and decent ones are 20-30 EUR/month. 
+
+&gt;<i> reliability at a much, much lower price than I would have to pay to
+</I>&gt;<i> get the same quality of service with a home box. Again, regardless of
+</I>&gt;<i> the nature of the network connecting it to everything else.
+</I>
+Don't get me wrong, there's a reason why I'm renting a whole rack
+at a major local colo provider. There's a very large difference
+between 100 MBit/s Ethernet to the nearest core switch, and 
+6/100 MBit DOCSIS 3.0 cable modem at the periphery.
+ 
+&gt;<i> &gt; It's mostly a marketing problem. There's plenty of VPN products
+</I>&gt;<i> 
+</I>&gt;<i> the services we're discussing here require no VPN. This said, of
+</I>
+VPN is a major requirement from end users, simply because they don't
+want their ISP to spy on them. And VPNs are a simple way to avoid 
+ISP throttling, at least for now. Won't last, of course. But the
+privacy at least will remain.
+
+&gt;<i> course it's marketing, but there's no demand for it yet, since most
+</I>&gt;<i> people are so enamored with the &quot;cloud&quot;.
+</I>
+The word is a fad. Just as P2P was. In another 5-10 years there
+will be new buzzwords. The problem set will be mostly static in
+that time frame, however. Nothing we have today is fundamentally 
+different in a 10, 15, even 20 year frame. So everybody will be
+on 1 or 10 GBit/s symmetric domestic broadband. IPv6 or similar.
+That's what I have on the local loop already. Easy enought to 
+benchmark in the lab, or to model. 
+
+The future's here already. Very few surprises, if you know where
+to look.
+
+-- 
+Eugen* Leitl &lt;a href=&quot;<A HREF="http://leitl.org/"/">http://leitl.org&quot;</A>&gt;leitl&lt;/a&gt; <A HREF="http://leitl.org/">http://leitl.org</A>
+______________________________________________________________
+ICBM: 48.07100, 11.36820 <A HREF="http://www.ativel.com/">http://www.ativel.com</A> <A HREF="http://postbiota.org/">http://postbiota.org</A>
+8B29F6BE: 099D 78BA 2FD3 B014 B08A  7779 75B0 2443 8B29 F6BE
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007570.html">[p2p-research] What should a Community do with Profit? (was: personal server technology)
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007602.html">[p2p-research] What should a Community do with Profit? (was:	personal server technology)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/date.html#7571">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/thread.html#7571">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/subject.html#7571">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/author.html#7571">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007571.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:38 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-February/007571.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:32 GMT -->
+</html>

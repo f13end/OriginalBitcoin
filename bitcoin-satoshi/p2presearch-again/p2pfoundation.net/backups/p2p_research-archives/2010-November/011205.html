@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011205.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:14 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-November/011205.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:15 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Henry Story on Open Distributed Social Networks
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Henry%20Story%20on%20Open%20Distributed%20Social%20Networks&In-Reply-To=%3CAANLkTik5cFoPe0i8H1PaqeYKyrhMdnDP0gWbVqtT1hnx%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011199.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011206.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Henry Story on Open Distributed Social Networks</H1>
+    <B>Dan Brickley</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Henry%20Story%20on%20Open%20Distributed%20Social%20Networks&In-Reply-To=%3CAANLkTik5cFoPe0i8H1PaqeYKyrhMdnDP0gWbVqtT1hnx%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Henry Story on Open Distributed Social Networks">danbri at danbri.org
+       </A><BR>
+    <I>Mon Nov 22 21:18:36 CET 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011199.html">[p2p-research] Henry Story on Open Distributed Social Networks
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011206.html">[p2p-research] Henry Story on Open Distributed Social Networks
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/date.html#11205">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/thread.html#11205">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/subject.html#11205">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/author.html#11205">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Mon, Nov 22, 2010 at 8:08 PM, Samuel Rose &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">samuel.rose at gmail.com</A>&gt; wrote:
+&gt;<i> FOAF is amazing. It's been around for a long time (since at least 2003
+</I>&gt;<i> if not earlier), and works really well. Yet, it's been largely under
+</I>&gt;<i> the radar
+</I>
+Thanks Sam! Yeah, we've kept things a bit 'relaxed' the last few
+years, partly to cool down some unrealistic expectations from ~2004/5,
+but also while other pieces of the technology landscape came together.
+Without the likes of OpenID, OAuth, FOAF+SSL/WebID, and some machinery
+for handling trust/provenance, there's only so much you can do with
+FOAF on its own.
+
+&gt;<i> It's implemented by ostatus (identi.ca and GNUSocial) and I think
+</I>&gt;<i> there is talk now of using it in diaspora. ELGG also supported it at
+</I>&gt;<i> least for a while. Semantic Media Wiki also supports, and so does
+</I>&gt;<i> Drupal, WordPress.
+</I>
+Yep, it's also supported in <A HREF="http://code.google.com/apis/socialgraph/">http://code.google.com/apis/socialgraph/</A>
+from Google (their social search machinery); in the Russian search
+engine Yandex (<A HREF="http://company.yandex.com/press_center/press_releases/2008/2008-08-15.xml">http://company.yandex.com/press_center/press_releases/2008/2008-08-15.xml</A>),
+in Google Rich Snippets
+<A HREF="http://googlewebmastercentral.blogspot.com/2009/10/help-us-make-web-better-update-on-rich.html">http://googlewebmastercentral.blogspot.com/2009/10/help-us-make-web-better-update-on-rich.html</A>
+... though as far as I know not directly in Wordpress. I think they
+emit XFN, which is a similar system from the Microformats community,
+and that's great too.
+
+I'm most excited lately to see FOAF and RDF playing a role in open
+datasets. The Social Web API scene is very crowded and I think the
+vCard-based Portable Contacts spec is doing fine work there. FOAF
+tends more towards extensibility and wide-scale data merging, which is
+getting much more interesting now we're seeing huge releases of data
+from goverments, activists, libraries, ...
+
+And yeah we started back in 2000 when I turned my homepage into RDF
+and Libby Miller did the same to hers. When big sites like LiveJournal
+started publishing FOAF a while later, lots of our cute early demos
+simply fell over due to the scale needed. So it's great to live in the
+modern day Web now with tools like Hadoop around to take the strain.
+Lately I've been pushing user data (from FOAF and misc open datasets)
+into Apache's (hadoop-friendly) machine learning tools,
+<A HREF="https://cwiki.apache.org/confluence/display/MAHOUT/Recommender+Documentation">https://cwiki.apache.org/confluence/display/MAHOUT/Recommender+Documentation</A>
+.... .... it's amazing the tooling you can get for free :)
+
+Anyhow, I've been quietly lurking here on the p2p research list,
+something somewhere gave me the impression that many of the (largely
+unarticulated) thoughts behind FOAF fit with the mindset here, so I'm
+happy if FOAF is of any interest in these parts...
+
+cheers,
+
+Dan
+
+</PRE>
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011199.html">[p2p-research] Henry Story on Open Distributed Social Networks
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011206.html">[p2p-research] Henry Story on Open Distributed Social Networks
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/date.html#11205">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/thread.html#11205">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/subject.html#11205">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/author.html#11205">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-November/011205.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:14 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-November/011205.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:15 GMT -->
+</html>

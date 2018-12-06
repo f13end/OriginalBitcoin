@@ -1,0 +1,334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003389.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:47 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-June/003389.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:50 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Demystifying solar capacity
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Demystifying%20solar%20capacity&In-Reply-To=%3Cbb93143c0906152021ub923633na1317b476d6bc36b%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003388.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003390.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Demystifying solar capacity</H1>
+    <B>Stan Rhodes</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Demystifying%20solar%20capacity&In-Reply-To=%3Cbb93143c0906152021ub923633na1317b476d6bc36b%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Demystifying solar capacity">stanleyrhodes at gmail.com
+       </A><BR>
+    <I>Tue Jun 16 05:21:28 CEST 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003388.html">[p2p-research] Stephen Downes,	Lawrence Lessig and others on the Internet and 	Socialism
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003390.html">[p2p-research] Fwd: FW: forthcoming book (ArcDigital)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/date.html#3389">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/thread.html#3389">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/subject.html#3389">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/author.html#3389">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>I've split this email off to reduce the annoyance factor with
+cross-posting.  I wanted to quickly clear up a few things regarding solar
+power and units of energy given.  Forgive me, those of you that already know
+this, and correct me if I made a mistake, those that know better.  Also,
+math is involved to show my work, so you know where my numbers came from.
+
+The output values being discussed are watt-peak output (Wp), meaning output
+under ideal conditions, which is useless for assessing real power
+generation.  Please see the following Wikipedia links:
+<A HREF="http://en.wikipedia.org/wiki/Watt-peak">http://en.wikipedia.org/wiki/Watt-peak</A>
+<A HREF="http://en.wikipedia.org/wiki/Capacity_factor">http://en.wikipedia.org/wiki/Capacity_factor</A>
+
+So, we can see capacity factor is the max output (Wp) divided by actual
+output, meaning that if we only have the capacity factor and the max output
+we should be able to multiply them to determine rough actual output.  I'll
+do a quick example.
+
+Look at the capacity factor of the world's largest PV power plants, shown in
+the table on this page: <A HREF="http://en.wikipedia.org/wiki/Solar_power">http://en.wikipedia.org/wiki/Solar_power</A>
+
+Let's use the Waldpolenz Solar Park that uses newer &quot;thin film&quot; PV, like the
+cells Nanosolar offers.  Notice how the values are given in DC MW.  To be
+more precise, that should be MWp--peak output, not actual.  (Let's assume
+the loss from converting DC to AC was included in the capacity factor to
+make things easy.)
+
+So, we do the math to determine actual output: 40 * .11 = 4.4 actual MW.
+Convert to MWh per year: 4.4 MW * hours in a year (8766) = 38570.4 MWh.
+Fact-check the table with that, and we see it's close: 38.5704 GWh/year
+compared to 40 GWh/year.
+
+As a rule of thumb, to find Nanosolar's thin-film cell cost per actual watt
+output, divide cost per &quot;watt&quot;(Wp) by .11.*  .12 if you're feeling
+generous.  Thus, $.30 per Wp actually costs $2.73 per W, or $2727 for a
+setup that produces 1 kW on average.
+
+The difference between MWp and actual MW output is the first vital
+consideration when looking at solar claims.  The second is probably more
+obvious: inherently variable solar (and wind) can't be used to replace
+baseload plants like fossil fuel, nuclear, hydro, wood, geothermal, and
+OTEC.  While nuclear capacity factors can be steadily improved--and have
+been--it's hard to make many gains with solar and wind.  Fission and
+combustion are far more steady than the weather.
+
+-- Stan
+
+* Not sure if this is clearer than saying to take the reciprocal of the
+capacity factor and multiply by the price per Wp.  So, actual price per watt
+= 1/Capacity Factor * price per Wp.  Math would be 1/.11 * $.30 = $2.73
+actual price per watt.  Hope this makes sense.
+
+On Sun, Jun 14, 2009 at 8:20 AM, Ryan Lanham &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">rlanham1963 at gmail.com</A>&gt; wrote:
+
+&gt;<i> No, it isn't great news--yet.  Because you have to throw away old solar
+</I>&gt;<i> films and you have to glue them down and you have to replace them when they
+</I>&gt;<i> wear out.
+</I>&gt;<i> Nano has some exciting stuff, but you can't change the laws of physics.
+</I>&gt;<i>  The film technology discussion has been going on for a while and I'm sure
+</I>&gt;<i> it has some exciting technology, but to suggest it augers easy, cheap and
+</I>&gt;<i> readily available electricity is just hype...with very little likelihood of
+</I>&gt;<i> reality to back it up.
+</I>&gt;<i>
+</I>&gt;<i> What solar really needs is a skeptical NGO to attack the hype claims.
+</I>&gt;<i>
+</I>&gt;<i> Don't get me wrong, I'm for research and development where it makes sense.
+</I>&gt;<i>  But I am against industrial pollution, against systems that require
+</I>&gt;<i> constant replacement and which then fill landfills with horrible stuff, and
+</I>&gt;<i> I am against corporations making production claims they can never delivery
+</I>&gt;<i> (nuclear was supposed to be too cheap to meter!)
+</I>&gt;<i>
+</I>&gt;<i> I'd be willing to place a fairly large wager than solar photovoltaic will
+</I>&gt;<i> not be more than 10% of total energy production of the planet in the next
+</I>&gt;<i> 100 years.  I know it can't be executed, but I seriously doubt--highly doubt
+</I>&gt;<i> in the strongest terms--that solar is a player in the future of much
+</I>&gt;<i> importance.
+</I>&gt;<i>
+</I>&gt;<i> Cute toys for the rich and the know-nothing greens, maybe, serious human
+</I>&gt;<i> technology, I doubt.
+</I>&gt;<i>
+</I>&gt;<i> Ryan
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> On Sun, Jun 14, 2009 at 3:09 AM, Vinay Gupta &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">hexayurt at gmail.com</A>&gt; wrote:
+</I>&gt;<i>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Ryan,
+</I>&gt;&gt;<i> Normal solar panel manufacturing cost is $2.30 a watt.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Nanosolar claim $0.30 a watt (and are retailing for $1 a watt in
+</I>&gt;&gt;<i> $1,000,000 quantities they say.)
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Konarka is claiming $0.10 a watt this year or next year.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Dropping the price of solar seven to twenty times changes everything.
+</I>&gt;&gt;<i> Anybody who's interested in the future owes it to themselves to get oriented
+</I>&gt;&gt;<i> to this - it's the most important technological development since the
+</I>&gt;&gt;<i> invention of the transistor, really. It means that in the future - within
+</I>&gt;&gt;<i> one generation - electricity is going to be as information is now.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Isn't that great news?
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Vinay
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> --
+</I>&gt;&gt;<i> Vinay Gupta
+</I>&gt;&gt;<i> Free Science and Engineering in the Global Public Interest
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> <A HREF="http://bit.ly/flucode">http://bit.ly/flucode</A> - please follow the Flu Code
+</I>&gt;&gt;<i> if you are in a flu-effected area. It protects us all.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> <A HREF="http://guptaoption.com/map">http://guptaoption.com/map</A> - social project connection map
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> <A HREF="http://hexayurt.com/">http://hexayurt.com</A> - free/open next generation human sheltering
+</I>&gt;&gt;<i>  <A HREF="http://hexayurt.com/plan">http://hexayurt.com/plan</A> - the whole systems, big picture vision
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Gizmo Project VOIP : (USA) 775-743-1851
+</I>&gt;&gt;<i> Skype/Gizmo/Gtalk/AIM: hexayurt
+</I>&gt;&gt;<i> Twitter: @hexayurt <A HREF="http://twitter.com/hexayurt">http://twitter.com/hexayurt</A>
+</I>&gt;&gt;<i> UK Cell : +44 (0) 0795 425 3533 / USA VOIP (+1) 775-743-1851
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> &quot;If it doesn't fit, force it.&quot;
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> On Jun 14, 2009, at 2:08 AM, Ryan Lanham wrote:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Vinay:
+</I>&gt;&gt;<i> Thanks, you are probably right that my solar data is 2-3 years old--the
+</I>&gt;&gt;<i> last time I had a real hard look.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> But I've also learned to not believe the marketing hype.  I have a number
+</I>&gt;&gt;<i> of questions...
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> 1. MTBF (Mean time between failure)
+</I>&gt;&gt;<i> 2. Lifecycle costs on a significant-sized installation -- say, 75 KWe.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> I'd also like to know how they are holding the films down, with what, and
+</I>&gt;&gt;<i> what they do with them when they are finished.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Glad you are on it.  I'd love to be a fan of active solar.  As I said, the
+</I>&gt;&gt;<i> last I looked, it wasn't very exciting.  Very small scale in very sunny
+</I>&gt;&gt;<i> places--probably yes.  Else, not so much.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Do please keep us informed of the data as it evolves.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Ryan
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Ryan Lanham
+</I>&gt;&gt;<i> <A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">rlanham1963 at gmail.com</A>
+</I>&gt;&gt;<i> Facebook: Ryan_Lanham
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> On Sat, Jun 13, 2009 at 2:31 PM, Vinay Gupta &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">hexayurt at gmail.com</A>&gt; wrote:
+</I>&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Ryan,
+</I>&gt;&gt;&gt;<i> I suggest you _go and look at the data_ - Nanosolar is claiming 30 cents
+</I>&gt;&gt;&gt;<i> per watt of panel (manufacturing cost) for a retail of $1. They sold about a
+</I>&gt;&gt;&gt;<i> billion dollars of panels last year - this is not a lab operation.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Konarka is claiming ten cents per watt of panel capacity with panels
+</I>&gt;&gt;&gt;<i> shipping later this year at a substantially higher price.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Even with conservative assumptions about the mapping from raw panel price
+</I>&gt;&gt;&gt;<i> to price per kilowatt hour, this works.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> You're a few years out of data on solar, as far as I can tell.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Vinay
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> --
+</I>&gt;&gt;&gt;<i> Vinay Gupta
+</I>&gt;&gt;&gt;<i> Free Science and Engineering in the Global Public Interest
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> <A HREF="http://bit.ly/flucode">http://bit.ly/flucode</A> - please follow the Flu Code
+</I>&gt;&gt;&gt;<i> if you are in a flu-effected area. It protects us all.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> <A HREF="http://guptaoption.com/map">http://guptaoption.com/map</A> - social project connection map
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> <A HREF="http://hexayurt.com/">http://hexayurt.com</A> - free/open next generation human sheltering
+</I>&gt;&gt;&gt;<i>  <A HREF="http://hexayurt.com/plan">http://hexayurt.com/plan</A> - the whole systems, big picture vision
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Gizmo Project VOIP : (USA) 775-743-1851
+</I>&gt;&gt;&gt;<i> Skype/Gizmo/Gtalk/AIM: hexayurt
+</I>&gt;&gt;&gt;<i> Twitter: @hexayurt <A HREF="http://twitter.com/hexayurt">http://twitter.com/hexayurt</A>
+</I>&gt;&gt;&gt;<i> UK Cell : +44 (0) 0795 425 3533 / USA VOIP (+1) 775-743-1851
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> &quot;If it doesn't fit, force it.&quot;
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> On Jun 13, 2009, at 8:24 PM, Ryan Lanham wrote:
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Highly unlikely.  I think something like .50 cents a kilowatt hour is
+</I>&gt;&gt;&gt;<i> more likely-and that would be cheap.  The price is obviously set against the
+</I>&gt;&gt;&gt;<i> standard of nuclear which is almost universally given as 11 cents / kW-h.
+</I>&gt;&gt;&gt;<i> Coal is generally set a 5 cents.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> The film plastics are going to have all sorts of problems--getting rid of
+</I>&gt;&gt;&gt;<i> them is one.  Making them in scale is another.  They will require glues and
+</I>&gt;&gt;&gt;<i> epoxies everywhere to be set down.  More chemicals.  More run off risks.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Anything under 25 cents a kW-h is attractive.  So far, solar isn't close.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Nuclear would be about 3 cents a kW-h except for extremely high
+</I>&gt;&gt;&gt;<i> regulatory costs.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> The simple truth is that all forms of solar decay in the sun.  Plastic
+</I>&gt;&gt;&gt;<i> will decay too.  Efficiencies will drop and radiation will play havoc with
+</I>&gt;&gt;&gt;<i> electronics.  Solar isn't a very smart idea for large scale applications and
+</I>&gt;&gt;&gt;<i> it will wear out far too quickly for economical small scale applications.
+</I>&gt;&gt;&gt;<i> Plus you need weird chemicals.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Ryan
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> On Sat, Jun 13, 2009 at 1:08 PM, Vinay Gupta &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">hexayurt at gmail.com</A>&gt; wrote:
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i> <A HREF="http://nanosolar.com/">http://nanosolar.com</A> <A HREF="http://konarka.com/">http://konarka.com</A>
+</I>&gt;&gt;&gt;&gt;<i> fundamentally, plastic solar is way cheaper than coal and it's going to
+</I>&gt;&gt;&gt;&gt;<i> be the dominant energy generation method in the future, barring something
+</I>&gt;&gt;&gt;&gt;<i> cheaper - and at $0.10 per watt of capacity (from Konarka's projections)
+</I>&gt;&gt;&gt;&gt;<i> that's a per kilowatt hour cost a few percent that of current cheap coal...
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i> it's very, very radical stuff. I do think everybody playing this game
+</I>&gt;&gt;&gt;&gt;<i> needs to be fully aware of what's coming from the plastic solar guys.
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i> Vinay
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i>
+</I>-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20090615/9609888e/attachment-0001.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20090615/9609888e/attachment-0001.html</A>&gt;
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003388.html">[p2p-research] Stephen Downes,	Lawrence Lessig and others on the Internet and 	Socialism
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003390.html">[p2p-research] Fwd: FW: forthcoming book (ArcDigital)
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/date.html#3389">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/thread.html#3389">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/subject.html#3389">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/author.html#3389">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-June/003389.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:47 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-June/003389.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:50 GMT -->
+</html>

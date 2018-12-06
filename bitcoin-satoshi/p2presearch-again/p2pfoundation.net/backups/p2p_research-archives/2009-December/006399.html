@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006399.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:52 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006399.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:35 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Google gets into the DNS business
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Google%20gets%20into%20the%20DNS%20business&In-Reply-To=%3C20091206165803.GD17686%40leitl.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006397.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006400.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Google gets into the DNS business</H1>
+    <B>Eugen Leitl</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Google%20gets%20into%20the%20DNS%20business&In-Reply-To=%3C20091206165803.GD17686%40leitl.org%3E"
+       TITLE="[p2p-research] Google gets into the DNS business">eugen at leitl.org
+       </A><BR>
+    <I>Sun Dec  6 17:58:03 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006397.html">[p2p-research] Google gets into the DNS business
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006400.html">[p2p-research] Google gets into the DNS business
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6399">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6399">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6399">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6399">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sun, Dec 06, 2009 at 05:19:56PM +0100, M. Fioretti wrote:
+
+&gt;<i> to the best of my knowledge, you cannot specify port numbers in mx DNS
+</I>&gt;<i> records. See &quot;incoming SMTP port&quot; at
+</I>&gt;<i> <A HREF="http://www.code-crafters.com/abilitymailserver1/smtp.html">http://www.code-crafters.com/abilitymailserver1/smtp.html</A>
+</I>
+I wasn't refering to SMTP, of course.
+ 
+&gt;<i> This means that if you run the email server at home but your
+</I>&gt;<i> ISP blocks port 25 incoming, other mail servers will find yours (by
+</I>&gt;<i> reading the mx record) but won't be able to talk with it: because they
+</I>&gt;<i> will try to do it through port 25 which is blocked by the ISP, and
+</I>&gt;<i> won't know which other port they could use.
+</I>
+There's not much point running your own SMTP server (unless you're
+using an external relay) since you're sending from an address pool which is
+almost certainly blackholed.
+ 
+&gt;<i> All the mailboxes and configuration of my VPS mail server are already
+</I>&gt;<i> regularly backed up elsewhere. The probability of blackouts, hardware
+</I>
+This is the way to go. 
+
+&gt;<i> failures, hardware theft, unavailable connectivity and so on are
+</I>&gt;<i> orders of magnitude lower in a data center than in any private
+</I>
+Yes. You're also completely under an xray screen, since running on
+untrusted, shared hardware where the administrator has higher than
+superuser access. Of course, if you're routing everything
+through a VPN to different entity, especially entity in a different
+jurisdiction, so this already adds a layer of protection.
+
+If you want to make it interesting, send in a small low-power tamperproof
+system with trusted hardware to your hoster's colo. These days,
+it is almost as cheap as a VServer.
+
+&gt;<i> residence, so I'll continue to use a remote VPS. If they screw up, I
+</I>&gt;<i> can find another provider, get a new account and migrate there all my
+</I>&gt;<i> data and email management in two days. Communication privacy would
+</I>
+Yep.
+
+&gt;<i> really exist only if it were possible to only use crypted email for
+</I>
+Even if you don't use a VPN tunnel, you can use IMAP over SSL, and let
+local mail server do StartTLS. Still much better than nothing.
+
+&gt;<i> all personal messages, but that is still impossible because of people,
+</I>&gt;<i> so it wasn't an issue when I decided how to manage my email.
+</I>&gt;<i> 
+</I>&gt;<i> This said, a couple of comments:
+</I>&gt;<i> 
+</I>&gt;<i> I'm talking mostly about communications, you mostly about access to
+</I>&gt;<i> one's private data. They're both important, but different problems.
+</I>
+I'm viewing the issue holistically, and not necessarily in terms
+of today's technology.
+ 
+&gt;<i> Personally I would have no problem in continuing discussions about
+</I>&gt;<i> NAT, dynamic DNS and so on, but there's no better way I could find to
+</I>&gt;<i> make sure that nobody else on the list participates. I'd rather avoid
+</I>&gt;<i> deeply technical discussions here.
+</I>
+Quite a pity, since this is about as P2P and grassroot as it gets.
+
+-- 
+Eugen* Leitl &lt;a href=&quot;<A HREF="http://leitl.org/"/">http://leitl.org&quot;</A>&gt;leitl&lt;/a&gt; <A HREF="http://leitl.org/">http://leitl.org</A>
+______________________________________________________________
+ICBM: 48.07100, 11.36820 <A HREF="http://www.ativel.com/">http://www.ativel.com</A> <A HREF="http://postbiota.org/">http://postbiota.org</A>
+8B29F6BE: 099D 78BA 2FD3 B014 B08A  7779 75B0 2443 8B29 F6BE
+
+</PRE>
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006397.html">[p2p-research] Google gets into the DNS business
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006400.html">[p2p-research] Google gets into the DNS business
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/date.html#6399">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/thread.html#6399">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/subject.html#6399">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/author.html#6399">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-December/006399.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:52 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-December/006399.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:35 GMT -->
+</html>

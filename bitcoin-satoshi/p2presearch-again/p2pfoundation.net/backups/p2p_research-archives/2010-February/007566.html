@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007566.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:38 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-February/007566.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:32 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] personal server technology
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20personal%20server%20technology&In-Reply-To=%3C20100221195853.GM17686%40leitl.org%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007575.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007563.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] personal server technology</H1>
+    <B>Eugen Leitl</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20personal%20server%20technology&In-Reply-To=%3C20100221195853.GM17686%40leitl.org%3E"
+       TITLE="[p2p-research] personal server technology">eugen at leitl.org
+       </A><BR>
+    <I>Sun Feb 21 20:58:53 CET 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007575.html">[p2p-research] personal server technology
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007563.html">[p2p-research] Will big business privatize the monetary	commons	again?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/date.html#7566">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/thread.html#7566">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/subject.html#7566">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/author.html#7566">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Sun, Feb 21, 2010 at 10:45:57AM -0700, Matt Boggs wrote:
+&gt;<i> Now here's something I know a bit about...
+</I>&gt;<i> I had the luck 10 years ago to have very fast internet and a block of IP
+</I>&gt;<i> addresses in my personal loft live\work space. There was none of the cloud
+</I>
+I studiouly try to avoid using the cringe-indusing terms cloud computing 
+or Web 2.0 myself.
+
+&gt;<i> computing services offered at that time except for web-mail. As a computer
+</I>&gt;<i> consultant and tinkerer, I had a full rack of computers and several
+</I>
+You did operate a 19&quot; rack in your living space? Wasn't that a bit
+on the noisy side? The only semi-silent racks are full of musical
+gear.
+
+&gt;<i> scattered around that were dedicated to things like music on my stereo and
+</I>&gt;<i> movies on my projector. Later, friends would want me to share them and the
+</I>&gt;<i> best thing available was FTP. The only streaming at the time was Shoutcast
+</I>
+ftp is still de rigeur in hardcore filesharing circles.
+
+&gt;<i> for music, which I had set up as well. As for getting music\video from
+</I>&gt;<i> others, my options were again FTP or newsgroups (now referred to as the
+</I>
+Usenet alt.binaries is still seeing lots of use.
+
+&gt;<i> 'Undernet'). Fast forward to 2010: The problems facing what Stephen Downes
+</I>&gt;<i> suggest are as follows: first and foremost: Hardware\software failure. Your
+</I>
+That's what high availability and failover are there for. In
+case of p2p high availability there's very little complexity.
+
+&gt;<i> personal server (PS) would need a hefty but not unreasonable system
+</I>&gt;<i> requirement to compete with the ease of the 'cloud services'.  A PS needs
+</I>
+The problem is putting trust in the service provider, and also
+in the availability of your data. It's a no-brainer that your
+provider will snoop you out and rat on you, and that there's no
+accountability is case of total loss of data, or even transient
+unavailability (even it's a commercial service).
+
+&gt;<i> maintenance, sure, Microsoft has been working on a home PS for some time,
+</I>&gt;<i> but, there are still lots of ways bad things can hurt your PS from the
+</I>
+Home NAS appliances do all these things for you. You can of course
+roll your own, using FreeNAS, OpenFiler, and EON Storage.
+
+&gt;<i> outside if you don't maintain it. And lastly, people. The common man wants a
+</I>&gt;<i> fuss free box they can simply plug in and out without a thought. Until
+</I>&gt;<i> hardware prices come down and software becomes more self-aware, I don't see
+</I>
+Admittedly a decent (=fast) NAS will set you back around 600 EUR sans drives.
+But baseline NAS (PogoPlug) starts at around 100 EUR. Slow but usable
+NAS is around 300 EUR.
+
+&gt;<i> a mass PS revolution. Add to that the ISPs will not be happy with all that
+</I>&gt;<i> bandwidth moving about without any additional revenue from dedicated pipes.
+</I>
+We've got already people trying to evade deep packet inspection and Layer 7
+traffic throttline, playing cat and mouse with the cheap providers (the
+decent kind charge enough/provide decent data plans so that throttling
+is unnecessary).
+
+&gt;<i> Lastly, how would you index the information ? without an index, we go back
+</I>&gt;<i> to the really old days of BBS and word of mouth. The PS for the home is not
+</I>
+I think it's a reality for many people already. Home NAS is a booming
+market. 
+
+&gt;<i> an outlandish wish though, perhaps in 10 years if there is still an internet
+</I>&gt;<i> as we know it.
+</I>
+There will be still the Internet as we know it, and even if I have to
+roll my own. I run my own &quot;cloud&quot; (uck, ptui), have my own networks,
+my ISP is nothing but a (hostile, untrusted) transport layer.
+ 
+&gt;<i> Final thought: a peer based internet using an ISP backbone is certainly
+</I>
+You can do very decent meshes with Level 3 switches and FTTC/FTTH. The
+reason it's not being done is mostly because policy is easier to roll
+out to the network core. 
+
+&gt;<i> possible and has been for a long time. Not only for sharing information but
+</I>&gt;<i> for sharing memory and CPU cycles to tackle complex calculations or 3D
+</I>
+You've got accounting and trust issues. You can't really sandbox code.
+Because there's no p2p online currency (despite BitCoin &amp; Co) there's no
+way to cash in on services rendered to the community.
+
+&gt;<i> rendering. In addition, Peer based internet has other applications such as
+</I>&gt;<i> TOR (for annoniminity). VOIP hardening (Skype uses this) and bit torrent
+</I>
+Skype is a corporation, hence not really p2p. 
+
+&gt;<i> style secure backups where everyone has a piece of the backup so that if
+</I>
+Check out Tahoe.
+
+&gt;<i> chunks get lost, the swarm can regenerate the whole. I just feel it is still
+</I>&gt;<i> in the realm of geeks at this time...still :-)
+</I>
+Geeks are always 10-20 years ahead of the mainstream. As Gibson said, the 
+future's here, it's just not evenly distributed yet.
+
+-- 
+Eugen* Leitl &lt;a href=&quot;<A HREF="http://leitl.org/"/">http://leitl.org&quot;</A>&gt;leitl&lt;/a&gt; <A HREF="http://leitl.org/">http://leitl.org</A>
+______________________________________________________________
+ICBM: 48.07100, 11.36820 <A HREF="http://www.ativel.com/">http://www.ativel.com</A> <A HREF="http://postbiota.org/">http://postbiota.org</A>
+8B29F6BE: 099D 78BA 2FD3 B014 B08A  7779 75B0 2443 8B29 F6BE
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007575.html">[p2p-research] personal server technology
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007563.html">[p2p-research] Will big business privatize the monetary	commons	again?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/date.html#7566">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/thread.html#7566">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/subject.html#7566">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/author.html#7566">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-February/007566.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:46:38 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-February/007566.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:32 GMT -->
+</html>

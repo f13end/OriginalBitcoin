@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005890.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:11 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-November/005890.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:39 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] Yacy search engine
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Yacy%20search%20engine&In-Reply-To=%3C9a5d05440911101421v3e0f05e1j44900d5c6c1dacae%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005887.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005888.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] Yacy search engine</H1>
+    <B>Heath Matlock</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20Yacy%20search%20engine&In-Reply-To=%3C9a5d05440911101421v3e0f05e1j44900d5c6c1dacae%40mail.gmail.com%3E"
+       TITLE="[p2p-research] Yacy search engine">heathmatlock at gmail.com
+       </A><BR>
+    <I>Tue Nov 10 23:21:18 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005887.html">[p2p-research] Yacy search engine
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005888.html">[p2p-research] A thirty year future of the transition to widescale	P2P economies
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/date.html#5890">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/thread.html#5890">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/subject.html#5890">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/author.html#5890">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On Tue, Nov 10, 2009 at 4:00 PM, Eugen Leitl &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">eugen at leitl.org</A>&gt; wrote:
+&gt;<i> On Tue, Nov 10, 2009 at 03:49:49PM +0000, Heath Matlock wrote:
+</I>&gt;<i>
+</I>&gt;&gt;<i> A friend and I had done some initial work on converting it to Python
+</I>&gt;&gt;<i> (since we weren't fans of Java), but he got a job in Chicago and I
+</I>&gt;<i>
+</I>&gt;<i> Right. So no full Python port yet? Too bad.
+</I>
+We were going for a p2p anonymous search engine, because paranoia both
+had us in its grasp. So were only porting some aspects of it.
+
+&gt;<i> How many nodes are out there, and how large the total index crawled?
+</I>&gt;<i> What's the average query response time? How is query farmed (and
+</I>&gt;<i> babby formed)? To how many nodes would it scale?
+</I>
+You want to visit <A HREF="http://yacystats.de/">http://yacystats.de</A> , and if you don't speak German,
+punch that in at <A HREF="http://translate.google.com/">http://translate.google.com</A> . From there, you'll want
+to look at the &quot;Network Statistics&quot; link and also the &quot;Peer Table&quot;. I
+went ahead and emailed a developer those questions, but I don't expect
+a response. That was another reason we decided to fork the work, the
+devs never responded to our inquiries, nor are they active on the
+#yacy channel on Freenode.
+
+Anyway, on average there are about 55 peers hosting a yacy instance,
+and about 1 billion links indexed and available. There are more peers,
+it's just 55 is the average available. It's supposed to scale to an
+infinite number of nodes. It's slow, being that it's based on http
+requests. Query response time depends on peers, the default timeout is
+at 3 seconds at the moment. There aren't any statistics for this
+available right now. &quot;YaCy knows 5 different ways to acquire web
+indexes, find out detalis by downloading it and going to
+<A HREF="http://localhost:8080/CrawlResults.html">http://localhost:8080/CrawlResults.html</A> ..The image without the
+details is on my server at
+<A HREF="http://ybit.ath.cx/images/yacy_index_monitor.png">http://ybit.ath.cx/images/yacy_index_monitor.png</A>
+
+
+-- 
+Heath Matlock
++1 256 274 4225
+
+</PRE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005887.html">[p2p-research] Yacy search engine
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005888.html">[p2p-research] A thirty year future of the transition to widescale	P2P economies
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/date.html#5890">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/thread.html#5890">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/subject.html#5890">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/author.html#5890">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2009-November/005890.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:47:11 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-November/005890.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:39 GMT -->
+</html>

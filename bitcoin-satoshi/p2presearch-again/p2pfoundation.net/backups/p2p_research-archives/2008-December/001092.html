@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001092.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:48:21 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2008-December/001092.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:58:02 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] P2P Energy Demand/Supply Algorithm and Other	Responses // was Re: Update: P2P Social Currency
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20P2P%20Energy%20Demand/Supply%20Algorithm%20and%20Other%0A%09Responses%20//%20was%20Re%3A%20Update%3A%20P2P%20Social%20Currency&In-Reply-To=%3C875f4a530812301403m4e6f7877i331cf206f49315bd%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001091.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001094.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] P2P Energy Demand/Supply Algorithm and Other	Responses // was Re: Update: P2P Social Currency</H1>
+    <B>marc fawzi</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20P2P%20Energy%20Demand/Supply%20Algorithm%20and%20Other%0A%09Responses%20//%20was%20Re%3A%20Update%3A%20P2P%20Social%20Currency&In-Reply-To=%3C875f4a530812301403m4e6f7877i331cf206f49315bd%40mail.gmail.com%3E"
+       TITLE="[p2p-research] P2P Energy Demand/Supply Algorithm and Other	Responses // was Re: Update: P2P Social Currency">marc.fawzi at gmail.com
+       </A><BR>
+    <I>Tue Dec 30 23:03:27 CET 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001091.html">[p2p-research] P2P Energy Demand/Supply Algorithm and Other	Responses // was Re: Update: P2P Social Currency
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001094.html">[p2p-research] Fwd: Call For Social Ventures - Apply For Funding	Today
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/date.html#1092">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/thread.html#1092">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/subject.html#1092">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/author.html#1092">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Continuing the discussion with Emlyn (over at the Open Manufacturing list)
+regarding demand/supply management (and market management in general) for
+the P2P energy market.
+
+Here is the updated sections from P2P Social
+Currency&lt;<A HREF="http://p2pfoundation.net/P2P_Social_Currency_Model">http://p2pfoundation.net/P2P_Social_Currency_Model</A>&gt;relevant
+to P2P energy demand/supply management:
+
+If something jumps at you please let me know. This is an agile process that
+maintains order by being open to new information, namely: insights,
+comments, questions, disagreements, agreements, etc and last but not least,
+any noise that enhances the signal.
+P2P Energy Market Management
+
+Abundance without sustainability leads to scarcity.
+
+Sustainable abundance can only come from the whole (from all peers producing
+energy) not from one peer or one set of peers producing so much more energy
+than everyone else.
+
+Sustainable abundance also requires close matching of demand and supply so
+that abundance does not evaporate in times of high demand and does not get
+wasted in times of low demand (storage is wasteful and has its own
+maintenance and upgrade costs, so it needs to be minimized.)
+
+Below is a simple predictive algorithm for matching demand and supply:
+1. Take historical inventory data (after a start-up period) and calculate a
+Gaussian distribution with a Mean and Covariance and provide an inventory
+level prediction at a set time in the future. 2. Compare the inventory level
+prediction to a first Peer Bank-set low inventory threshold. 3. Compare the
+inventory level prediction to a second Peer Bank-set high inventory
+threshold. 4. Solicit energy replenishment from peers if the predicted level
+is below the low inventory threshold, or cancel existing requests if the
+predicted level is above than the high inventory threshold. This should
+happen without allowing individual producing peers to fill a
+disproportionate share of the total replenishment request, and certainly not
+repeatedly, i.e. to avoid building a dependency in the market on certain
+peers. 5. Record time dependent data related to inventory consumption and
+replenishment. 6. Calculate time dependent cumulative-forecast consumption,
+cumulative-forecast replenishment, cumulative actual consumption, and
+cumulative actual replenishment. 7. Use the new data to update the Gaussian
+distribution, Mean and Covariance, and calculate a new predicted inventory
+level for the next time period.
+Peer Energy Bank
+
+The Peer Energy Bank (or &quot;Peer Bank&quot;) is an open, automated, edge-driven
+process for orchestrating energy flows between peers, using a dynamic energy
+inventory.
+
+Peer Bank can be implemented as a distributed process that is embedded into
+the P2P client (see Model's Context.)
+
+It works in the following way:
+
+Under this model, new entrants (new peers) to the community/economy may
+import their US or other currency into the economy by investing in their own
+local energy production capacity.
+
+At the start of the economy (as a process,) Peer Bank makes a general
+request for energy inventory replenishment from all peers, e.g. 1 trillion
+Joules (or whatever appropriate starting level for the given
+community/economy), and accepts a given quota (i.e. total replenishment
+amount/number of peers) from each peer.
+
+Peer Bank builds an inventory of energy by paying the peers using newly
+created tokens of energy equivalent in total amount to the amount of energy
+in inventory. These &quot;virtual joule tokens&quot; (or tokens for short) have an
+absolute value in energy, that does not change, and are redeemable from Peer
+Bank in their energy value.
+
+Peer Bank then holds the energy inventory from which is sells energy to
+consuming peers (i.e. peers with then-current energy deficit) who pay using
+the tokens.
+
+After the initial inventory building cycle, Peer Bank will make periodic
+requests for replenishment (see: P2P Energy Market Equilibrium) with on
+first come, first taken basis, without a hard quota per peer (as in the
+initial inventory building cycle) but must not allow individual producing
+peers to fill a disproportionate share of the total replenishment request,
+and certainly not repeatedly, i.e. to avoid building a dependency in the
+market on certain peers.
+
+Peer Bank uses a demand/supply matching algorithm (see: P2P Energy Market
+Equilibrium) that requires a start-up period, during which historical
+inventory data is captured to enable dynamic inventory control.
+
+It's important to note that the tokens (currency) are not created from
+potential energy stored for use at some undetermined point in future but
+from the active short-term inventory that's closely matched to demand, i.e.
+immediately usable energy. So when the tokens are created they hold an
+absolute value (of actual energy used) rather than a potential value/price
+(of potential energy.)
+
+It's also important to note that there is no need to reduce the tokens
+(currency) in circulation is not present in this model because the material
+basis for the economy is not the potential energy available to the economy,
+which can be more abundant than all possible use in the short term, leading
+to overflow of currency in circulation beyond what's usable in the short
+term, but the land mass (mass = utilization density * volume) encompassed by
+the economy, which grows as the population grows, both of which in turn
+require more energy and hence the ever increasing need for currency (also
+see: Achieving Comparative Economic Advantage and Building Material Wealth.)
+
+
+Peer Bank is an open, peer-informed, edge-driven process, not a
+human-administered central authority. It can be implemented as a distributed
+process embedded into the P2P client (see Model's Context) or using whatever
+redundant and efficient architecture, but the important thing is that it has
+to be efficient.
+
+The &quot;Bank&quot; part of the &quot;Peer Bank&quot; name refers to the storage of energy, not
+the currency itself.
+
+p.s.
+
+1) please use this version (above) for any feedback on the inventory
+algorithm or peer bank itself.
+
+2) still working on incorporating the other clarifications resulting from
+this discussion into the
+model&lt;<A HREF="http://p2pfoundation.net/P2P_Social_Currency_Model">http://p2pfoundation.net/P2P_Social_Currency_Model</A>&gt;
+
+3) Its worth it to join the open manufacturing list... lots of good stuff
+there... and high bandwidth action.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20081230/a8b75245/attachment.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20081230/a8b75245/attachment.html</A>&gt;
+</PRE>
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001091.html">[p2p-research] P2P Energy Demand/Supply Algorithm and Other	Responses // was Re: Update: P2P Social Currency
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001094.html">[p2p-research] Fwd: Call For Social Ventures - Apply For Funding	Today
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/date.html#1092">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/thread.html#1092">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/subject.html#1092">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/author.html#1092">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2008-December/001092.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:48:21 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2008-December/001092.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:58:02 GMT -->
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ 
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010777.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:17 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-October/010777.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:16 GMT -->
+<HEAD>
+   <TITLE> [p2p-research] GNU Guidelines for Free System Distributions
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20GNU%20Guidelines%20for%20Free%20System%20Distributions&In-Reply-To=%3CAANLkTi%3DuJZix0CTODBMUBRojL09K4juGuq5x978D%2Buw5%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010776.html">
+   <LINK REL="Next"  HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010778.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[p2p-research] GNU Guidelines for Free System Distributions</H1>
+    <B>Michel Bauwens</B> 
+    <A HREF="mailto:p2presearch%40listcultures.org?Subject=Re%3A%20%5Bp2p-research%5D%20GNU%20Guidelines%20for%20Free%20System%20Distributions&In-Reply-To=%3CAANLkTi%3DuJZix0CTODBMUBRojL09K4juGuq5x978D%2Buw5%40mail.gmail.com%3E"
+       TITLE="[p2p-research] GNU Guidelines for Free System Distributions">michelsub2004 at gmail.com
+       </A><BR>
+    <I>Sun Oct  3 19:34:34 CEST 2010</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010776.html">[p2p-research] Yes! we're Open. - A vision on open design - Opening Friday 08 october 2010
+</A></li>
+        <LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010778.html">[p2p-research] is splinterweb replacing web?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/date.html#10777">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/thread.html#10777">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/subject.html#10777">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/author.html#10777">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>fyi
+
+To: Probably Brett or Donald &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">licensing at gnu.org</A>&gt;
+Cc: Brett C Smith &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">brett at fsf.org</A>&gt;,
+Robert Call &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">Robert.Call at freedomincluded.org</A>&gt;,
+LibreWRT Development List &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">dev at lists.librewrt.org</A>&gt;,
+Karl Berry &lt;<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">karl at freefriends.org</A>&gt;
+Subject: [librewrt-dev] LibreWRT and the Guidelines for Free System
+Distributions - Help with Compliance
+
+Hi, as you may or may not be aware, a group of developers is
+attempting to create a GNU Guidelines for Free System Distributions -
+<A HREF="http://www.gnu.org/distros/free-system-distribution-guidelines.html">http://www.gnu.org/distros/free-system-distribution-guidelines.html</A> -
+compliant variant of OpenWRT, called LibreWRT - <A HREF="http://librewrt.org/">http://librewrt.org</A> .
+
+The project was started at the last FSF LibrePlanet conference -
+<A HREF="http://libreplanet.org/wiki/LibrePlanet2010/Hacking/LibreWrt">http://libreplanet.org/wiki/LibrePlanet2010/Hacking/LibreWrt</A> - and has
+since then attracted a few more interested developers, and is nearing
+an alpha release.
+
+Besides my general interest in having a Libre operating system
+optimized for small devices, my company, Freedom Included, Inc., is
+planning on selling the Sharism Ben Nanonote - currently the most
+copylefted general purpose computing hardware I am aware of - with
+LibreWRT pre-installed, once LibreWRT is ready. Once that happens, and
+if we can get LibreWRT compliant with the guidelines, I would think
+the FSF might be interested in having this combination be its second
+piece of endorsed hardware.
+
+However there are two possible difficulties with compliance, and I'd
+like to get feedback from the maintainers of the document on how best
+to resolve them.
+
+(1) Self-hosting requirement
+
+&quot;&quot;&quot;
+A free system distribution should be self-hosting. This means that you
+must be able to develop and build the system with tools that the
+system provides you. As a result, a free system distribution cannot
+include free software that can only be built by using nonfree
+software.
+&quot;&quot;&quot;
+
+It is traditional on small and embedded systems with small amounts of
+RAM and other resources to cross-compile from other systems. While it
+would probably be possible to compile LibreWRT from LibreWRT, it would
+at the best take a very long time; at worst, it is possible GCC would
+fail or be so slow due to swap usage that it would take an amount of
+time approximating forever.
+
+So I see three options (but would welcome additional suggestions):
+
+(a) People feel this is really important, so LibreWRT people spend a
+whole lot of time and possibly money (eg clusters of small devices) on
+the self-hosting issue.
+
+(b) The text is changed to allow for use of one Guidelines for Free
+System Distributions approved GNU distribution to do builds of another
+Guidelines for Free System Distributions approved GNU distribution,
+either in general or just in the case of the second one being for a
+limited-resource device.
+
+(c) LibreWRT just includes say all of gNewSense or Trisquel in its
+source tree, and calls the combination LibreWRT. This would of course
+be a cheap and ugly semantic trick, but would seem to conform to the
+self-hosting requirement (however IANBCS).
+
+
+(2) Naming disambiguation requirement
+
+&quot;&quot;&quot;
+However, we will not list a distribution whose name makes confusion
+with non-free distributions likely. For example, if Foobar Light is a
+free distribution and Foobar is a non-free distribution, we will not
+list Foobar Light. This is because we expect that the distinction
+between the two would be lost in the process of communicating this
+message.
+&quot;&quot;&quot;
+
+So we currently call it &quot;LibreWRT&quot;. There is of course also &quot;OpenWRT&quot;,
+on which &quot;LibreWRT&quot; is based, and also at least one other GNU/Linux
+distro that uses the *WRT convention, &quot;DD-WRT&quot;. Do you see the
+&quot;LibreWRT&quot; name as being a problem? If so, do you have any alternative
+naming suggestions?
+-- 
+P2P Foundation: <A HREF="http://p2pfoundation.net/">http://p2pfoundation.net</A>  - <A HREF="http://blog.p2pfoundation.net/">http://blog.p2pfoundation.net</A>
+
+Connect: <A HREF="http://p2pfoundation.ning.com;/">http://p2pfoundation.ning.com;</A> Discuss:
+<A HREF="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org</A>
+
+Updates: <A HREF="http://del.icio.us/mbauwens;">http://del.icio.us/mbauwens;</A> <A HREF="http://friendfeed.com/mbauwens;">http://friendfeed.com/mbauwens;</A>
+<A HREF="http://twitter.com/mbauwens;">http://twitter.com/mbauwens;</A> <A HREF="http://www.facebook.com/mbauwens">http://www.facebook.com/mbauwens</A>
+
+Think tank: <A HREF="http://www.asianforesightinstitute.org/index.php/eng/The-AFI">http://www.asianforesightinstitute.org/index.php/eng/The-AFI</A>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: &lt;<A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20101003/05daa315/attachment.html">http://listcultures.org/pipermail/p2presearch_listcultures.org/attachments/20101003/05daa315/attachment.html</A>&gt;
+</PRE>
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010776.html">[p2p-research] Yes! we're Open. - A vision on open design - Opening Friday 08 october 2010
+</A></li>
+	<LI>Next message: <A HREF="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010778.html">[p2p-research] is splinterweb replacing web?
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/date.html#10777">[ date ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/thread.html#10777">[ thread ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/subject.html#10777">[ subject ]</a>
+              <a href="http://listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/author.html#10777">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://listcultures.org/mailman/listinfo/p2presearch_listcultures.org">More information about the p2presearch
+mailing list</a><br>
+</body>
+<!-- Mirrored from listcultures.org/pipermail/p2presearch_listcultures.org/2010-October/010777.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 30 Aug 2011 14:45:17 GMT -->
+
+<!-- Mirrored from diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2010-October/010777.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Dec 2018 08:57:16 GMT -->
+</html>
